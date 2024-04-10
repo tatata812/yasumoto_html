@@ -80,6 +80,9 @@ li {
 
 
 .main {
+
+  margin: 0 0 0 260px;
+  
   @include tab {
     margin: 60px 0 0 0;
   }
