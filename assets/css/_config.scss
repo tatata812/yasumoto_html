@@ -80,33 +80,8 @@ li {
 
 
 .main {
-  padding: 148px 0 0;
-
-
-  @media screen and (max-width: 1550px) {
-    padding: 132px 0 0 0;
-  }
-
-  @media screen and (max-width: 1250px) {
-    padding: 120px 0 0 0;
-
-  }
-
-  @media screen and (max-width: 1120px) {
-    padding: 110px 0 0 0;
-
-  }
-
-  @include pc {
-    padding: 104px 0 0 0;
-  }
-
   @include tab {
-    padding: 98px 0 0 0;
-  }
-
-  @include sp {
-    padding: 88px 0 0 0;
+    margin: 60px 0 0 0;
   }
 
 
