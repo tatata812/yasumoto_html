@@ -82,7 +82,7 @@ li {
 .main {
 
   margin: 0 0 0 260px;
-  
+
   @include tab {
     margin: 60px 0 0 0;
   }
@@ -385,7 +385,7 @@ li {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #1b1464 !important;
+  color: #181818 !important;
   opacity: 1 !important;
 
 }

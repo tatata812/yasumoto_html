@@ -152,6 +152,25 @@ header
       display: none;
     }
   }
+
+  &__slider {
+width: 220px;
+margin: 0 auto;
+  }
+
+  &__slider-item {
+    width: 100%;
+  }
+
+  &__slider-item-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .slick-dots li {
+    width: 10px;
+  } 
 }
 
 

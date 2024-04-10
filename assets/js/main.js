@@ -42,21 +42,12 @@ $(function () {
   });
 
 
-  $(".main-visual-js").slick({
+  $(".header-slider-js").slick({
     autoplay: true,
     autoplaySpeed: 4000,
-    fade: true,
-    cssEase: 'linear', // アニメーション
-    speed: 1000, // フェードアニメーションの速度設定
     dots: true,
-    arrows: true,
+    arrows: false,
     adaptiveHeight: true,
-    responsive: [{
-      breakpoint: 600,
-      settings: {
-        arrows: false,
-      }
-    }, ],
   });
 
   $(".top-info-js").slick({

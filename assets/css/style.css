@@ -300,7 +300,7 @@ li {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #1b1464 !important;
+  color: #181818 !important;
   opacity: 1 !important;
 }
 
@@ -998,6 +998,22 @@ header
 }
 .header__open-btn.active span:nth-of-type(3)::after {
   display: none;
+}
+.header__slider {
+  width: 220px;
+  margin: 0 auto;
+}
+.header__slider-item {
+  width: 100%;
+}
+.header__slider-item-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header .slick-dots li {
+  width: 10px;
 }
 
 .header-sp {
