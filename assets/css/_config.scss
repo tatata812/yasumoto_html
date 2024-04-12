@@ -16,6 +16,8 @@
   }
 }
 
+$gray: #c0c0c0;
+
 
 * {
   word-break: break-word;
@@ -385,7 +387,8 @@ li {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #181818 !important;
+  color: 
+  #181818 !important;
   opacity: 1 !important;
 
 }
