@@ -21,7 +21,7 @@
 
 
 
-.text{
+.text {
   background-color: config.$gray;
 }
 
@@ -29,7 +29,7 @@
 header
  ================================= */
 
- .wrap-header {
+.wrap-header {
   position: fixed;
   z-index: 99;
   top: 0;
@@ -47,7 +47,7 @@ header
 .header {
 
   &__inner {
-    padding: 60px 12px;
+    padding: 40px 20px;
 
     @include tab {
       padding: 8px 16px;
@@ -63,14 +63,11 @@ header
   &__ttl {
     display: block;
     margin: 0 auto 60px;
-    max-width: 240px;
+    max-width: 200px;
 
     @include tab {
       margin: 0;
-    }
-
-    @include sp {
-      max-width: 140px;
+      max-width: 100px;
 
     }
   }
@@ -79,7 +76,7 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    margin: 0 0 20px;
 
 
     @include tab {
@@ -88,11 +85,32 @@ header
 
   }
 
-  &__nav-item {}
+  &__nav-item {
+    border-bottom: #e3e3e3 1px solid;
+    width: 100%;
+    text-align: center;
+
+    &:first-of-type {
+      border-top: #e3e3e3 1px solid;
+    }
+
+    &:hover {
+      background-color: #c5c5c5;
+      opacity: 1;
+    }
+
+  }
 
   &__nav-link {
-    font-size: 16px;
-    position: relative;
+    font-size: 17px;
+    line-height: 17px;
+    display: block;
+    padding: 20px;
+
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
 
@@ -159,8 +177,8 @@ header
   }
 
   &__slider {
-width: 220px;
-margin: 0 auto;
+    width: 220px;
+    margin: 0 auto;
   }
 
   &__slider-item {
@@ -168,14 +186,12 @@ margin: 0 auto;
   }
 
   &__slider-item-img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
     object-fit: cover;
   }
 
   .slick-dots li {
     width: 10px;
-  } 
+  }
 }
 
 
@@ -224,557 +240,95 @@ footer
  ================================= */
 
 .footer {
-  margin: 0 0 0 260px;
-  background-color: #ebf8f7;
-  padding: 40px 8px 0;
 
-
-  &__top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
-    position: relative;
-
-
-    @include tab {
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin: 0 0 32px;
-    }
-  }
-
-  &__ttl {
-    max-width: 300px;
-
-    @include tab {
-      margin: 0 0 24px;
-    }
-  }
-
-  &__logo {
-    display: block;
-    margin: 0 0 24px;
-
-    @include sp {
-      margin: 0 0 12px;
-    }
-  }
-
-  &__tel {
-    margin: 0 0 0 32px;
-    display: block;
-  }
-
-  &__tel-span {
-    font-size: 12px;
-  }
-
-  &__address {
-    font-size: 12px;
-    margin: 0 0 0 32px;
-    display: block;
-
-
-  }
-
-  &__menu {
-    display: flex;
-    gap: 12px;
-
-    @include pc {
-      flex-direction: column;
-    }
-  }
-
-  &__menu-item {
-    background-color: #fff;
-    text-align: center;
-    width: 150px;
-    padding: 2px;
-    border: #8a8a8a 1px solid;
-
-  }
-
-  &__sns {
-    display: flex;
-    gap: 12px;
-    border-top: #1b1464 solid 1px;
-    border-bottom: #1b1464 solid 1px;
-    padding: 6px 48px 0;
-
-    @include tab {
-      padding: 6px 24px 0;
-    }
-
-  }
-
-  &__sns-item {
-    width: 18px;
-  }
-
-  &__nev {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 32px;
-
-    @include pc {
-      margin: 12px 0 32px;
-    }
-
-    @include tab {
-      flex-wrap: wrap;
-    }
-  }
-
-  &__nav-item {
-    border-left: 1px solid #333;
-    padding: 0 16px;
-    line-height: 18px;
-
-    @include pc {
-      padding: 0 8px;
-    }
-
-    @include tab {
-      margin: 0 0 6px;
-    }
-
-    &:last-child {
-      border-right: 1px solid #333;
-
-      @include sp {
-        border: none;
-      }
-    }
-
-    @include sp {
-      border: none;
-    }
-  }
-
-  &__bottom {
-    border-top: 1px solid #777777;
-    padding: 12px 0;
-
-    @include tab {
-      padding: 12px 0 90px;
-    }
-
-    @include sp {
-      padding: 12px 0 60px;
-    }
-
-  }
-
-  &__coppy {
-    text-align: center;
-    font-size: 12px;
-  }
-
-
-  &__sp-menu {
-    display: none;
-
-    @include tab {
-      display: flex;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-    }
-
-    a:hover {
-      opacity: 1;
-    }
-
-  }
-
-
-  // スクロールボタン
-  &__scroll-btn {
-    cursor: pointer;
-    position: absolute;
-    top: -62px;
-    right: 16px;
-    width: 40px;
-
-    @include tab {
-      display: none;
-    }
-  }
 }
-
-
 
 /* =================================
-main-visual
+トップ
  ================================= */
 
-.main-visual {
+.top-main {
 
-  position: relative;
+  &__main-visual {
+    margin: 0 0 120px;
 
-  &__list {
-
-    background-color: #000;
-  }
-
-  &__item {}
-
-
-  &__item-img {}
-
-  &__tel-wrap {
-    position: absolute;
-    top: 40px;
-    left: 87%;
-    transform: translateX(-50%);
-  }
-
-  &__repeat-wrap {
-    position: absolute;
-    top: 75%;
-    left: 87%;
-    transform: translateX(-50%);
-
-    @include pc {
-      display: none;
-    }
-  }
-
-  &__ {}
-
-
-
-  .slick-dots {
-    bottom: 42px;
-
-    @include pc {
-      bottom: 8px;
+    @include tab{
+      margin: 0 0 60px;
 
     }
   }
 
-  .slick-slider {
-    margin-bottom: 0;
+  &__main-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    @include tab{
+      gap: 24px;
+
+    }
   }
 
-  .slick-prev {
-    left: 30px;
-    z-index: 2;
+  &__main-left{
+
+    @include tab{
+      padding: 0 0 0 12px;
+      }
   }
 
-  .slick-next {
-    right: 30px;
-  }
+  &__ttl-wrap {
+    text-align: center;
+    margin: 40px 20px 0 0;
 
-}
-
-// スライド　タイトル・リード文
-.main-visual-item {
-  position: relative;
-
-
-  &__text-wrap {
-    position: absolute;
-    background-color: rgba(27, 27, 27, 0.5);
-    bottom: 40px;
-    left: 40px;
-    z-index: 2;
-    padding: 24px 16px;
-
-    @include pc {
-      padding: 12px;
-      bottom: 16px;
-      left: 16px;
+    @include tab{
+      margin: 16px 20px 0 0;
     }
 
-    @include sp {
-      padding: 4px 8px;
+    @include sp{
+      text-align: left;
     }
-
-  }
-
-  &__ttl {
-    color: #fff;
-    margin: 0 0 12px;
-
-    @include pc {
-      margin: 0;
-    }
-
   }
 
   &__lead {
-    color: #fff;
-    font-size: 14px;
-
-    @include pc {
-      display: none;
-    }
-  }
-
-}
-
-// 連絡先
-.top-tel-wrap {
-  background-color: rgba(27, 27, 27, 0.5);
-  padding: 16px;
-  border-radius: 3px;
-
-
-  @include pc {
-    display: none;
-  }
-
-  &__address {
-    color: #fff;
-    margin: 0 0 8px;
-  }
-
-  &__tel {
-    color: #fff;
-    display: inline-block;
-    font-size: 40px;
-    line-height: 32px;
-    margin: 0 0 8px;
-    white-space: nowrap;
-
-  }
-
-  &__tel-span {
-    color: #fff;
-    display: block;
-    font-size: 14px;
-    line-height: 14px;
-    margin: 0 0 2px;
-
-  }
-
-  &__time {
-    color: #fff;
-  }
-
-
-}
-
-// リピーター
-.top-repeat-wrap {
-  background-color: #960000;
-  padding: 14px;
-  border-radius: 3px;
-
-  @include pc {
-    padding: 12px 8px;
-    background-color: #000;
-    box-shadow: 0 0 0 100vmax #000;
-    clip-path: inset(0 -100vmax);
-  }
-
-  @include sp {
-    padding: 4px 8px;
-  }
-
-
-  &__text {
-    color: #fff;
-    white-space: nowrap;
-    font-size: 17px;
-
-    @include pc {
-      font-size: 14px;
-    }
-
-    @include sp {
-      font-size: 12px;
-    }
-  }
-}
-
-
-
-/* =================================
-top-489
- ================================= */
-
-.top-489 {
-  padding: 0 8px 40px 8px;
-
-  @media screen and (max-width: 1300px) {
-    padding: 0 8px 0 8px;
-    background-color: #ebf8f7;
-  }
-
-  &__form-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: -40px auto 0;
-    background-color: #fff;
-    padding: 12px;
+    font-size: 64px;
+    margin:60px -77px 50px 0;
     z-index: 10;
     position: relative;
-    border-radius: 40px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    letter-spacing: 0.1rem;
 
-    @media screen and (max-width: 1300px) {
-      margin: 12px auto 0;
+    @include pc{
+      font-size: 40px;
     }
 
-    @include pc {
-      flex-wrap: wrap;
-    }
-
-    @include sp {
-      border-radius: 12px;
+    @include tab{
+      margin:40px 0 30px 0;
 
     }
   }
 
-  &__btn-wrap {
-    display: flex;
-    gap: 16px;
-    padding: 8px 0 8px 28px;
-    border-left: solid 1px #c5c5c5;
+  &__text {    
+    margin: 0 0 40px 40px;
 
-    @include pc {
-      border-left: none;
-      padding: 8px 0 8px 0;
-
+    @include sp{
+      margin: 0 0 40px 0;
 
     }
   }
 
-  &__btn {
-    display: block;
-    color: #1b1464;
-    border: #1b1464 1px solid;
-    width: 180px;
-    text-align: center;
-    padding: 8px;
-    border-radius: 3px;
+  &__ {}
 
-    @include sp {
-      width: 140px;
+  &__main-right {
+    max-width: 300px;
 
-    }
-  }
-
-  &__form-ttl {
-    position: relative;
-    margin: 0 50px 0 0;
-
-    &:after {
-      /*画像を絶対配置*/
-      position: absolute;
-      content: '';
-      top: -1px;
-      right: -102px;
-      display: block;
-      width: 100%;
-      height: 22px;
-      background-image: url(../img/top/top-489-img.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      /*画像を繰り返さない*/
-    }
-  }
-
-
-
-  &__repeat-wrap {
-    display: inline-block;
-    text-align: center;
-    display: none;
-    color: #1b1464;
-    padding: 16px 0 0 0;
-
-    @include pc {
-      display: block;
-    }
-  }
-
+@include tab{
+  max-width: 240px;
 
 }
 
-#search_489ban {
+    @include sp{
+      display: none;
 
-  font-family: inherit;
-  font-size: inherit;
-
-  form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    @include sp {
-      flex-wrap: wrap;
     }
-  }
-
-  .date_489ban dt {
-    display: inline-block;
-  }
-
-  .date_489ban dt label {
-    display: none;
-  }
-
-  .date_489ban dd label {
-    font-size: 13px;
-  }
-
-  .date_489ban dd {
-    display: inline-block;
-  }
-
-  button {
-    color: #fff;
-    background-color: #1b1464;
-    width: 180px;
-    text-align: center;
-    padding: 9px;
-    border-radius: 3px;
-    margin: 0 28px;
-
-    @include sp {
-      width: 140px;
-    }
-
-    &:hover {
-      cursor: pointer;
-      opacity: 0.7;
-    }
-
-  }
-}
-
-/* =================================
-top-info
- ================================= */
-
-.top-info {
-  background-color: #ebf8f7;
-
-  &__ttl-wrap {
-    margin: 0 0 60px;
-
-    @include sp {
-      margin: 0 0 40px;
-    }
-  }
-
-  &__list {
-    .slick-dots {
-      bottom: -40px;
-    }
-  }
-
-  &__item {
-    margin: 0 12px;
   }
 
   &__ {}
@@ -795,342 +349,14 @@ top-info
 
   &__ {}
 
-
-
-}
-
-
-
-/* =================================
-top-holiday
- ================================= */
-
-.top-holiday {
-
-  &__ttl-wrap {
-    margin: 0 0 60px;
-    position: relative;
-
-    @include sp {
-      margin: 0 0 40px;
-    }
-  }
-
-  &__item-wrap {
-    display: flex;
-    gap: 12px;
-
-    @include tab {
-      flex-wrap: wrap;
-    }
-
-  }
-
-  &__item {
-
-    @include tab {
-      width: 48%;
-    }
-  }
-
-  &__img {
-    box-shadow: 3px 3px 7px -5px #777777;
-    margin: 0 0 8px;
-  }
-
-  &__sub-ttl {
-    margin: 0 0 0 3px;
-    position: relative;
-    font-weight: normal;
-
-    &:after {
-      /*画像を絶対配置*/
-      position: absolute;
-      content: '';
-      bottom: -5px;
-      left: 0;
-      display: block;
-      width: 100%;
-      height: 10px;
-      background-image: url(../img/top/top-holiday-decoration.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      /*画像を繰り返さない*/
-    }
-  }
-
-  &__bg-img01 {
-    width: 120px;
-    position: absolute;
-    top: 0;
-    left: 24%;
-    transform: translateX(-50%);
-
-    @include tab {
-      left: 4%;
-      width: 60px;
-    }
-  }
-
-  &__bg-img02 {
-    width: 200px;
-    position: absolute;
-    top: 0;
-    left: 92%;
-    transform: translateX(-50%);
-
-
-    @include pc {
-      left: 88%;
-    }
-
-    @include tab {
-      left: 92%;
-      width: 80px;
-    }
-  }
-
-}
-
-/* =================================
-top-room
- ================================= */
-
-.top-room {
-  background-color: #ebf8f7;
-
-  &__ttl-wrap {
-    margin: 0 0 60px;
-
-    @include sp {
-      margin: 0 0 40px;
-    }
-  }
-
-  &__top-box {
-    margin: 0 0 16px;
-
-    @include sp {
-      margin: 0 0 12px;
-    }
-  }
-
-
-  &__bottom-box {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    flex-wrap: wrap;
-
-    @include sp {
-      gap: 12px;
-
-    }
-  }
-
-  &__item {
-    width: calc(33.3333% - 12px);
-
-    @include pc {
-      width: calc(50% - 8px);
-
-    }
-  }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-}
-
-.room-top-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 16px;
-
-
-  @include sp {
-    gap: 12px;
-
-  }
-
-  &__item {
-    width: calc(50% - 8px);
-
-    position: relative;
-
-    @include tab {
-      width: 100%;
-    }
-  }
-
-  &__text-wrap {
-    width: 70%;
-    position: absolute;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 57%, rgba(255, 255, 255, 0) 92%);
-    top: 3%;
-    padding: 12px;
-  }
-
-  &__ttl {
-    color: #fff;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
-    font-size: 18px;
-    font-weight: 100;
-    white-space: nowrap;
-
-    @include sp {
-      font-size: 16px;
-
-    }
-  }
-
-  &__lead {
-    color: #fff;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
-
-    @include sp {
-      font-size: 12px;
-
-    }
-
-  }
-
-  &__ {}
-
-  &__ {}
 
 }
 
 /* =================================
-top-meal
+施工事例
  ================================= */
 
-.top-meal {
-
-  &__ttl-wrap {
-    margin: 0 0 60px;
-    position: relative;
-
-    @include sp {
-      margin: 0 0 40px;
-    }
-  }
-
-  &__bg-img01 {
-    width: 120px;
-    position: absolute;
-    top: -47px;
-    left: 80%;
-    transform: translateX(-50%) scale(-1, 1);
-
-    @include pc {
-      left: 88%;
-      top: 0;
-      width: 60px;
-    }
-  }
-
-  &__bg-img02 {
-    width: 200px;
-    position: absolute;
-    top: -67px;
-    left: 9%;
-    transform: translateX(-50%) scale(-1, 1);
-
-    @include pc {
-      top: -21px;
-      width: 80px;
-    }
-  }
-
-
-  &__list {
-    display: flex;
-    justify-content: space-around;
-    gap: 16px;
-
-    @include tab {
-      flex-wrap: wrap;
-    }
-  }
-
-  &__item {
-    box-shadow: none;
-    width: 25%;
-
-    @include tab {
-      width: 48%;
-    }
-
-    @include sp {
-      width: 98%;
-    }
-  }
-
-  &__img {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-
-}
-
-/* =================================
-top-plan
- ================================= */
-
-.top-plan {
-  background-color: #ebf8f7;
-
-
-
-  &--purpose {
-    background-color: #fff;
-  }
-
-  &__ttl-wrap {
-    margin: 0 0 60px;
-
-    @include sp {
-      margin: 0 0 40px;
-    }
-  }
-
-  &__list {
-    display: flex;
-    justify-content: space-around;
-    gap: 16px;
-
-    @include tab {
-      flex-wrap: wrap;
-    }
-  }
-
-  &__item {
-
-    width: 25%;
-
-    @include tab {
-      width: 48%;
-    }
-
-    @include sp {
-      width: 98%;
-    }
-  }
-
-}
-
-/* =================================
-top-purpose
- ================================= */
-
-.top-purpose {
+ .top-results {
 
   &__ {}
 
@@ -1170,64 +396,20 @@ top-purpose
 }
 
 /* =================================
-top-link
+イベント案内
  ================================= */
 
-.top-link {
+ .top-event {
 
-  background-color: #ebf8f7;
 
-  &__ttl-wrap {
-    margin: 0 0 60px;
-    position: relative;
 
-    @include sp {
-      margin: 0 0 40px;
-    }
-  }
+  &__ {}
 
-  &__item-wrap {
-    display: flex;
-    gap: 12px;
+  &__ {}
 
-    @include tab {
-      flex-wrap: wrap;
-    }
+  &__ {}
 
-  }
-
-  &__item {
-    display: block;
-    border: #1b1464 solid 1px;
-    background-color: #fff;
-    text-align: center;
-
-    @include tab {
-      width: 48%;
-    }
-  }
-
-  &__img {
-    margin: 0 0 12px 0;
-  }
-
-  &__ttl {
-    color: #1b1464;
-    font-size: 15px;
-    border-bottom: 1px solid #c5c5c5;
-    padding: 0 0 4px;
-    margin: 0 5% 12px;
-  }
-
-  &__ttl-span {
-    display: block;
-    font-size: 12px;
-  }
-
-  &__lead {
-    font-size: 12px;
-    margin: 0 0 12px;
-  }
+  &__ {}
 
   &__ {}
 
@@ -1243,18 +425,10 @@ top-link
 }
 
 /* =================================
-top-photograph
+お知らせ
  ================================= */
 
-.top-photograph {
-
-  &__ttl-wrap {
-    margin: 0 0 60px;
-
-    @include sp {
-      margin: 0 0 40px;
-    }
-  }
+ .top-news {
 
   &__ {}
 
@@ -1294,10 +468,10 @@ top-photograph
 }
 
 /* =================================
-
+ブログ
  ================================= */
 
-.aaa {
+ .top-blog {
 
   &__ {}
 
@@ -1337,10 +511,10 @@ top-photograph
 }
 
 /* =================================
-
+事業案内
  ================================= */
 
-.aaa {
+ .top-service {
 
   &__ {}
 
@@ -1378,3 +552,90 @@ top-photograph
 
 
 }
+
+/* =================================
+企業情報
+ ================================= */
+
+ .top-company {
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
+
+/* =================================
+お問い合わせ
+ ================================= */
+
+ .top-contact {
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
+
