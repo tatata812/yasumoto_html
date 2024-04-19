@@ -45,6 +45,8 @@ header
 }
 
 .header {
+  overflow-y: scroll;
+    scrollbar-width: none;
 
   &__inner {
     padding: 40px 20px;
@@ -62,8 +64,8 @@ header
 
   &__ttl {
     display: block;
-    margin: 0 auto 60px;
-    max-width: 200px;
+    margin: 0 auto 40px;
+    max-width: 160px;
 
     @include tab {
       margin: 0;
@@ -102,10 +104,10 @@ header
   }
 
   &__nav-link {
-    font-size: 17px;
-    line-height: 17px;
+    font-size: 16px;
+    line-height: 16px;
     display: block;
-    padding: 20px;
+    padding: 18px;
 
 
     &:hover {
@@ -250,6 +252,12 @@ footer
   &__ttl-wrap {
     max-width: 600px;
     margin: 0 auto 60px;
+
+    @include tab{
+    padding: 0 0 0 32px;
+    margin: 0 auto 40px;
+
+    }
   }
 
   &__ {}
@@ -263,6 +271,7 @@ footer
 
 
 .top-main {
+  padding: 0 0 120px;
 
   &__main-visual {
     margin: 0 0 120px;
@@ -361,7 +370,6 @@ footer
   }
 
   &__bottm-img {
-    margin: 0 0 120px;
   }
 
   &__ {}
@@ -386,10 +394,19 @@ footer
  ================================= */
 
  .top-results {
+  padding: 0 0 120px;
 
   &__content {
     background-color: #fbf8f5;
     padding: 120px 12px;
+    margin: 0 0 80px;
+
+    @include tab{
+      margin: 0 0 40px;
+      padding: 40px 12px;
+
+
+    }
   }
   &__content {}
 
@@ -399,11 +416,24 @@ footer
     align-items: center;
     margin: 0 auto 80px;
 
+    &:last-of-type{
+      margin: 0 auto;
+    }
+
+    @include tab{
+      flex-direction: column;
+    }
+
     &--reverse {
       flex-direction: row-reverse;
       justify-content: flex-end;
-    }
 
+      @include tab{
+        flex-direction: column;
+        gap: 24px;
+
+      }
+    }
   }
 
   &__item-left {
@@ -413,10 +443,19 @@ footer
   &__item-right {
     width: 380px;
 
+    @include sp{
+    width: auto;
+    }
+
   }
 
   &__item-ttl {
     margin: 0 0 24px;
+
+    @include tab{
+    margin: 0 0 24px 20px;
+    white-space: nowrap;
+    }
   }
 
   &__item-text {
@@ -426,7 +465,24 @@ footer
 
   &__item-btn {
     margin: 0 0 0 20px;
+    @include sp{
+    text-align: center;
+    margin: 0;
 
+    }
+
+  }
+
+  &__btn {
+    text-align: right;
+    max-width: 900px;
+    margin: 0 auto 120px;
+
+    @include tab{
+    text-align: center;
+    margin: 0 auto 60px;
+
+    }
   }
 
   &__ {}
@@ -455,26 +511,89 @@ footer
  ================================= */
 
  .top-event {
+  padding: 0 0 120px;
 
+  &__content {
+    display: flex;
+    gap: 24px;
+    padding: 0 12px;
+    margin: 0 auto 80px;
+    max-width: 880px;
 
+    @include tab{
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
 
-  &__ {}
+    }
+    
+  }
 
-  &__ {}
+  &__item {
+    width: calc((100% - 48px) / 3);
 
-  &__ {}
+    @include tab{
+      width: 100%;
+      max-width: 400px;
+    }
+  }
 
-  &__ {}
+  &__item-top {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 0 6px;
+  }
 
-  &__ {}
+  &__item-label {
+    font-size: 13px;
+    line-height: 13px;
+    background-color: #ad9667;
+    padding: 8px 12px;
+    color: #fff;
 
-  &__ {}
+    &--end {
+      background-color: #b3b3b3;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__item-date {
+    font-size: 12px;
+    padding: 0 8px 0 0;
+  }
 
-  &__ {}
+  &__item-img {
+    margin: 0 0 12px;
+
+    img {
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+    }
+
+  }
+
+  &__item-scheduled {
+    margin: 0 0 2px;
+
+  }
+
+  &__item-ttl {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  &__btn {
+    text-align: right;
+    max-width: 900px;
+    margin: 0 auto 120px;
+
+    @include tab{
+    text-align: center;
+    margin: 0 auto 60px;
+
+    }
+  }
 
 
 }
