@@ -91,7 +91,7 @@ li {
 }
 
 .section-style {
-  max-width: 920px;
+  max-width: 860px;
   margin: 0 auto;
 }
 
@@ -104,17 +104,67 @@ li {
 
   @include pc{
     font-size: 24px;
-
   }
 
   &__span {
     display: block;
     font-size: 14px;
     text-align: left;
-
   }
 }
 
+// ボタンスタイル
+.btn-style {
+  /*矢印の基点とするためrelativeを指定*/
+  position: relative;
+
+  /*ボタンの形状*/
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 28px 6px 18px;
+  text-align: center;
+  outline: none;
+  border: #333333 1px solid;
+  background-color: #fff;
+  width: 200px;
+  /*アニメーションの指定*/
+  transition: ease .2s;
+
+  &:hover {
+    color: #000;
+  }
+
+  &--auto {
+    width: auto;
+  }
+}
+
+/* 矢印が右に移動 */
+
+.btn-arrow {
+  &::after {
+    content: '';
+
+    /*絶対配置で矢印の位置を決める*/
+    position: absolute;
+    top: 42%;
+    right: 13px;
+
+    /*矢印の形状*/
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    transform: rotate(45deg);
+
+    /*アニメーションの指定*/
+    transition: all .3s;
+  }
+
+  &:hover::after {
+    right: 11px;
+  }
+}
 
 
 

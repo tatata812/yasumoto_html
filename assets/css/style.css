@@ -67,7 +67,7 @@ li {
 }
 
 .section-style {
-  max-width: 920px;
+  max-width: 860px;
   margin: 0 auto;
 }
 
@@ -86,6 +86,48 @@ li {
   display: block;
   font-size: 14px;
   text-align: left;
+}
+
+.btn-style {
+  /*矢印の基点とするためrelativeを指定*/
+  position: relative;
+  /*ボタンの形状*/
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 28px 6px 18px;
+  text-align: center;
+  outline: none;
+  border: #333333 1px solid;
+  background-color: #fff;
+  width: 200px;
+  /*アニメーションの指定*/
+  transition: ease 0.2s;
+}
+.btn-style:hover {
+  color: #000;
+}
+.btn-style--auto {
+  width: auto;
+}
+
+/* 矢印が右に移動 */
+.btn-arrow::after {
+  content: "";
+  /*絶対配置で矢印の位置を決める*/
+  position: absolute;
+  top: 42%;
+  right: 13px;
+  /*矢印の形状*/
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #333333;
+  transform: rotate(45deg);
+  /*アニメーションの指定*/
+  transition: all 0.3s;
+}
+.btn-arrow:hover::after {
+  right: 11px;
 }
 
 .fade-in-js {
@@ -883,6 +925,10 @@ footer
 /* =================================
 トップ
  ================================= */
+.page-top__ttl-wrap {
+  max-width: 600px;
+  margin: 0 auto 60px;
+}
 .top-main__main-visual {
   margin: 0 0 120px;
 }
@@ -895,10 +941,12 @@ footer
   display: flex;
   justify-content: center;
   gap: 40px;
+  margin: 0 auto 40px;
 }
 @media (max-width: 820px) {
   .top-main__main-wrap {
     gap: 24px;
+    margin: 0 auto 24px;
   }
 }
 @media (max-width: 820px) {
@@ -958,9 +1006,52 @@ footer
     display: none;
   }
 }
+.top-main__btn {
+  text-align: right;
+  max-width: 900px;
+  margin: 0 auto 120px;
+}
+@media (max-width: 820px) {
+  .top-main__btn {
+    text-align: center;
+    margin: 0 auto 60px;
+  }
+}
+.top-main__bottm-img {
+  margin: 0 0 120px;
+}
 /* =================================
 施工事例
  ================================= */
+.top-results__content {
+  background-color: #fbf8f5;
+  padding: 120px 12px;
+}
+.top-results__item {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 0 auto 80px;
+}
+.top-results__item--reverse {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.top-results__item-left {
+  max-width: 380px;
+}
+.top-results__item-right {
+  width: 380px;
+}
+.top-results__item-ttl {
+  margin: 0 0 24px;
+}
+.top-results__item-text {
+  margin: 0 0 24px 24px;
+}
+.top-results__item-btn {
+  margin: 0 0 0 20px;
+}
 /* =================================
 イベント案内
  ================================= */
