@@ -998,6 +998,13 @@ padding: 60px 12px;
     margin: 0 auto 60px;
     padding: 40px;
     border-radius: 20px;
+
+    @include sp{
+      padding: 24px;
+      margin: 0 auto 40px;
+
+
+    }
   }
 
   &__content-text {

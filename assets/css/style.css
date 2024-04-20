@@ -1482,6 +1482,12 @@ footer
   padding: 40px;
   border-radius: 20px;
 }
+@media (max-width: 600px) {
+  .top-contact__content {
+    padding: 24px;
+    margin: 0 auto 40px;
+  }
+}
 .top-contact__content-text {
   max-width: 320px;
   margin: 0 auto 16px;
