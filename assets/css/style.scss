@@ -410,7 +410,7 @@ footer
 
     @include tab{
       margin: 0 0 40px;
-      padding: 40px 12px;
+      padding: 40px 26px;
 
 
     }
@@ -444,7 +444,16 @@ footer
   }
 
   &__item-left {
-    max-width: 380px;
+    max-width: 360px;
+
+    @include sp{
+      
+      img {
+        aspect-ratio: 5 / 4;
+        object-fit: cover;
+      }
+
+    }
   }
 
   &__item-right {
@@ -467,6 +476,11 @@ footer
 
   &__item-text {
     margin: 0 0 24px 24px;
+
+    @include sp{
+      margin: 0 0 24px 0px;
+
+    }
 
   }
 
@@ -536,6 +550,8 @@ footer
       flex-direction: column;
       align-items: center;
       gap: 40px;
+      padding: 0 24px;
+
 
     }
     
@@ -626,6 +642,8 @@ footer
     margin: 0 auto 80px!important;
     max-width: 880px;
     overflow: hidden;
+
+    
   }
 
   &__item {
@@ -699,7 +717,8 @@ footer
       flex-direction: column;
       align-items: center;
       gap: 40px;
-
+      padding: 40px 26px;
+      margin: 0 auto ;
     }
     
   }
