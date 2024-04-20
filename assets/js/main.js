@@ -47,34 +47,18 @@ $(function () {
     autoplaySpeed: 4000,
     dots: true,
     arrows: false,
-    adaptiveHeight: true,
   });
 
-  $(".top-info-js").slick({
-    autoplay: false,
+  $(".top-news-js").slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
     dots: true,
-    arrows: true,
-    slidesToShow: 4,
+    arrows: false,
+    slidesToShow: 2,
     responsive: [{
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 3,
-          arrows: false,
-
-        }
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 2,
-          arrows: false,
-        }
-      },
-      {
-        breakpoint: 600,
+        breakpoint: 620,
         settings: {
           slidesToShow: 1,
-          arrows: false,
         }
       },
     ],

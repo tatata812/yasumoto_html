@@ -137,6 +137,11 @@ li {
   &--auto {
     width: auto;
   }
+
+  &--left {
+    text-align: left;
+
+  }
 }
 
 /* 矢印が右に移動 */
@@ -204,10 +209,18 @@ li {
 
 }
 
+.slick-dots li  {
+  width: 10px;
+}
+
 .slick-dots li.slick-active button:before {
-  color:
-    #181818 !important;
+  color:#ad9667!important;
   opacity: 1 !important;
+  font-size: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
 
 }
 
