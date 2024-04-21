@@ -262,10 +262,27 @@ footer
 
 .footer {
   padding: 80px 0 0;
+  position: relative;
 
   @include sp {
     padding: 40px 0 0;
 
+  }
+
+  &__top-btn {
+position: absolute;
+bottom: 50px;
+right: 50px;
+
+@include tab{
+  right: 10px;
+  width: 70px;
+}
+
+@include sp{
+  bottom: 140px;
+
+}
   }
 
 }
@@ -1228,6 +1245,11 @@ footer
 .top-contact {
   background-color: #fbf8f5;
   padding: 60px 12px;
+
+  @include sp{
+    padding: 40px 12px;
+
+  }
 
   &__content {
     background-color: #fff;
