@@ -219,6 +219,22 @@ li {
       white-space: normal;
     }
   }
+
+  &__sub-ttl-wrap {
+
+    max-width: 920px;
+    margin: 0 auto 40px;
+
+    @include tab {
+      padding: 0 24px;
+    }
+
+  }
+
+  &__sub-ttl-span {
+    display: block;
+    font-size: 18px;
+  }
   
 }
 
@@ -239,6 +255,12 @@ li {
   border-left: #c0c0c0 4px solid;
 
   }
+  }
+
+  &__ttl-span {
+    display: block;
+    font-size: 18px;
+
   }
 
 

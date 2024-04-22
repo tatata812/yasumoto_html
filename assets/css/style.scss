@@ -1,5 +1,6 @@
 @use "config";
 @use "results";
+@use "service";
 
 @mixin sp {
   @media (max-width:(600px)) {
@@ -1078,7 +1079,9 @@ right: 50px;
 
   }
 
-  &__item-right {}
+  &__item-text {
+    padding: 20px;
+  }
 
   &__item-ttl {
     margin: 0 0 40px;
