@@ -1,5 +1,5 @@
 @use "config";
-@use "subpage";
+@use "results";
 
 @mixin sp {
   @media (max-width:(600px)) {
@@ -280,13 +280,13 @@ position: absolute;
 bottom: 50px;
 right: 50px;
 
-@include tab{
+@include pc{
   right: 10px;
   width: 70px;
+  bottom: 140px;
 }
 
 @include sp{
-  bottom: 140px;
 
 }
   }
@@ -490,9 +490,10 @@ right: 50px;
 /* =================================
 トップ
  ================================= */
+
 .page-top {
   &__ttl-wrap {
-    max-width: 600px;
+    max-width: 720px;
     margin: 0 auto 60px;
     white-space: nowrap;
 
@@ -683,7 +684,7 @@ right: 50px;
   }
 
   &__item-left {
-    max-width: 360px;
+    max-width: 380px;
 
     @include sp {
 
@@ -783,7 +784,7 @@ right: 50px;
     gap: 24px;
     padding: 0 12px;
     margin: 0 auto 80px;
-    max-width: 880px;
+    max-width: 1020px;
 
 
     @include tab {
@@ -882,7 +883,7 @@ right: 50px;
   &__content {
     padding: 0 12px;
     margin: 0 auto 80px !important;
-    max-width: 880px;
+    max-width: 980px;
 
     @include sp {
       margin: 0 auto 40px !important;
@@ -956,7 +957,7 @@ right: 50px;
     gap: 24px;
     padding: 0 12px;
     margin: 0 auto 80px;
-    max-width: 880px;
+    max-width: 1020px;
 
 
     @include tab {
@@ -1263,9 +1264,14 @@ right: 50px;
 
 .top-contact {
   background-color: #fbf8f5;
-  padding: 60px 12px;
+  padding: 60px 12px 60px 120px;
 
-  @include sp{
+  @include pc{
+    padding: 60px 12px 60px 260px;
+
+  }
+
+  @include tab{
     padding: 40px 12px;
 
   }

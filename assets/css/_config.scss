@@ -188,7 +188,24 @@ li {
 }
 
 
-// 下層ページヘッダー
+// 下層ページ
+
+.sub-page {
+
+  &__ttl-wrap {
+    max-width: 880px;
+    margin: 0 auto 60px;
+    white-space: nowrap;
+
+    @include tab {
+      padding: 0 0 0 32px;
+      margin: 0 auto 24px;
+      white-space: normal;
+    }
+  }
+  
+}
+
 .sub-page-top {
 
   &__ttl {
@@ -227,6 +244,8 @@ li {
     }
   }
 }
+
+
 
 
 
