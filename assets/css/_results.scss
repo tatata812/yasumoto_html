@@ -22,11 +22,209 @@
 施工事例
  ================================= */
 
- .page-results {
+.page-results {
 
   &__section {}
 
-  &__section-ttl {}
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px 12px 120px;
+
+
+    @include sp {
+      padding: 0 20px 60px;
+
+    }
+
+  }
+
+  &__item {
+    margin: 0 0 40px;
+    width: calc((100% - 40px) / 2);
+
+    @include sp {
+      width: 100%;
+      margin: 0;
+
+    }
+  }
+
+  &__item-ttl {
+    margin: 0 0 16px 40px;
+
+    @include sp {
+      margin: 0 0 16px 24px;
+
+    }
+  }
+
+  &__img {
+    margin: 0 0 16px;
+  }
+
+  &__btn {
+    text-align: right;
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
+
+/* =================================
+施工事例一覧
+ ================================= */
+
+.archive-results {
+  
+
+  &__ttl-wrap {
+    display: flex;
+    max-width: 920px;
+    margin: 0 auto 40px;
+    justify-content: space-between;
+    align-items: center;
+
+    @include tab {
+      padding: 0 24px;
+    }
+
+  }
+
+  &__select {
+
+    select {
+      width: 200px;
+      padding: 12px;
+
+      @include sp {
+        width: 100px;
+        padding: 4px;
+      }
+    }
+
+
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px 12px 80px;
+
+
+    @include sp {
+      padding: 0 20px 40px;
+      justify-content: center;
+
+    }
+  }
+
+  &__item {
+    margin: 0 0 32px;
+    width: calc((100% - 48px) / 3);
+
+    @include pc{
+      width: calc((100% - 24px) / 2);
+    }
+
+    @include sp{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 0 12px;
+
+    }
+  }
+
+  &__item-img {
+    margin: 0 0 12px;
+
+    img {
+      aspect-ratio: 3 / 2;
+    object-fit: cover;
+    }
+  }
+
+  &__ttl {
+    font-weight: bold;
+  }
+
+  &__pager {
+    text-align: center;
+    margin: 0 0 80px;
+
+    @include sp{
+      margin: 0 0 40px;
+
+    }
+  }
+
+  &__btn {
+    text-align: center;
+    margin: 0 0 120px;
+
+    @include sp{
+      margin: 0 0 60px;
+
+    }
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
+
+/* =================================
+
+ ================================= */
+
+.aaa {
+
+  &__ {}
+
+  &__ {}
 
   &__ {}
 
@@ -65,7 +263,7 @@
 
  ================================= */
 
- .aaa {
+.aaa {
 
   &__ {}
 
@@ -108,7 +306,7 @@
 
  ================================= */
 
- .aaa {
+.aaa {
 
   &__ {}
 
@@ -151,93 +349,7 @@
 
  ================================= */
 
- .aaa {
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-}
-
-/* =================================
-
- ================================= */
-
- .aaa {
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-}
-
-/* =================================
-
- ================================= */
-
- .aaa {
+.aaa {
 
   &__ {}
 
