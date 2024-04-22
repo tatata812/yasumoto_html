@@ -562,12 +562,6 @@ header
   scrollbar-width: none;
   background-color: transparent;
 }
-@media (max-width: 820px) {
-  .header {
-    background-color: #fff;
-    height: 60px;
-  }
-}
 .header__inner {
   padding: 40px 20px;
 }
