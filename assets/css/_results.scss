@@ -100,7 +100,7 @@
  ================================= */
 
 .archive-results {
-  
+
 
   &__ttl-wrap {
     display: flex;
@@ -150,14 +150,14 @@
     margin: 0 0 32px;
     width: calc((100% - 48px) / 3);
 
-    @include pc{
+    @include pc {
       width: calc((100% - 24px) / 2);
     }
 
-    @include sp{
-    width: 100%;
-    max-width: 400px;
-    margin: 0 0 12px;
+    @include sp {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 0 12px;
 
     }
   }
@@ -167,7 +167,7 @@
 
     img {
       aspect-ratio: 3 / 2;
-    object-fit: cover;
+      object-fit: cover;
     }
   }
 
@@ -179,7 +179,7 @@
     text-align: center;
     margin: 0 0 80px;
 
-    @include sp{
+    @include sp {
       margin: 0 0 40px;
 
     }
@@ -189,7 +189,7 @@
     text-align: center;
     margin: 0 0 120px;
 
-    @include sp{
+    @include sp {
       margin: 0 0 60px;
 
     }
@@ -223,7 +223,7 @@
 .single-results {
 
   &__ttl-wrap {
-   
+
     max-width: 920px;
     margin: 0 auto 40px;
 
@@ -232,27 +232,139 @@
     }
 
   }
-  &__ {}
 
-  &__ {}
+  &__text-wrap {
+    max-width: 920px;
+    margin: 0 auto 80px;
 
-  &__ {}
+    @include tab {
+      margin: 0 auto 40px;
 
-  &__ {}
+    }
 
-  &__ {}
+  }
 
-  &__ {}
+  &__lead {
+    font-size: 24px;
+    margin: 0 0 8px;
 
-  &__ {}
+    @include sp {
+      font-size: 20px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__text {}
 
-  &__ {}
+  &__top {
+    padding: 0 20px;
 
-  &__ {}
+  }
+
+  &__top-img {
+    max-width: 1020px;
+    margin: 0 auto 80px;
+
+    @include tab {
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__img-wrap {
+    max-width: 920px;
+    margin: 0 auto 160px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 20px;
+
+    @include tab {
+      gap: 24px;
+      margin: 0 auto 60px;
+
+
+    }
+
+  }
+
+  &__img-item {
+    width: calc((100% - 40px) / 2);
+
+    @include tab {
+      width: calc((100% - 24px) / 2);
+
+    }
+
+
+    &:nth-of-type(3n) {
+      width: 100%;
+    }
+
+
+
+  }
+
+  &__bottom {
+    max-width: 920px;
+    margin: 0 auto 120px;
+    padding: 0 20px;
+
+    @include tab {
+      margin: 0 auto 60px;
+
+    }
+
+  }
+
+  &__bottom-ttl {
+    font-size: 20px;
+    margin: 0 0 4px 10px;
+
+    @include sp {
+      font-size: 18px;
+
+    }
+  }
+
+  &__table-wrap {
+
+    table {
+      width: 100%;
+      border-top: 1px solid #000;
+
+      @include sp {
+        font-size: 13px;
+      }
+    }
+
+    th {
+      text-align: left;
+      width: 200px;
+      padding: 4px 10px;
+      border-bottom: 1px solid #000;
+
+      @include sp {
+        width: 100px;
+        padding: 4px 0 4px 10px;
+
+
+      }
+
+    }
+
+    td {
+      padding: 4px 10px;
+      border-bottom: 1px solid #000;
+
+
+    }
+  }
+
+  &__tr {
+    border-bottom: 1px solid #000;
+    border-collapse: collapse;
+
+  }
 
   &__ {}
 

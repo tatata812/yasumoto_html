@@ -397,7 +397,7 @@ right: 50px;
 
 .footer-middle {
   display: flex;
-  gap: 20px;
+  gap: 24px;
   justify-content: center;
   padding: 0 12px 40px;
 
@@ -405,17 +405,16 @@ right: 50px;
   @include pc {
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 8px;
+    gap: 24px;
     padding: 0 24px 24px;
 
 
   }
 
   &__item {
-    white-space: nowrap;
 
     @include pc {
-      width: calc((100% - 16px) / 3);
+      width: calc((100% - px) / 3);
     }
 
 
