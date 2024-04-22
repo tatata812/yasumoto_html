@@ -49,8 +49,7 @@ header
   scrollbar-width: none;
   background-color: transparent;
 
-  @include tab{
-  }
+  @include tab {}
 
   &__inner {
     padding: 40px 20px;
@@ -274,19 +273,19 @@ footer
   }
 
   &__top-btn {
-position: absolute;
-bottom: 50px;
-right: 50px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 90px;
 
-@include pc{
-  right: 10px;
-  width: 70px;
-  bottom: 140px;
-}
 
-@include sp{
+    @include pc {
+      right: 10px;
+      width: 70px;
+      bottom: 140px;
+    }
 
-}
+    @include sp {}
   }
 
 }
@@ -649,10 +648,7 @@ right: 50px;
     }
   }
 
-  &__content {
-    
-
-  }
+  &__content {}
 
   &__item {
     display: flex;
@@ -1044,9 +1040,9 @@ right: 50px;
     background: linear-gradient(180deg, #fbf8f5 0%, #fbf8f5 70%, #fff 70%, #fff 100%);
     padding: 60px 12px 0 260px;
 
-    @include tab{
+    @include tab {
       padding: 40px 12px;
-    
+
     }
 
     @include sp {
@@ -1150,9 +1146,9 @@ right: 50px;
       background: linear-gradient(180deg, #fff 0%, #fff 43%, #fbf8f5 43%, #fbf8f5 100%);
     }
 
-    @include tab{
+    @include tab {
       padding: 12px 12px;
-    
+
     }
 
     @include sp {
@@ -1265,12 +1261,12 @@ right: 50px;
   background-color: #fbf8f5;
   padding: 60px 12px 60px 120px;
 
-  @include pc{
+  @include pc {
     padding: 60px 12px 60px 260px;
 
   }
 
-  @include tab{
+  @include tab {
     padding: 40px 12px;
 
   }

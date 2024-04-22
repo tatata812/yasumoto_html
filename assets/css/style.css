@@ -939,6 +939,7 @@ footer
   position: absolute;
   bottom: 50px;
   right: 50px;
+  width: 90px;
 }
 @media (max-width: 1120px) {
   .footer__top-btn {
