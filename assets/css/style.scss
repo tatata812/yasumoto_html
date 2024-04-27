@@ -1,6 +1,7 @@
 @use "config";
 @use "results";
 @use "service";
+@use "information";
 
 @mixin sp {
   @media (max-width:(600px)) {
