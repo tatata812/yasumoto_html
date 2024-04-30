@@ -39,6 +39,10 @@ li {
   font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
 }
 
+th, td {
+  font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
+}
+
 .pc-block {
   display: block;
 }
@@ -53,6 +57,25 @@ li {
 }
 @media (max-width: 820px) {
   .sp-block {
+    display: block;
+  }
+}
+
+.responsive-br {
+  display: none;
+}
+@media (max-width: 1120px) {
+  .responsive-br {
+    display: block;
+  }
+}
+@media (max-width: 820px) {
+  .responsive-br {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .responsive-br {
     display: block;
   }
 }
@@ -761,6 +784,472 @@ li {
   -o-object-fit: cover;
      object-fit: cover;
 }
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+.company__sub-ttl-wrap {
+  max-width: 920px;
+  margin: 0 auto 40px;
+}
+@media (max-width: 820px) {
+  .company__sub-ttl-wrap {
+    padding: 0 24px;
+    margin: 0 auto 24px;
+  }
+}
+.company__section-ttl {
+  padding: 4px 16px;
+  border-left: 4px solid #e2cdb6;
+  font-size: 24px;
+  display: inline-block;
+}
+@media (max-width: 1120px) {
+  .company__section-ttl {
+    font-size: 20px;
+  }
+}
+.company__section-ttl--access {
+  border-left: none;
+  font-size: 20px;
+  color: #8c6239;
+  position: relative;
+}
+.company__section-ttl--access::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 6px;
+  background-color: #e2cdb6;
+  bottom: -4px;
+  left: -4px;
+  transform: scale(0.6);
+}
+@media (max-width: 1120px) {
+  .company__section-ttl--access {
+    font-size: 18px;
+  }
+}
+/* =================================
+企業情報
+ ================================= */
+.page-company__section {
+  padding: 0 0 120px;
+}
+@media (max-width: 600px) {
+  .page-company__section {
+    padding: 0 0 60px;
+  }
+}
+.page-company__item {
+  height: 380px;
+  background: linear-gradient(180deg, #fff 0%, #fff 38%, #fbf8f5 38%, #fbf8f5 100%);
+  padding: 60px 12px 0 260px;
+  margin: 0 0 24px;
+}
+@media (max-width: 1120px) {
+  .page-company__item {
+    height: auto;
+  }
+}
+@media (max-width: 820px) {
+  .page-company__item {
+    padding: 40px 12px;
+    margin: 0;
+  }
+  .page-company__item:nth-of-type(1) {
+    padding: 0 12px 40px;
+  }
+}
+@media (max-width: 600px) {
+  .page-company__item {
+    height: auto;
+    background: linear-gradient(180deg, #fff 0%, #fff 18%, #fbf8f5 18%, #fbf8f5 100%);
+  }
+}
+.page-company__item-inner {
+  display: flex;
+  max-width: 920px;
+  margin: 0 auto;
+  gap: 32px;
+}
+@media (max-width: 600px) {
+  .page-company__item-inner {
+    flex-direction: column;
+    gap: 28px;
+  }
+}
+.page-company__item-left {
+  max-width: 427px;
+}
+@media (max-width: 600px) {
+  .page-company__item-left {
+    margin: 0 auto;
+  }
+}
+.page-company__item-text {
+  margin: 0 0 40px 20px;
+}
+.page-company__item-ttl {
+  margin: 0 0 60px;
+}
+@media (max-width: 600px) {
+  .page-company__item-ttl {
+    margin: 0 0 22px 24px;
+  }
+}
+.page-company__item-link-wrap {
+  margin: 0 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+@media (max-width: 600px) {
+  .page-company__item-link-wrap {
+    margin: 0 0 0 56px;
+  }
+}
+/* =================================
+会社概要
+ ================================= */
+.page-overview__top {
+  padding: 0 20px;
+}
+.page-overview__top-img {
+  max-width: 1020px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 820px) {
+  .page-overview__top-img {
+    margin: 0 auto 40px;
+  }
+}
+.page-overview__section02-inner {
+  background-image: url(../img/company/overview-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-overview__section {
+  margin: 0 0 80px;
+}
+@media (max-width: 820px) {
+  .page-overview__section {
+    margin: 0 0 40px;
+  }
+}
+.page-overview__section02-text-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 2.4rem;
+  padding: 80px 12px;
+}
+@media (max-width: 820px) {
+  .page-overview__section02-text-wrap {
+    max-width: 540px;
+    padding: 40px 12px;
+    line-height: 2.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .page-overview__section02-text-wrap {
+    max-width: 340px;
+    padding: 40px 12px;
+    line-height: 1.3rem;
+  }
+}
+.page-overview__section02-text {
+  writing-mode: vertical-rl;
+}
+.page-overview__section03-box {
+  display: flex;
+  gap: 40px;
+  max-width: 920px;
+  margin: 0 auto;
+  align-items: center;
+}
+@media (max-width: 1120px) {
+  .page-overview__section03-box {
+    gap: 24px;
+  }
+}
+@media (max-width: 820px) {
+  .page-overview__section03-box {
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .page-overview__section03-box {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .page-overview__section03-left {
+    width: 100%;
+    padding: 0 24px;
+  }
+}
+.page-overview__section03-ttl {
+  margin: 0 0 60px;
+}
+@media (max-width: 1120px) {
+  .page-overview__section03-ttl {
+    margin: 0 0 40px;
+  }
+}
+.page-overview__section03-lead {
+  font-size: 42px;
+  margin: 0 60px 60px 40px;
+}
+@media (max-width: 1120px) {
+  .page-overview__section03-lead {
+    font-size: 28px;
+    margin: 0 32px 40px 16px;
+  }
+}
+.page-overview__section03-name {
+  text-align: right;
+}
+.page-overview__section03-right {
+  max-width: 300px;
+}
+@media (max-width: 600px) {
+  .page-overview__section03-right {
+    width: 100%;
+    padding: 0 24px;
+  }
+}
+.page-overview__section04-inner {
+  background-color: #fbf8f5;
+  padding: 60px 12px 20px;
+}
+.page-overview__section04-text-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+@media (max-width: 1120px) {
+  .page-overview__section04-text-wrap {
+    padding: 0 0 0 40px;
+  }
+}
+@media (max-width: 820px) {
+  .page-overview__section04-text-wrap {
+    max-width: 460px;
+  }
+}
+@media (max-width: 600px) {
+  .page-overview__section04-text-wrap {
+    max-width: 300px;
+  }
+}
+.page-overview__section04-text {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0 0 32px;
+  position: relative;
+}
+.page-overview__section04-text::before {
+  content: url(../img/company/overview-check.png);
+  position: absolute;
+  top: -3px;
+  left: -45px;
+  transform: scale(0.8);
+}
+@media (max-width: 820px) {
+  .page-overview__section04-text {
+    font-size: 20px;
+    margin: 0 0 32px;
+  }
+  .page-overview__section04-text::before {
+    top: -6px;
+    left: -42px;
+    transform: scale(0.7);
+  }
+}
+@media (max-width: 600px) {
+  .page-overview__section04-text {
+    font-size: 18px;
+    margin: 0 0 32px;
+  }
+}
+.page-overview__section05-box {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: flex-end;
+  padding: 0 12px;
+  gap: 16px;
+}
+@media (max-width: 600px) {
+  .page-overview__section05-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
+.page-overview__section05-right {
+  padding: 0 0 50px;
+}
+@media (max-width: 600px) {
+  .page-overview__section05-right {
+    padding: 0;
+  }
+}
+.page-overview__table-wrap {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+.page-overview__table {
+  width: 100%;
+  border-bottom: 1px solid #c69c6d;
+}
+.page-overview__table th {
+  text-align: left;
+  padding: 12px 10px 12px 40px;
+  width: 165px;
+  border-top: 1px solid #c69c6d;
+  border-collapse: collapse;
+  color: #8c6239;
+  background: #f9f5f0;
+}
+@media (max-width: 600px) {
+  .page-overview__table th {
+    width: 100px;
+    padding: 10px 2px 10px 10px;
+  }
+}
+.page-overview__table td {
+  padding: 3px;
+  border-top: 1px solid #c69c6d;
+  border-collapse: collapse;
+  padding: 12px 0 12px 40px;
+}
+@media (max-width: 600px) {
+  .page-overview__table td {
+    padding: 10px;
+  }
+}
+.page-overview__map-wrap {
+  max-width: 100%;
+  margin: 0 auto 40px;
+}
+.page-overview .map {
+  width: 100%;
+  height: 0;
+  position: relative;
+  padding-top: 40%;
+  overflow: hidden;
+}
+@media (max-width: 820px) {
+  .page-overview .map {
+    padding-top: 50%;
+  }
+}
+.page-overview .map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.page-overview__section08-text-wrap {
+  max-width: 840px;
+  margin: 0 auto;
+}
+.page-overview__section08-text {
+  margin: 40px 0;
+  padding: 0 0 0 12px;
+}
+@media (max-width: 600px) {
+  .page-overview__section08-text {
+    margin: 20px 0;
+  }
+}
+.page-overview__section09-item {
+  max-width: 820px;
+  margin: 0 auto 40px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 0 12px;
+}
+@media (max-width: 1120px) {
+  .page-overview__section09-item {
+    gap: 12px;
+  }
+}
+@media (max-width: 820px) {
+  .page-overview__section09-item {
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .page-overview__section09-item {
+    flex-direction: column;
+  }
+}
+.page-overview__section09-left-ttl {
+  font-size: 20px;
+  margin: 0 0 24px;
+}
+@media (max-width: 600px) {
+  .page-overview__section09-left-ttl {
+    margin: 0 0 8px;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .page-overview__section09-text {
+    text-align: center;
+  }
+}
+@media (max-width: 1120px) {
+  .page-overview__section09-br {
+    display: block;
+  }
+}
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
 /* =================================
 
  ================================= */

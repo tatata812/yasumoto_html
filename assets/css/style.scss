@@ -2,6 +2,8 @@
 @use "results";
 @use "service";
 @use "information";
+@use "company";
+@use "reason";
 
 @mixin sp {
   @media (max-width:(600px)) {
