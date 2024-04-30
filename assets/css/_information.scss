@@ -32,6 +32,8 @@
     gap: 32px;
     padding: 20px 12px 120px;
     justify-content: flex-start;
+    max-width: 952px;
+    margin: 0 auto;
 
     @include sp {
       padding: 0 12px 120px;

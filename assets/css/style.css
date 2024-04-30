@@ -738,6 +738,8 @@ li {
   gap: 32px;
   padding: 20px 12px 120px;
   justify-content: flex-start;
+  max-width: 952px;
+  margin: 0 auto;
 }
 @media (max-width: 600px) {
   .archive-information__content {
