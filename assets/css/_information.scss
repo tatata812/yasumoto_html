@@ -31,7 +31,7 @@
     flex-wrap: wrap;
     gap: 32px;
     padding: 20px 12px 120px;
-    justify-content: center;
+    justify-content: flex-start;
 
     @include sp {
       padding: 0 12px 120px;
