@@ -846,7 +846,7 @@ th, td {
   position: absolute;
   width: 100px;
   height: 6px;
-  background-color: #e2cdb6;
+  background-color: #a8a8a8;
   bottom: -4px;
   left: -4px;
   transform: scale(0.6);
@@ -855,6 +855,19 @@ th, td {
   .company__section-ttl--access {
     font-size: 18px;
   }
+}
+.company__section-ttl--staff {
+  position: relative;
+}
+.company__section-ttl--staff::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 6px;
+  background-color: #ffffff;
+  bottom: -10px;
+  left: -4px;
+  transform: scale(0.6);
 }
 /* =================================
 企業情報
@@ -1433,8 +1446,59 @@ th, td {
 }
 
 /* =================================
-
+スタッフ紹介
  ================================= */
+.page-staff__section {
+  padding: 40px 0 0;
+}
+.page-staff__section--bg {
+  background-color: #fbf8f5;
+}
+.page-staff__box {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 0 12px;
+}
+.page-staff__item {
+  width: calc((100% - 80px) / 3);
+  margin: 0 0 60px;
+}
+@media (max-width: 1120px) {
+  .page-staff__item {
+    width: calc((100% - 40px) / 2);
+  }
+}
+@media (max-width: 600px) {
+  .page-staff__item {
+    width: 100%;
+    margin: 0 0 32px;
+  }
+}
+.page-staff__item-img {
+  margin: 0 0 22px;
+}
+.page-staff__text-wrap {
+  padding: 0 6px;
+}
+.page-staff__name {
+  font-size: 19px;
+  margin: 0 0 22px;
+}
+.page-staff__name-span {
+  display: block;
+  font-size: 15px;
+  line-height: 15px;
+}
+.page-staff__item-text {
+  margin: 0 0 24px;
+}
+.page-staff__item-list li {
+  color: #c69c6d;
+  font-size: 13px;
+}
 /* =================================
 
  ================================= */

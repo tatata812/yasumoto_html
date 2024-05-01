@@ -55,7 +55,7 @@
         position: absolute;
         width: 100px;
         height: 6px;
-        background-color: #e2cdb6;
+        background-color: #a8a8a8;
         bottom: -4px;
         left: -4px;
         transform: scale(0.6);
@@ -64,6 +64,22 @@
 
       @include pc {
         font-size: 18px;
+      }
+
+    }
+
+    &--staff {
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 6px;
+        background-color: #ffffff;
+        bottom: -10px;
+        left: -4px;
+        transform: scale(0.6);
       }
 
     }
@@ -760,26 +776,74 @@
 }
 
 /* =================================
-
+スタッフ紹介
  ================================= */
 
-.aaa {
+.page-staff {
 
-  &__ {}
+  &__section {
+    padding: 40px 0 0;
 
-  &__ {}
+    &--bg {
+      background-color: #fbf8f5;
+    }
+  }
 
-  &__ {}
+  &__box {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+    padding: 0 12px;
+  }
 
-  &__ {}
+  &__item {
+    width: calc((100% - 80px) / 3);
+    margin: 0 0 60px;
 
-  &__ {}
+    @include pc{
+      width: calc((100% - 40px) / 2);
+    }
 
-  &__ {}
+    @include sp{
+    width: 100%;
+    margin: 0 0 32px;
+    }
+  }
 
-  &__ {}
+  &__item-img {
+    margin: 0 0 22px;
+  }
 
-  &__ {}
+  &__text-wrap {
+    padding: 0 6px;
+  }
+
+
+  &__name {
+    font-size: 19px;
+    margin: 0 0 22px;
+  }
+
+  &__name-span {
+    display: block;
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  &__item-text {
+     margin: 0 0 24px;
+  }
+
+  &__item-list {
+
+    li {
+      color: #c69c6d;
+      font-size: 13px;
+  
+    }
+  }
 
   &__ {}
 
