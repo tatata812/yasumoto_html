@@ -1361,6 +1361,77 @@ th, td {
     margin: 24px auto 0;
   }
 }
+.page-recruit__section03-inner {
+  display: flex;
+  max-width: 880px;
+  margin: 60px auto 32px;
+  padding: 0 12px;
+}
+.page-recruit__section03-left {
+  width: 45px;
+  margin: 0 140px 0 0;
+}
+@media (max-width: 1120px) {
+  .page-recruit__section03-left {
+    margin: 0 10% 0 0;
+  }
+}
+@media (max-width: 820px) {
+  .page-recruit__section03-left {
+    width: 40px;
+    margin: 0 20px 0 4px;
+  }
+}
+.page-recruit__section03-item {
+  background-image: url(../img/company/recruit-sction03-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 52%;
+  margin: 0 0 100px;
+}
+@media (max-width: 1120px) {
+  .page-recruit__section03-item {
+    margin: 0 0 60px;
+  }
+}
+@media (max-width: 820px) {
+  .page-recruit__section03-item {
+    background-size: 80%;
+  }
+}
+.page-recruit__section03-item-img {
+  max-width: 300px;
+  margin: 0 0 24px auto;
+}
+.page-recruit__section03-item-ttl {
+  margin: 0 0 24px;
+}
+.page-recruit__section03-item-text {
+  max-width: 520px;
+  margin: 24px 60px 0 16px;
+}
+@media (max-width: 820px) {
+  .page-recruit__section03-item-text {
+    margin: 24px 12px 0 16px;
+  }
+}
+.page-recruit__section03-btn {
+  display: block;
+  max-width: 600px;
+  margin: 200px 0 0 -120px;
+}
+@media (max-width: 1120px) {
+  .page-recruit__section03-btn {
+    max-width: 480px;
+    margin: 100px 0 0 -20px;
+  }
+}
+@media (max-width: 820px) {
+  .page-recruit__section03-btn {
+    margin: 60px 0 0 0;
+  }
+}
+
 /* =================================
 
  ================================= */

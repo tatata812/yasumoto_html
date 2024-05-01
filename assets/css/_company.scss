@@ -478,7 +478,7 @@
     margin: 40px 0;
     padding: 0 0 0 12px;
 
-    @include sp{
+    @include sp {
       margin: 20px 0;
 
     }
@@ -488,20 +488,20 @@
     max-width: 820px;
     margin: 0 auto 40px;
     display: flex;
-    gap:  40px;
+    gap: 40px;
     align-items: center;
     padding: 0 12px;
 
-    @include pc{
-      gap:  12px;
+    @include pc {
+      gap: 12px;
 
     }
 
-    @include tab{
-    justify-content: center;
+    @include tab {
+      justify-content: center;
     }
 
-    @include sp{
+    @include sp {
       flex-direction: column;
     }
   }
@@ -514,7 +514,7 @@
     font-size: 20px;
     margin: 0 0 24px;
 
-    @include sp{
+    @include sp {
       margin: 0 0 8px;
       text-align: center;
 
@@ -522,7 +522,7 @@
   }
 
   &__section09-text {
-    @include sp{
+    @include sp {
       text-align: center;
 
     }
@@ -531,8 +531,8 @@
   &__section09-br {
 
 
-    @include pc{
-    display: block;
+    @include pc {
+      display: block;
     }
   }
 
@@ -559,7 +559,7 @@
     max-width: 880px;
     margin: -60px auto 40px;
 
-    @include sp{
+    @include sp {
       margin: -30px auto 24px;
     }
   }
@@ -569,7 +569,7 @@
     margin: 0 auto 40px;
     padding: 0 12px;
 
-    @include sp{
+    @include sp {
       margin: 0 auto 24px;
     }
   }
@@ -579,14 +579,14 @@
     margin: 0 auto 40px;
     text-align: right;
     padding: 0 12px;
-    font-size: 18px;    
+    font-size: 18px;
   }
 
   &__section02 {
     background-color: #fbf8f5;
     padding: 60px 0;
 
-    @include tab{
+    @include tab {
       padding: 32px 0;
 
     }
@@ -597,7 +597,7 @@
     font-size: 36px;
     margin: 0 0 60px;
 
-    @include tab{
+    @include tab {
       font-size: 24px;
       margin: 0 0 32px;
     }
@@ -610,11 +610,11 @@
     margin: 0 auto;
     gap: 40px;
 
-    @include pc{
+    @include pc {
       gap: 24px;
     }
 
-    @include tab{
+    @include tab {
       justify-content: center;
     }
 
@@ -633,9 +633,7 @@
     }
   }
 
-  &__item-right {
-
-  }
+  &__item-right {}
 
   &__item-text {
     margin: 0 0 60px 20px;
@@ -664,7 +662,7 @@
   &__btn {
     width: 280px;
 
-    @include pc{
+    @include pc {
       width: 220px;
 
     }
@@ -672,28 +670,91 @@
 
   &__section02-line {
     max-width: 800px;
-margin: 60px auto 32px;
+    margin: 60px auto 32px;
+
+    @include tab {
+      margin: 24px auto 0;
+    }
+  }
+
+  &__section03-inner {
+    display: flex;
+    max-width: 880px;
+    margin: 60px auto 32px;
+    padding: 0 12px;
+
+  }
+
+  &__section03-left {
+    width: 45px;
+    margin: 0 140px 0 0;
+
+@include pc{
+  margin: 0 10% 0 0;
+}
 
 @include tab{
-  margin: 24px auto 0;
+  width: 40px;
+  margin: 0 20px 0 4px;
+
 }
   }
 
-  &__section03-inner {}
-
-  &__section03-left {}
-
   &__section03-right {}
 
-  &__section03-item {}
+  &__section03-item {
+    background-image: url(../img/company/recruit-sction03-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 52%;
+    margin: 0 0 100px;
 
-  &__section03-item-img {}
+    @include pc{
+      margin: 0 0 60px;
+    }
+
+    @include tab{
+      background-size: 80%;
+
+    }
+  }
+
+  &__section03-item-img {
+    max-width: 300px;
+    margin: 0 0 24px auto;
+  }
 
   &__section03-item-text-wrap {}
 
-  &__section03-item-ttl {}
+  &__section03-item-ttl {
+    margin: 0 0 24px;
+  }
 
-  &__ {}
+  &__section03-item-text {
+    max-width: 520px;
+    margin: 24px 60px 0 16px;
+
+    @include tab{
+      margin: 24px 12px 0 16px;
+
+    }
+  }
+
+  &__section03-btn {
+    display: block;
+    max-width: 600px;
+    margin: 200px 0 0 -120px;
+
+    @include pc{
+      max-width: 480px;
+      margin: 100px 0 0 -20px;
+    }
+
+    @include tab{
+      margin: 60px 0 0 0;
+
+    }
+  }
 
 
 }
