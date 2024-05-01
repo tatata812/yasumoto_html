@@ -19,20 +19,89 @@
 }
 
 /* =================================
-
+家づくり
  ================================= */
 
- .aaa {
+.page-reason {
+
+
+  &__section01 {
+    padding: 0 0 120px;
+
+    @include tab {
+      padding: 0 0 60px;
+    }
+  }
+
+  &__main-visual {
+    max-width: 920px;
+    margin: 0 auto 120px;
+    padding: 0 12px;
+
+    @include tab {
+      margin: 0 auto 40px;
+
+    }
+  }
+
+  &__main-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto 40px;
+
+    @include tab {
+      gap: 24px;
+      margin: 0 auto 24px;
+
+
+    }
+  }
+
+  &__main-left {
+
+    @include tab {
+      padding: 0 0 0 12px;
+    }
+  }
+
+  &__ttl-wrap {
+    margin: 80px 20px 40px 0;
+
+    @include tab {
+      margin: 16px 20px 0 0;
+    }
+
+    @include sp {
+      text-align: left;
+    }
+  }
+
+
+  &__text {
+    max-width: 350px;
+    margin: 0 0 40px 40px;
+
+    @include sp {
+      margin: 0 0 40px 0;
+
+    }
+  }
 
   &__ {}
 
-  &__ {}
+  &__main-right {
+    max-width: 300px;
 
-  &__ {}
+    @include tab {
+      max-width: 240px;
 
-  &__ {}
+    }
 
-  &__ {}
+    @include sp {
+      display: none;
+
+    }}
 
   &__ {}
 
