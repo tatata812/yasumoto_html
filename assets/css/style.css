@@ -141,6 +141,38 @@ th, td {
     font-size: 20px;
   }
 }
+.section-sub-ttl__section-ttl--reason {
+  border-left: none;
+  font-size: 21px;
+  color: #8c6239;
+  position: relative;
+  margin: 0 0 0 26px;
+}
+@media (max-width: 1120px) {
+  .section-sub-ttl__section-ttl--reason {
+    margin: 0;
+    margin: 0;
+  }
+}
+.section-sub-ttl__section-ttl--reason::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 6px;
+  background-color: #e2cdb6;
+  bottom: -10px;
+  left: -4px;
+  transform: scale(0.6);
+}
+@media (max-width: 820px) {
+  .section-sub-ttl__section-ttl--reason {
+    padding: 0;
+    font-size: 18px;
+  }
+  .section-sub-ttl__section-ttl--reason::before {
+    left: -18px;
+  }
+}
 .section-sub-ttl__section-ttl--access {
   border-left: none;
   font-size: 20px;
@@ -1737,11 +1769,11 @@ th, td {
 /* =================================
 高気密・高断熱住宅
  ================================= */
-.page-funding-plan__section {
-  margin: 0 0 160px;
+.page-funding-plan__section01 {
+  margin: 0 0 80px;
 }
 @media (max-width: 600px) {
-  .page-funding-plan__section {
+  .page-funding-plan__section01 {
     margin: 0 0 60px;
   }
 }
@@ -1756,13 +1788,29 @@ th, td {
   }
 }
 .page-funding-plan__text-wrap {
-  max-width: 820px;
+  max-width: 760px;
   margin: 0 auto 60px;
+  transform: translateX(-52px);
+  padding: 0 12px;
+}
+@media (max-width: 1120px) {
+  .page-funding-plan__text-wrap {
+    transform: translateX(0);
+  }
 }
 @media (max-width: 820px) {
   .page-funding-plan__text-wrap {
     max-width: 520px;
     margin: 0 auto 32px;
+  }
+}
+.page-funding-plan__text-wrap--sub {
+  margin: 0 auto 20px;
+}
+@media (max-width: 820px) {
+  .page-funding-plan__text-wrap--sub {
+    max-width: 520px;
+    margin: 0 auto 18px;
   }
 }
 .page-funding-plan__text {
@@ -1771,6 +1819,66 @@ th, td {
 @media (max-width: 820px) {
   .page-funding-plan__text {
     margin: 0 0 16px;
+  }
+}
+.page-funding-plan__img01 {
+  max-width: 580px;
+  margin: 0 0 60px 108px;
+  padding: 0 12px;
+}
+@media (max-width: 1120px) {
+  .page-funding-plan__img01 {
+    margin: 0 auto 60px;
+  }
+}
+@media (max-width: 820px) {
+  .page-funding-plan__img01 {
+    margin: 0 auto 32x;
+  }
+}
+.page-funding-plan__img02 {
+  max-width: 480px;
+  margin: 0 0 60px 108px;
+  padding: 0 12px;
+}
+@media (max-width: 1120px) {
+  .page-funding-plan__img02 {
+    margin: 0 auto 60px;
+  }
+}
+@media (max-width: 820px) {
+  .page-funding-plan__img02 {
+    margin: 0 auto 32x;
+  }
+}
+.page-funding-plan__section02 {
+  background-color: #fbf8f5;
+  padding: 80px 0;
+  margin: 0 0 160px;
+}
+@media (max-width: 820px) {
+  .page-funding-plan__section02 {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 600px) {
+  .page-funding-plan__section02 {
+    margin: 0 0 60px;
+  }
+}
+.page-funding-plan__img03 {
+  max-width: 780px;
+  margin: 0 0 40px 108px;
+  padding: 0 12px;
+}
+@media (max-width: 1120px) {
+  .page-funding-plan__img03 {
+    margin: 0 auto 40px;
+  }
+}
+@media (max-width: 820px) {
+  .page-funding-plan__img03 {
+    margin: 0 auto 32x;
   }
 }
 /* =================================
