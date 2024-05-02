@@ -1769,6 +1769,127 @@ th, td {
 /* =================================
 高気密・高断熱住宅
  ================================= */
+.page-spec1__section01 {
+  margin: 0 0 80px;
+}
+@media (max-width: 600px) {
+  .page-spec1__section01 {
+    margin: 0 0 60px;
+  }
+}
+.page-spec1__top-img {
+  max-width: 920px;
+  margin: 0 auto 120px;
+  padding: 0 12px;
+}
+@media (max-width: 820px) {
+  .page-spec1__top-img {
+    margin: 0 auto 40px;
+  }
+}
+.page-spec1__text-wrap {
+  max-width: 760px;
+  margin: 0 auto 60px;
+  transform: translateX(-52px);
+  padding: 0 12px;
+}
+@media (max-width: 1120px) {
+  .page-spec1__text-wrap {
+    transform: translateX(0);
+  }
+}
+@media (max-width: 820px) {
+  .page-spec1__text-wrap {
+    max-width: 520px;
+    margin: 0 auto 32px;
+  }
+}
+.page-spec1__text-wrap--sub {
+  margin: 0 auto 20px;
+}
+@media (max-width: 820px) {
+  .page-spec1__text-wrap--sub {
+    max-width: 520px;
+    margin: 0 auto 18px;
+  }
+}
+.page-spec1__text {
+  margin: 0 0 28px;
+}
+@media (max-width: 820px) {
+  .page-spec1__text {
+    margin: 0 0 16px;
+  }
+}
+.page-spec1__img01 {
+  max-width: 580px;
+  margin: 0 auto 60px;
+  padding: 0 12px;
+  transform: translateX(-141px);
+}
+@media (max-width: 1120px) {
+  .page-spec1__img01 {
+    margin: 0 auto 60px;
+    transform: translateX(0);
+  }
+}
+@media (max-width: 820px) {
+  .page-spec1__img01 {
+    margin: 0 auto 32x;
+  }
+}
+.page-spec1__img02 {
+  max-width: 480px;
+  margin: 0 auto 60px;
+  padding: 0 12px;
+  transform: translateX(-186px);
+}
+@media (max-width: 1120px) {
+  .page-spec1__img02 {
+    margin: 0 auto 60px;
+    transform: translateX(0);
+  }
+}
+@media (max-width: 820px) {
+  .page-spec1__img02 {
+    margin: 0 auto 32x;
+  }
+}
+.page-spec1__section02 {
+  background-color: #fbf8f5;
+  padding: 80px 0;
+  margin: 0 0 0px;
+}
+@media (max-width: 820px) {
+  .page-spec1__section02 {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 600px) {
+  .page-spec1__section02 {
+    margin: 0 0 60px;
+  }
+}
+.page-spec1__img03 {
+  max-width: 780px;
+  margin: 0 auto 40px;
+  padding: 0 12px;
+  transform: translateX(-43px);
+}
+@media (max-width: 1120px) {
+  .page-spec1__img03 {
+    margin: 0 auto 40px;
+    transform: translateX(0);
+  }
+}
+@media (max-width: 820px) {
+  .page-spec1__img03 {
+    margin: 0 auto 32x;
+  }
+}
+/* =================================
+資金計画について
+ ================================= */
 .page-funding-plan__section01 {
   margin: 0 0 80px;
 }
@@ -1778,7 +1899,7 @@ th, td {
   }
 }
 .page-funding-plan__top-img {
-  max-width: 920px;
+  max-width: 860px;
   margin: 0 auto 120px;
   padding: 0 12px;
 }
@@ -1804,13 +1925,12 @@ th, td {
     margin: 0 auto 32px;
   }
 }
-.page-funding-plan__text-wrap--sub {
-  margin: 0 auto 20px;
+.page-funding-plan__text-wrap--last {
+  margin: 0 auto 120px;
 }
 @media (max-width: 820px) {
-  .page-funding-plan__text-wrap--sub {
-    max-width: 520px;
-    margin: 0 auto 18px;
+  .page-funding-plan__text-wrap--last {
+    margin: 0 auto 60px;
   }
 }
 .page-funding-plan__text {
@@ -1821,29 +1941,36 @@ th, td {
     margin: 0 0 16px;
   }
 }
-.page-funding-plan__img01 {
-  max-width: 580px;
-  margin: 0 0 60px 108px;
+.page-funding-plan__text--green {
+  color: #009245;
+}
+.page-funding-plan__img {
+  max-width: 680px;
+  margin: 0 auto 40px;
   padding: 0 12px;
+  transform: translateX(-92px);
 }
 @media (max-width: 1120px) {
-  .page-funding-plan__img01 {
-    margin: 0 auto 60px;
+  .page-funding-plan__img {
+    margin: 0 auto 40px;
+    transform: translateX(0);
   }
 }
 @media (max-width: 820px) {
-  .page-funding-plan__img01 {
-    margin: 0 auto 32x;
+  .page-funding-plan__img {
+    margin: 0 auto 24x;
   }
 }
 .page-funding-plan__img02 {
   max-width: 480px;
-  margin: 0 0 60px 108px;
+  margin: 0 auto 60px;
   padding: 0 12px;
+  transform: translateX(-186px);
 }
 @media (max-width: 1120px) {
   .page-funding-plan__img02 {
     margin: 0 auto 60px;
+    transform: translateX(0);
   }
 }
 @media (max-width: 820px) {
@@ -1854,7 +1981,7 @@ th, td {
 .page-funding-plan__section02 {
   background-color: #fbf8f5;
   padding: 80px 0;
-  margin: 0 0 160px;
+  margin: 0 0 0px;
 }
 @media (max-width: 820px) {
   .page-funding-plan__section02 {
@@ -1868,12 +1995,14 @@ th, td {
 }
 .page-funding-plan__img03 {
   max-width: 780px;
-  margin: 0 0 40px 108px;
+  margin: 0 auto 40px;
   padding: 0 12px;
+  transform: translateX(-43px);
 }
 @media (max-width: 1120px) {
   .page-funding-plan__img03 {
     margin: 0 auto 40px;
+    transform: translateX(0);
   }
 }
 @media (max-width: 820px) {
@@ -1881,9 +2010,6 @@ th, td {
     margin: 0 auto 32x;
   }
 }
-/* =================================
-
- ================================= */
 /* =================================
 
  ================================= */

@@ -16,6 +16,8 @@
   }
 }
 
+$gray: #c0c0c0;
+
 
 * {
   word-break: break-word;
@@ -59,8 +61,7 @@ li {
   font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
 }
 
-th,
-td {
+th,td {
   font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
 }
 
@@ -83,16 +84,16 @@ td {
 .responsive-br {
   display: none;
 
-  @include pc {
-    display: block;
+  @include pc{
+  display: block;
   }
 
-  @include tab {
-    display: none;
+  @include tab{
+  display: none;
   }
 
-  @include sp {
-    display: block;
+  @include sp{
+  display: block;
   }
 }
 
@@ -114,11 +115,11 @@ td {
 
 
 .section-inner {
-  padding-left: 240px;
+  padding-left: 240px; 
 
 
-  @include tab {
-    padding-left: 0;
+  @include tab{
+    padding-left: 0; 
 
   }
 
@@ -126,16 +127,18 @@ td {
 
 // セクションタイトル
 .section-ttl {
-  padding: 2px 12px;
+  padding: 2px 12px; 
   border-left: 1px solid #333333;
   font-size: 28px;
   display: inline-block;
 
-  @include pc {
+  @include pc{
     font-size: 24px;
   }
 
-  @include sp {}
+  @include sp{
+  
+  }
 
   &__span {
     display: block;
@@ -145,7 +148,7 @@ td {
 }
 
 
-.section-sub-ttl {
+.section-sub-ttl{
 
   &__sub-ttl-wrap {
 
@@ -155,7 +158,9 @@ td {
     @include tab {
       padding: 0 24px;
       margin: 0 auto 24px;
+
     }
+
   }
 
   &__section-ttl {
@@ -175,7 +180,7 @@ td {
       position: relative;
       margin: 0 0 0 26px;
 
-      @include pc {
+      @include pc{
         margin: 0;
         margin: 0;
       }
@@ -191,14 +196,14 @@ td {
         transform: scale(0.6);
       }
 
-      @include tab {
-        padding: 0;
-        font-size: 18px;
+      @include tab{
+      padding: 0;
+      font-size: 18px;
 
-        &::before {
-          left: -18px;
+      &::before {
+        left: -18px;
 
-        }
+      }
       }
     }
 
@@ -316,13 +321,13 @@ td {
 
   &--top {
     &::after {
-
+     
       transform: rotate(-45deg);
-
+  
       /*アニメーションの指定*/
       transition: all .3s;
     }
-
+  
     &:hover::after {
       top: 12px;
       right: 13px;
@@ -356,12 +361,16 @@ td {
     @include tab {
       padding: 0 24px;
     }
+
   }
 
   &__sub-ttl-span {
     display: block;
     font-size: 18px;
   }
+
+
+  
 }
 
 .sub-page-top {
@@ -371,21 +380,22 @@ td {
     margin: 24px auto;
     font-size: 28px;
     border-left: #c0c0c0 5px solid;
-    padding: 2px 20px;
-    letter-spacing: 2px;
+  padding: 2px 20px;
+  letter-spacing: 2px;
 
 
-    @include tab {
-      margin: 80px 0 24px 24px;
-      font-size: 24px;
-      border-left: #c0c0c0 4px solid;
+  @include tab{
+  margin: 80px 0 24px 24px;
+  font-size: 24px;
+  border-left: #c0c0c0 4px solid;
 
-    }
+  }
   }
 
   &__ttl-span {
     display: block;
     font-size: 18px;
+
   }
 
 
@@ -402,9 +412,15 @@ td {
     color: #897650;
     padding: 0 0 0 12px;
 
-    @include tab {}
+    @include tab{
+    
+    }
   }
 }
+
+
+
+
 
 
 //フェードイン　アニメーション
@@ -442,12 +458,12 @@ td {
 
 }
 
-.slick-dots li {
+.slick-dots li  {
   width: 10px;
 }
 
 .slick-dots li.slick-active button:before {
-  color: #ad9667 !important;
+  color:#ad9667!important;
   opacity: 1 !important;
   font-size: 10px;
 }

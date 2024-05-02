@@ -216,7 +216,7 @@
 高気密・高断熱住宅
  ================================= */
 
-.page-funding-plan {
+.page-spec1 {
 
   &__section01 {
     margin: 0 0 80px;
@@ -263,9 +263,7 @@
         max-width: 520px;
         margin: 0 auto 18px;
       }
-
     }
-
   }
 
   &__text {
@@ -279,11 +277,14 @@
 
   &__img01 {
     max-width: 580px;
-    margin: 0 0 60px 108px;
+    margin: 0 auto 60px;
     padding: 0 12px;
+    transform: translateX(-141px);
 
     @include pc{
       margin: 0 auto 60px;
+      transform: translateX(0);
+
     }
 
     @include tab{
@@ -294,11 +295,14 @@
 
   &__img02 {
     max-width: 480px;
-    margin: 0 0 60px 108px;
+    margin: 0 auto 60px;
     padding: 0 12px;
+    transform: translateX(-186px);
 
     @include pc{
       margin: 0 auto 60px;
+      transform: translateX(0);
+
     }
 
     @include tab{
@@ -310,7 +314,7 @@
   &__section02 {
     background-color: #fbf8f5;
     padding: 80px 0;
-    margin: 0 0 160px;
+    margin: 0 0 0px;
 
 
     @include tab{
@@ -325,11 +329,14 @@
 
   &__img03 {
     max-width: 780px;
-    margin: 0 0 40px 108px;
+    margin: 0 auto 40px;
     padding: 0 12px;
+    transform: translateX(-43px);
 
     @include pc{
       margin: 0 auto 40px;
+      transform: translateX(0);
+
     }
 
     @include tab{
@@ -354,34 +361,139 @@
 }
 
 /* =================================
-
+資金計画について
  ================================= */
 
-.aaa {
+.page-funding-plan {
 
-  &__ {}
+  &__section01 {
+    margin: 0 0 80px;
 
-  &__ {}
+    @include sp {
+      margin: 0 0 60px;
+    }
+  }
 
-  &__ {}
 
-  &__ {}
+  &__top-img {
+    max-width: 860px;
+    margin: 0 auto 120px;
+    padding: 0 12px;
 
-  &__ {}
+    @include tab {
+      margin: 0 auto 40px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__text-wrap {
+    max-width: 760px;
+    margin: 0 auto 60px;
+    transform: translateX(-52px);
+    padding: 0 12px;
 
-  &__ {}
 
-  &__ {}
 
-  &__ {}
+    @include pc{
+      transform: translateX(0);
 
-  &__ {}
+    }
 
-  &__ {}
+    @include tab {
+      max-width: 520px;
+      margin: 0 auto 32px;
+    }
+
+    &--last {
+      margin: 0 auto 120px;
+
+      @include tab {
+        margin: 0 auto 60px;
+      }
+    }
+  }
+
+  &__text {
+    margin: 0 0 28px;
+
+    @include tab {
+      margin: 0 0 16px;
+    }
+
+    &--green {
+      color: #009245;
+    }
+  }
+
+  &__img {
+    max-width: 680px;
+    margin: 0 auto 40px;
+    padding: 0 12px;
+    transform: translateX(-92px);
+
+    @include pc{
+      margin: 0 auto 40px;
+      transform: translateX(0);
+
+    }
+
+    @include tab{
+      margin: 0 auto 24x;
+    }
+
+  }
+
+  &__img02 {
+    max-width: 480px;
+    margin: 0 auto 60px;
+    padding: 0 12px;
+    transform: translateX(-186px);
+
+    @include pc{
+      margin: 0 auto 60px;
+      transform: translateX(0);
+
+    }
+
+    @include tab{
+      margin: 0 auto 32x;
+    }
+
+  }
+
+  &__section02 {
+    background-color: #fbf8f5;
+    padding: 80px 0;
+    margin: 0 0 0px;
+
+
+    @include tab{
+      padding: 40px 0;
+
+    }
+
+    @include sp {
+      margin: 0 0 60px;
+    }
+  }
+
+  &__img03 {
+    max-width: 780px;
+    margin: 0 auto 40px;
+    padding: 0 12px;
+    transform: translateX(-43px);
+
+    @include pc{
+      margin: 0 auto 40px;
+      transform: translateX(0);
+
+    }
+
+    @include tab{
+      margin: 0 auto 32x;
+    }
+
+  }
 
   &__ {}
 
