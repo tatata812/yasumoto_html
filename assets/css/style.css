@@ -1517,12 +1517,12 @@ th, td {
 /* =================================
 家づくり
  ================================= */
-.page-reason__section01 {
-  padding: 0 0 120px;
+.page-reason__section {
+  margin: 0 0 160px;
 }
-@media (max-width: 820px) {
-  .page-reason__section01 {
-    padding: 0 0 60px;
+@media (max-width: 600px) {
+  .page-reason__section {
+    margin: 0 0 60px;
   }
 }
 .page-reason__main-visual {
@@ -1565,12 +1565,12 @@ th, td {
     text-align: left;
   }
 }
-.page-reason__text {
+.page-reason__section01-text {
   max-width: 350px;
   margin: 0 0 40px 40px;
 }
 @media (max-width: 600px) {
-  .page-reason__text {
+  .page-reason__section01-text {
     margin: 0 0 40px 0;
   }
 }
@@ -1585,6 +1585,98 @@ th, td {
 @media (max-width: 600px) {
   .page-reason__main-right {
     display: none;
+  }
+}
+.page-reason__section02-box {
+  max-width: 920px;
+  margin: 0 auto 0px;
+  display: flex;
+  gap: 28px;
+  padding: 0 12px;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .page-reason__section02-box {
+    gap: 12px;
+  }
+}
+.page-reason__section02-btn {
+  text-align: right;
+  margin: 40px 0 0;
+}
+@media (max-width: 600px) {
+  .page-reason__section02-btn {
+    display: none;
+  }
+}
+.page-reason__section02-btn--sp {
+  display: none;
+}
+@media (max-width: 600px) {
+  .page-reason__section02-btn--sp {
+    display: block;
+    text-align: center;
+    margin: 40px 0 0;
+  }
+}
+.page-reason__section02-right {
+  padding: 40px 0 0;
+}
+@media (max-width: 600px) {
+  .page-reason__section02-right {
+    padding: 0;
+  }
+}
+.page-reason__section03 {
+  padding: 0 12px;
+}
+.page-reason__ttl-wrap {
+  max-width: 720px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 820px) {
+  .page-reason__ttl-wrap {
+    max-width: 520px;
+    margin: 0 auto 32px;
+  }
+}
+.page-reason__text-wrap {
+  max-width: 640px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 820px) {
+  .page-reason__text-wrap {
+    max-width: 520px;
+    margin: 0 auto 32px;
+  }
+}
+.page-reason__section03-text {
+  margin: 0 0 28px;
+}
+@media (max-width: 820px) {
+  .page-reason__section03-text {
+    margin: 0 0 16px;
+  }
+}
+.page-reason__img-wrap {
+  max-width: 760px;
+  margin: 0 auto 80px;
+  padding: 0 8px;
+}
+@media (max-width: 820px) {
+  .page-reason__img-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-reason__bnr-wrap {
+  display: block;
+  max-width: 760px;
+  margin: 0 auto 80px;
+  padding: 0 8px;
+}
+@media (max-width: 820px) {
+  .page-reason__bnr-wrap {
+    margin: 0 auto 40px;
   }
 }
 /* =================================
