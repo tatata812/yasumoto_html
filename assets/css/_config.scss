@@ -149,6 +149,87 @@ th,td {
   }
 }
 
+
+.section-sub-ttl{
+
+  &__sub-ttl-wrap {
+
+    max-width: 920px;
+    margin: 0 auto 40px;
+
+    @include tab {
+      padding: 0 24px;
+      margin: 0 auto 24px;
+
+    }
+
+  }
+
+  &__section-ttl {
+    padding: 4px 16px;
+    border-left: 4px solid #e2cdb6;
+    font-size: 24px;
+    display: inline-block;
+
+    @include pc {
+      font-size: 20px;
+    }
+
+    &--access {
+      border-left: none;
+      font-size: 20px;
+      color: #8c6239;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 6px;
+        background-color: #a8a8a8;
+        bottom: -4px;
+        left: -4px;
+        transform: scale(0.6);
+      }
+
+
+      @include pc {
+        font-size: 18px;
+      }
+
+    }
+
+    &--staff {
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 6px;
+        background-color: #ffffff;
+        bottom: -10px;
+        left: -4px;
+        transform: scale(0.6);
+      }
+
+    }
+
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+}
+
+
 // ボタンスタイル
 .btn-style {
   /*矢印の基点とするためrelativeを指定*/
