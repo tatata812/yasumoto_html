@@ -367,6 +367,16 @@ th,td {
   &__sub-ttl-span {
     display: block;
     font-size: 18px;
+
+
+    &--information {
+      font-size: 15px;
+
+      @include sp{
+        font-size: 13px;
+ margin-top: 8px;
+      }
+    }
   }
 
 

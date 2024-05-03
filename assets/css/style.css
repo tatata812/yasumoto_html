@@ -286,6 +286,15 @@ th, td {
   display: block;
   font-size: 18px;
 }
+.sub-page__sub-ttl-span--information {
+  font-size: 15px;
+}
+@media (max-width: 600px) {
+  .sub-page__sub-ttl-span--information {
+    font-size: 13px;
+    margin-top: 8px;
+  }
+}
 
 .sub-page-top__ttl {
   max-width: 920px;
@@ -840,6 +849,146 @@ th, td {
 
  ================================= */
 /* =================================
+お知らせ共通
+ ================================= */
+.information {
+  overflow: hidden;
+}
+.information__label-wrap {
+  display: flex;
+  max-width: 920px;
+  margin: 0 auto 32px;
+  gap: 20px;
+  padding: 0 0 0 32px;
+}
+.information__label {
+  line-height: 17px;
+  border: 1px solid #d21f1f;
+  padding: 3px 12px;
+}
+.information__table-oblong table {
+  width: 100%;
+  border-bottom: 1px solid #c69c6d;
+  border-top: 1px solid #c69c6d;
+}
+.information__table-oblong th {
+  border-collapse: collapse;
+  border-bottom: 1px solid #c69c6d;
+  text-align: center;
+  padding: 8px 4px;
+  background-color: #f9f5f0;
+  color: #a67c52;
+}
+.information__table-oblong td {
+  text-align: center;
+  padding: 6px 4px;
+}
+.information__table-style table {
+  width: 100%;
+}
+.information-contact {
+  display: flex;
+  justify-content: space-between;
+  max-width: 880px;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .information-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.information-contact__left {
+  width: 50%;
+  background-color: #fbf8f5;
+  padding: 32px 12px;
+}
+@media (max-width: 600px) {
+  .information-contact__left {
+    width: 100%;
+    padding: 24px 12px;
+  }
+}
+.information-contact__contact-box {
+  background-color: #fff;
+  max-width: 300px;
+  margin: 0 auto 18px;
+  border-radius: 12px;
+  padding: 20px 28px;
+}
+@media (max-width: 1120px) {
+  .information-contact__contact-box {
+    padding: 18px 18px;
+  }
+}
+@media (max-width: 600px) {
+  .information-contact__contact-box {
+    padding: 18px 28px;
+  }
+}
+.information-contact__content-tel {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+  letter-spacing: 1.6px;
+}
+@media (max-width: 1120px) {
+  .information-contact__content-tel {
+    font-size: 26px;
+  }
+}
+.information-contact__content-tel-img {
+  width: 32px;
+  display: inline;
+  vertical-align: middle;
+  margin: 0 4px 4px 0;
+}
+@media (max-width: 1120px) {
+  .information-contact__content-tel-img {
+    width: 26px;
+  }
+}
+.information-contact__center-text {
+  max-width: 260px;
+  margin: 0 auto 16px;
+}
+.information-contact__btn {
+  display: block;
+  max-width: 320px;
+  margin: 0 auto 16px;
+}
+.information-contact__bottom-text {
+  max-width: 260px;
+  margin: 0 auto;
+}
+.information-contact__right {
+  width: 50%;
+  flex: 1;
+  margin-right: calc(50% - 50vw);
+}
+@media (max-width: 600px) {
+  .information-contact__right {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.information-contact__map {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 600px) {
+  .information-contact__map {
+    height: 240px;
+  }
+}
+.information-contact__map iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* =================================
 お知らせ一覧
  ================================= */
 .archive-information__content {
@@ -872,11 +1021,134 @@ th, td {
      object-fit: cover;
 }
 /* =================================
-
+先進的窓リノベ事業の補助金
  ================================= */
 /* =================================
-
+分譲地　つづきあいのまち、岩国市通津
  ================================= */
+.page-tsudu__section01 {
+  padding: 0 12px;
+  margin: 0 0 80px;
+}
+@media (max-width: 600px) {
+  .page-tsudu__section01 {
+    margin: 0 0 80px;
+  }
+}
+.page-tsudu__top-img01 {
+  max-width: 880px;
+  margin: 0 auto 40px;
+}
+@media (max-width: 600px) {
+  .page-tsudu__top-img01 {
+    margin: 0 auto 24px;
+  }
+}
+.page-tsudu__top-img02 {
+  max-width: 580px;
+  margin: 0 auto 40px;
+}
+@media (max-width: 600px) {
+  .page-tsudu__top-img02 {
+    margin: 0 auto 24px;
+  }
+}
+.page-tsudu__section01-table {
+  max-width: 780px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-tsudu__section01-table {
+    overflow-x: scroll;
+    margin: 0 auto 24px;
+  }
+  .page-tsudu__section01-table table {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+.page-tsudu__section01-table th {
+  width: 20%;
+}
+.page-tsudu__top-img03 {
+  max-width: 760px;
+  margin: 0 auto 40px;
+}
+.page-tsudu__contact-wrap {
+  margin-bottom: 80px;
+}
+.page-tsudu__section02 {
+  background-color: #fbf8f5;
+  padding: 40px 12px 80px;
+}
+@media (max-width: 600px) {
+  .page-tsudu__section02 {
+    padding: 40px 12px 40px;
+  }
+}
+.page-tsudu__section02-box {
+  max-width: 860px;
+  margin: 0 auto 80px;
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 820px) {
+  .page-tsudu__section02-box {
+    gap: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .page-tsudu__section02-box {
+    justify-content: center;
+    margin: 0 auto 40px;
+  }
+}
+.page-tsudu__section02-item {
+  width: calc((100% - 32px) / 2);
+  background-color: #fff;
+  padding: 32px;
+}
+@media (max-width: 820px) {
+  .page-tsudu__section02-item {
+    width: calc((100% - 18px) / 2);
+    padding: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .page-tsudu__section02-item {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+.page-tsudu__section02-ttl {
+  margin: 0 0 28px;
+  padding: 0;
+}
+.page-tsudu__section02-ttl::before {
+  left: -16px;
+}
+.page-tsudu__section02-lead {
+  margin: 0 0 32px;
+}
+.page-tsudu__section02-btn-text {
+  text-align: center;
+  margin: 0 0 24px;
+  font-size: 16px;
+}
+.page-tsudu__section02-btn {
+  display: block;
+  max-width: 460px;
+  margin: 0 auto;
+}
+.page-tsudu__section03 {
+  padding: 80px 12px 80px;
+}
+@media (max-width: 600px) {
+  .page-tsudu__section03 {
+    padding: 40px 12px 40px;
+  }
+}
 /* =================================
 
  ================================= */
