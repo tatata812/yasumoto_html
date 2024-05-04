@@ -4,6 +4,7 @@
 @use "information";
 @use "company";
 @use "reason";
+@use "other";
 
 @mixin sp {
   @media (max-width:(600px)) {

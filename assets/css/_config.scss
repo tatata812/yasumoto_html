@@ -395,7 +395,7 @@ th,td {
 
 
   @include tab{
-  margin: 80px 0 24px 24px;
+  margin: 40px 0 24px 24px;
   font-size: 24px;
   border-left: #c0c0c0 4px solid;
 
@@ -426,6 +426,12 @@ th,td {
     
     }
   }
+}
+
+// ページャー
+.pager-style {
+  text-align: center;
+  padding: 40px 12px;
 }
 
 
