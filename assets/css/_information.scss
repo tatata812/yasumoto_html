@@ -43,6 +43,7 @@
 
   // 横長テーブルスタイル
   &__table-oblong {
+
     table {
       width: 100%;
       border-bottom: 1px solid #c69c6d;
@@ -70,15 +71,43 @@
 
   // テーブルスタイル
   &__table-style {
-    table {
+   table {
       width: 100%;
+      border-bottom: 1px solid #c69c6d;
+      border-top: 1px solid #c69c6d;
     }
 
-    tr {}
+    tr {
+      
+    }
 
-    th {}
+    th {
+      border-collapse: collapse;
+      border-bottom: 1px solid #c69c6d;
+      text-align: left;
+      padding: 8px 4px 8px 48px;
+      background-color: #f9f5f0;
+      color: #a67c52;
+      width: 220px;
 
-    td {}
+      @include sp{
+        padding: 8px;
+        width: 120px;
+
+      }
+    }
+
+    td {
+      border-collapse: collapse;
+      border-bottom: 1px solid #c69c6d;
+      text-align: left;
+      padding: 8px 4px 8px 48px;
+      @include sp{
+        padding: 8px;
+
+      }
+
+    }
   }
 
 
@@ -468,14 +497,29 @@
   }
 
   &__section03 {
-    padding: 80px 12px 80px;
+    padding: 80px 12px 120px;
     @include sp{
       padding: 40px 12px 40px;
 
     }
   }
 
-  &__ {}
+  &__section03-table {
+    max-width: 820px;
+    margin: 0 auto;
+
+    @include sp {
+      overflow-x: scroll;
+      margin: 0 auto ;
+
+      table {
+        width: 420px;
+        margin: 0 auto;
+
+      }
+    }
+
+  }
 
   &__ {}
 
