@@ -25,6 +25,7 @@
 .information {
   overflow: hidden;
 
+// ラベル
 
   &__label-wrap {
     display: flex;
@@ -40,6 +41,50 @@
     border: 1px solid #d21f1f;
     padding: 3px 12px;
   }
+
+  // 販売価格
+
+  &__price-wrap {
+    display: flex;
+    max-width: 920px;
+    margin: 0 auto 32px;
+    gap: 24px;
+    padding: 0 0 0 32px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    @include tab{
+      gap: 12px;
+      padding: 0;
+      justify-content: center;
+    }
+
+  }
+
+  &__price-label {
+    background-color: #ad9667;
+    color: #fff;
+    padding: 1px 12px;
+    border-radius: 2px;
+  }
+
+  &__price {
+    color: #ad9667;
+    font-size: 56px;
+    line-height: 1rem;
+
+    @include sp{
+      font-size: 36px;
+
+    }
+  }
+
+  &__price-span {
+    font-size: 16px;
+
+  }
+
+  &__price-text {}
 
   // 横長テーブルスタイル
   &__table-oblong {
@@ -362,6 +407,82 @@
 
 }
 
+.information-style01 {
+
+  &__section {
+    background-color: #fbf8f5;
+    padding: 40px 12px 80px;
+    @include sp{
+      padding: 40px 12px 40px;
+
+    }
+  }
+
+  &__box {
+    max-width: 860px;
+    margin: 0 auto;
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include tab{
+      gap: 18px;
+    }
+
+    @include sp{
+      justify-content: center;
+      margin: 0 auto;
+
+    }
+
+  }
+
+  &__item {
+    width: calc((100% - 32px) / 2);
+    background-color: #fff;
+    padding: 32px;
+
+    @include tab{
+      width: calc((100% - 18px) / 2);
+      padding: 20px;
+  
+    }
+
+    @include sp{
+    width: 100%;
+    max-width: 400px;
+    }
+  }
+
+  &__ttl {
+    margin: 0 0 28px;
+    padding: 0;
+
+    &::before {
+      left: -16px;
+    }
+  }
+
+  &__lead {
+    margin: 0 0 32px;
+
+    &--last {
+      margin: 0;
+    }
+  }
+
+  &__list {}
+
+  &__list-item {}
+
+  &__btn-text {
+    text-align: center;
+    margin: 0 0 24px;
+    font-size: 16px;
+  }
+
+}
+
 /* =================================
 お知らせ一覧
  ================================= */
@@ -550,73 +671,16 @@
     margin-bottom: 80px;
   }
 
-  &__section02 {
-    background-color: #fbf8f5;
-    padding: 40px 12px 80px;
-    @include sp{
-      padding: 40px 12px 40px;
+ 
 
-    }
-  }
-
-  &__section02-box {
-    max-width: 860px;
-    margin: 0 auto 80px;
-    gap: 32px;
-    display: flex;
-    flex-wrap: wrap;
-
-    @include tab{
-      gap: 18px;
-    }
-
-    @include sp{
-      justify-content: center;
-      margin: 0 auto 40px;
-
-    }
-
-  }
-
-  &__section02-item {
-    width: calc((100% - 32px) / 2);
-    background-color: #fff;
-    padding: 32px;
-
-    @include tab{
-      width: calc((100% - 18px) / 2);
-      padding: 20px;
-  
-    }
-
-    @include sp{
-    width: 100%;
-    max-width: 400px;
-    }
-  }
-
-  &__section02-ttl {
-    margin: 0 0 28px;
-    padding: 0;
-
-    &::before {
-      left: -16px;
-    }
-  }
-
-  &__section02-lead {
-    margin: 0 0 32px;
-
-  }
-
-  &__section02-list {}
-
-  &__section02-list-item {}
-
-  &__section02-btn-text {
+  &__section02-text {
     text-align: center;
-    margin: 0 0 24px;
-    font-size: 16px;
+    margin: 80px 0 40px;
+
+    @include sp{
+      margin: 40px 0 24px;
+
+    }
   }
 
   &__section02-btn {
@@ -660,40 +724,123 @@
 }
 
 /* =================================
-
+トキヲミルヒカリ
  ================================= */
 
-.aaa {
+.page-gokyo-owner {
 
-  &__ {}
+  &__section01 {
+    padding: 0 12px;
+    margin: 0 0 80px;
 
-  &__ {}
+    @include sp{
+      margin: 0 0 60px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__top-img {
+    max-width: 880px;
+    margin: 0 auto 80px;
 
-  &__ {}
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
 
-  &__ {}
+  &__section01-img {
+    max-width: 880px;
+    margin: 0 auto 40px;
 
-  &__ {}
+    @include sp {
+      margin: 0 auto 24px;
+    }
+  }
+  &__section01-text-wrap {
+    max-width: 780px;
+    margin: 0 auto 80px;
 
-  &__ {}
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
 
-  &__ {}
+  &__section01-text {
+    margin: 0 0 24px;
+  }
 
-  &__ {}
+  &__section02 {
+    padding: 60px 12px;
+  }
 
-  &__ {}
+  &__section03 {
+    padding: 80px 12px;
 
-  &__ {}
+    @include sp{
+      padding: 40px 12px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__section03-img01 {
+    max-width: 880px;
+    margin: 0 auto 80px;
+    @include sp {
+      margin: 0 auto 60px;
+    }
+  }
 
-  &__ {}
+  &__section03-box {
+    max-width: 880px;
+    margin: 0 auto 80px;
+    display: flex;
+    gap: 40px;
+
+    @include pc{
+    gap: 24px;
+    }
+    @include sp {
+      margin: 0 auto 40px;
+      flex-direction: column;
+    align-items: center;
+    }
+  }
+
+  &__section03-left {
+    flex: 1;
+  }
+
+  &__section03-img03 {
+    margin: 0 0 12px;
+  }
+
+  &__section03-left-link {
+    display: block;
+    text-align: right;
+    text-decoration: underline;
+  }
+
+  &___section03-right {
+    width: 300px;
+  }
+
+  &__section03-right-text {
+    margin: 0 0 24px;
+  }
+
+  &__section03-right-link {
+    text-decoration: underline;
+
+  }
+
+  &__section03-img04 {
+    max-width: 780px;
+    margin: 0 auto 80px;
+    border: #a3a3a3 1px solid;
+    padding: 8px;
+  } 
+
+  &_contact-wrap {}
 
   &__ {}
 
@@ -703,40 +850,89 @@
 }
 
 /* =================================
-
+風と陽に開く家
  ================================= */
 
-.aaa {
+.page-kudamatsu_nozomicho {
 
+  &__section01 {
+    padding: 0 12px;
+    margin: 0 0 80px;
+
+    @include sp{
+      margin: 0 0 40px;
+
+    }
+  }
+
+  &__top-img {
+    max-width: 880px;
+    margin: 0 auto 80px;
+
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__section01-img {
+    max-width: 880px;
+    margin: 0 auto 40px;
+
+    @include sp {
+      margin: 0 auto 24px;
+    }
+  }
   &__ {}
 
-  &__ {}
+  &__section02 {
+    padding: 80px 12px;
 
-  &__ {}
+    @include sp{
+      padding: 40px 12px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__section02-img01 {
+    max-width: 880px;
+    margin: 0 auto 80px;
+    @include sp {
+      margin: 0 auto 60px;
+    }
+  }
 
-  &__ {}
+  &__section02-img03 {
+    max-width: 880px;
+    margin: 0 auto 40px;
+    @include sp {
+      margin: 0 auto 20px;
+    }
+  }
 
-  &__ {}
 
-  &__ {}
+  &__section02-text-wrap {
+    max-width: 600px;
+    margin: 0 auto 80px;
+    border: 1px solid #000;
+    padding: 8px;
 
-  &__ {}
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
 
-  &__ {}
+  &__section02-text {}
 
-  &__ {}
+  &__section02-text-span {
+    text-decoration: underline;
+  }
 
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
+  &__section02-img04 {
+    max-width: 780px;
+    margin: 0 auto 80px;
+    border: #a3a3a3 1px solid;
+    padding: 8px;
+  } 
 
   &__ {}
 

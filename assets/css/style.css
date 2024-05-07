@@ -871,6 +871,41 @@ th, td {
   border: 1px solid #d21f1f;
   padding: 3px 12px;
 }
+.information__price-wrap {
+  display: flex;
+  max-width: 920px;
+  margin: 0 auto 32px;
+  gap: 24px;
+  padding: 0 0 0 32px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+@media (max-width: 820px) {
+  .information__price-wrap {
+    gap: 12px;
+    padding: 0;
+    justify-content: center;
+  }
+}
+.information__price-label {
+  background-color: #ad9667;
+  color: #fff;
+  padding: 1px 12px;
+  border-radius: 2px;
+}
+.information__price {
+  color: #ad9667;
+  font-size: 56px;
+  line-height: 1rem;
+}
+@media (max-width: 600px) {
+  .information__price {
+    font-size: 36px;
+  }
+}
+.information__price-span {
+  font-size: 16px;
+}
 .information__table-oblong table {
   width: 100%;
   border-bottom: 1px solid #c69c6d;
@@ -1113,6 +1148,69 @@ th, td {
   max-width: 320px;
   margin: 16px auto 0;
 }
+.information-style01__section {
+  background-color: #fbf8f5;
+  padding: 40px 12px 80px;
+}
+@media (max-width: 600px) {
+  .information-style01__section {
+    padding: 40px 12px 40px;
+  }
+}
+.information-style01__box {
+  max-width: 860px;
+  margin: 0 auto;
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 820px) {
+  .information-style01__box {
+    gap: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .information-style01__box {
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+.information-style01__item {
+  width: calc((100% - 32px) / 2);
+  background-color: #fff;
+  padding: 32px;
+}
+@media (max-width: 820px) {
+  .information-style01__item {
+    width: calc((100% - 18px) / 2);
+    padding: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .information-style01__item {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+.information-style01__ttl {
+  margin: 0 0 28px;
+  padding: 0;
+}
+.information-style01__ttl::before {
+  left: -16px;
+}
+.information-style01__lead {
+  margin: 0 0 32px;
+}
+.information-style01__lead--last {
+  margin: 0;
+}
+.information-style01__btn-text {
+  text-align: center;
+  margin: 0 0 24px;
+  font-size: 16px;
+}
+
 /* =================================
 お知らせ一覧
  ================================= */
@@ -1219,64 +1317,14 @@ th, td {
 .page-tsudu__contact-wrap {
   margin-bottom: 80px;
 }
-.page-tsudu__section02 {
-  background-color: #fbf8f5;
-  padding: 40px 12px 80px;
-}
-@media (max-width: 600px) {
-  .page-tsudu__section02 {
-    padding: 40px 12px 40px;
-  }
-}
-.page-tsudu__section02-box {
-  max-width: 860px;
-  margin: 0 auto 80px;
-  gap: 32px;
-  display: flex;
-  flex-wrap: wrap;
-}
-@media (max-width: 820px) {
-  .page-tsudu__section02-box {
-    gap: 18px;
-  }
-}
-@media (max-width: 600px) {
-  .page-tsudu__section02-box {
-    justify-content: center;
-    margin: 0 auto 40px;
-  }
-}
-.page-tsudu__section02-item {
-  width: calc((100% - 32px) / 2);
-  background-color: #fff;
-  padding: 32px;
-}
-@media (max-width: 820px) {
-  .page-tsudu__section02-item {
-    width: calc((100% - 18px) / 2);
-    padding: 20px;
-  }
-}
-@media (max-width: 600px) {
-  .page-tsudu__section02-item {
-    width: 100%;
-    max-width: 400px;
-  }
-}
-.page-tsudu__section02-ttl {
-  margin: 0 0 28px;
-  padding: 0;
-}
-.page-tsudu__section02-ttl::before {
-  left: -16px;
-}
-.page-tsudu__section02-lead {
-  margin: 0 0 32px;
-}
-.page-tsudu__section02-btn-text {
+.page-tsudu__section02-text {
   text-align: center;
-  margin: 0 0 24px;
-  font-size: 16px;
+  margin: 80px 0 40px;
+}
+@media (max-width: 600px) {
+  .page-tsudu__section02-text {
+    margin: 40px 0 24px;
+  }
 }
 .page-tsudu__section02-btn {
   display: block;
@@ -1306,11 +1354,187 @@ th, td {
   }
 }
 /* =================================
-
+トキヲミルヒカリ
  ================================= */
+.page-gokyo-owner__section01 {
+  padding: 0 12px;
+  margin: 0 0 80px;
+}
+@media (max-width: 600px) {
+  .page-gokyo-owner__section01 {
+    margin: 0 0 60px;
+  }
+}
+.page-gokyo-owner__top-img {
+  max-width: 880px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-gokyo-owner__top-img {
+    margin: 0 auto 40px;
+  }
+}
+.page-gokyo-owner__section01-img {
+  max-width: 880px;
+  margin: 0 auto 40px;
+}
+@media (max-width: 600px) {
+  .page-gokyo-owner__section01-img {
+    margin: 0 auto 24px;
+  }
+}
+.page-gokyo-owner__section01-text-wrap {
+  max-width: 780px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-gokyo-owner__section01-text-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-gokyo-owner__section01-text {
+  margin: 0 0 24px;
+}
+.page-gokyo-owner__section02 {
+  padding: 60px 12px;
+}
+.page-gokyo-owner__section03 {
+  padding: 80px 12px;
+}
+@media (max-width: 600px) {
+  .page-gokyo-owner__section03 {
+    padding: 40px 12px;
+  }
+}
+.page-gokyo-owner__section03-img01 {
+  max-width: 880px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-gokyo-owner__section03-img01 {
+    margin: 0 auto 60px;
+  }
+}
+.page-gokyo-owner__section03-box {
+  max-width: 880px;
+  margin: 0 auto 80px;
+  display: flex;
+  gap: 40px;
+}
+@media (max-width: 1120px) {
+  .page-gokyo-owner__section03-box {
+    gap: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .page-gokyo-owner__section03-box {
+    margin: 0 auto 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.page-gokyo-owner__section03-left {
+  flex: 1;
+}
+.page-gokyo-owner__section03-img03 {
+  margin: 0 0 12px;
+}
+.page-gokyo-owner__section03-left-link {
+  display: block;
+  text-align: right;
+  text-decoration: underline;
+}
+.page-gokyo-owner___section03-right {
+  width: 300px;
+}
+.page-gokyo-owner__section03-right-text {
+  margin: 0 0 24px;
+}
+.page-gokyo-owner__section03-right-link {
+  text-decoration: underline;
+}
+.page-gokyo-owner__section03-img04 {
+  max-width: 780px;
+  margin: 0 auto 80px;
+  border: #a3a3a3 1px solid;
+  padding: 8px;
+}
 /* =================================
-
+風と陽に開く家
  ================================= */
+.page-kudamatsu_nozomicho__section01 {
+  padding: 0 12px;
+  margin: 0 0 80px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu_nozomicho__section01 {
+    margin: 0 0 40px;
+  }
+}
+.page-kudamatsu_nozomicho__top-img {
+  max-width: 880px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu_nozomicho__top-img {
+    margin: 0 auto 40px;
+  }
+}
+.page-kudamatsu_nozomicho__section01-img {
+  max-width: 880px;
+  margin: 0 auto 40px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu_nozomicho__section01-img {
+    margin: 0 auto 24px;
+  }
+}
+.page-kudamatsu_nozomicho__section02 {
+  padding: 80px 12px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu_nozomicho__section02 {
+    padding: 40px 12px;
+  }
+}
+.page-kudamatsu_nozomicho__section02-img01 {
+  max-width: 880px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu_nozomicho__section02-img01 {
+    margin: 0 auto 60px;
+  }
+}
+.page-kudamatsu_nozomicho__section02-img03 {
+  max-width: 880px;
+  margin: 0 auto 40px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu_nozomicho__section02-img03 {
+    margin: 0 auto 20px;
+  }
+}
+.page-kudamatsu_nozomicho__section02-text-wrap {
+  max-width: 600px;
+  margin: 0 auto 80px;
+  border: 1px solid #000;
+  padding: 8px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu_nozomicho__section02-text-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-kudamatsu_nozomicho__section02-text-span {
+  text-decoration: underline;
+}
+.page-kudamatsu_nozomicho__section02-img04 {
+  max-width: 780px;
+  margin: 0 auto 80px;
+  border: #a3a3a3 1px solid;
+  padding: 8px;
+}
 /* =================================
 
  ================================= */
