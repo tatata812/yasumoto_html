@@ -1459,6 +1459,20 @@ th, td {
   border: #a3a3a3 1px solid;
   padding: 8px;
 }
+.page-gokyo-owner__section03-table {
+  max-width: 820px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-gokyo-owner__section03-table {
+    overflow-x: scroll;
+    margin: 0 auto 40px;
+  }
+  .page-gokyo-owner__section03-table table {
+    width: 420px;
+    margin: 0 auto;
+  }
+}
 /* =================================
 風と陽に開く家
  ================================= */
@@ -1534,6 +1548,20 @@ th, td {
   margin: 0 auto 80px;
   border: #a3a3a3 1px solid;
   padding: 8px;
+}
+.page-kudamatsu_nozomicho__section02-table {
+  max-width: 820px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu_nozomicho__section02-table {
+    overflow-x: scroll;
+    margin: 0 auto 40px;
+  }
+  .page-kudamatsu_nozomicho__section02-table table {
+    width: 420px;
+    margin: 0 auto;
+  }
 }
 /* =================================
 
