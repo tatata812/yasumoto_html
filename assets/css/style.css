@@ -1748,6 +1748,12 @@ th, td {
   margin: 0 auto;
   line-height: 2.4rem;
   padding: 80px 12px;
+  transform: translateX(-80px);
+}
+@media (max-width: 1120px) {
+  .page-overview__section02-text-wrap {
+    transform: translateX(0);
+  }
 }
 @media (max-width: 820px) {
   .page-overview__section02-text-wrap {
@@ -1998,6 +2004,7 @@ th, td {
 .page-overview__section09-left-ttl {
   font-size: 20px;
   margin: 0 0 24px;
+  display: block;
 }
 @media (max-width: 600px) {
   .page-overview__section09-left-ttl {
