@@ -387,22 +387,20 @@ th, td {
 }
 .page-style p {
   margin: 0 0 12px;
-  font-size: 18px;
-  line-height: 24px;
 }
 .page-style h1 {
-  font-size: 28px;
+  font-size: 20px;
   margin: 24px 0 32px;
-  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+  background: linear-gradient(transparent 80%, #f0e9e2 80%);
 }
 .page-style h2 {
-  font-size: 24px;
+  font-size: 18px;
   margin: 24px 0 20px;
-  color: #002e73;
+  color: #897650;
   font-weight: bold;
 }
 .page-style h3 {
-  font-size: 20px;
+  font-size: 18px;
   margin: 24px 0 16px;
 }
 .page-style a {
@@ -410,10 +408,8 @@ th, td {
 }
 .page-style ol {
   margin: 0 0 12px 24px;
-  line-height: 24px;
 }
 .page-style ol li {
-  font-size: 18px;
   list-style: decimal;
 }
 .page-style ul {
@@ -421,13 +417,8 @@ th, td {
   line-height: 24px;
 }
 .page-style ul li {
-  font-size: 18px;
   list-style: disc;
 }
-.page-style li {
-  font-size: 18px;
-}
-
 /* =================================
 施工事例
  ================================= */
@@ -2892,8 +2883,13 @@ th, td {
   margin: 0;
 }
 /* =================================
-
+サイトのご利用について・プライバシーポリシー
  ================================= */
+.page-guide__content {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 60px 12px;
+}
 /* =================================
 
  ================================= */
