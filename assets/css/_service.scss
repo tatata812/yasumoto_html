@@ -21,12 +21,12 @@
 事業案内
  ================================= */
 
- .page-service {
+.page-service {
 
   &__section {
     padding: 0 0 120px;
 
-    @include sp{
+    @include sp {
       padding: 0 0 60px;
 
     }
@@ -37,18 +37,18 @@
     background: linear-gradient(180deg, #fff 0%, #fff 32%, #fbf8f5 32%, #fbf8f5 100%);
     padding: 60px 12px 0 260px;
 
-    @include pc{
-    height: auto;
+    @include pc {
+      height: auto;
     }
 
-    @include tab{
+    @include tab {
       padding: 40px 12px;
 
       &:nth-of-type(1) {
         padding: 0 12px 40px;
 
       }
-    
+
     }
 
     @include sp {
@@ -132,7 +132,7 @@
 注文住宅
  ================================= */
 
- .page-chumon {
+.page-chumon {
 
   &__top-img {
     max-width: 1020px;
@@ -152,7 +152,7 @@
     gap: 40px;
     padding: 0 20px;
 
-    @include pc{
+    @include pc {
       flex-direction: column;
     }
 
@@ -160,7 +160,7 @@
       margin: 0 auto 40px;
     }
 
-    @include sp{
+    @include sp {
       gap: 24px;
 
     }
@@ -178,11 +178,11 @@
     margin: 0 0 24px;
     gap: 20px;
 
-    &:last-of-type{
+    &:last-of-type {
       margin: 0;
     }
 
-    @include sp{
+    @include sp {
       gap: 8px;
 
     }
@@ -193,7 +193,7 @@
     img {
       width: 40px;
 
-      @include sp{
+      @include sp {
         width: 30px;
 
       }
@@ -206,7 +206,7 @@
     font-size: 22px;
     margin: 0 0 4px;
 
-    @include sp{
+    @include sp {
       font-size: 18px;
 
     }
@@ -219,7 +219,7 @@
     margin: 0 auto 80px;
     padding: 0 20px;
 
-    @include sp{
+    @include sp {
       margin: 0 auto 40px;
     }
   }
@@ -230,7 +230,7 @@
     margin: 0 auto 80px;
     padding: 0 8px;
 
-    @include sp{
+    @include sp {
       margin: 0 auto 40px;
     }
   }
@@ -251,10 +251,393 @@
 }
 
 /* =================================
+防音工事
+ ================================= */
+
+.page-soundproof {
+
+  &__section01 {
+    padding: 0 12px 120px;
+
+    @include sp {
+      padding: 0 12px 60px;
+
+    }
+  }
+
+  &__top-img {
+    max-width: 820px;
+    margin: 0 auto 40px;
+    display: flex;
+    gap: 20px;
+
+    @include sp {
+      gap: 8px;
+
+    }
+  }
+
+  &__text-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+
+    @include sp{
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__top-img-right {}
+
+  &__section01-img01 {
+    max-width: 520px;
+    margin: 0 auto 24px;
+  }
+
+  &__section01-btn-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+    text-align: right;
+
+    @include sp{
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__btn01 {
+    display: inline-block;
+    max-width: 300px;
+  }
+
+  &__notice-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+    border-radius: 8px;
+
+    @include sp{
+      margin: 0 auto 24px;
+    }
+  }
+
+  &__notice-top {}
+
+  &__notice-top-ttl {
+    background-color: #1c1696;
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    border-radius: 8px 8px 0 0;
+
+  }
+
+  &__notice-top-text {
+    padding: 24px;
+    border-left: #1c1696 1px solid;
+    border-right: #1c1696 1px solid;
+  }
+
+  &__notice-bottom {
+    border-top: #1c1696 1px dotted;
+    border-left: #1c1696 1px solid;
+    border-right: #1c1696 1px solid;
+    border-bottom: #1c1696 1px solid;
+
+  }
+
+  &__notice-bottom-ttl {
+    width: 200px;
+    margin: 24px auto 0;
+    text-align: center;
+    border: #1c1696 1px solid;
+    border-radius: 25px;
+    background-color: #fff;
+
+  }
+
+  &__notice-bottom-text {
+    padding: 24px;
+  }
+
+  &__btn02 {
+    display: inline-block;
+    max-width: 400px;
+  }
+
+  &__hr {
+    max-width: 300px;
+    margin: 0 auto 60px;
+
+    @include sp{
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__section01-img02 {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  &__section02 {
+    padding: 0 12px 100px;
+
+    @include sp {
+      padding: 0 12px 60px;
+
+    }
+  }
+
+
+  &__section02-img01 {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+
+  &__section03 {
+    padding: 0 12px 100px;
+
+    @include sp {
+      padding: 0 12px 60px;
+
+    }
+  }
+
+
+  &__section03-img01 {
+    max-width: 820px;
+    margin: 0 auto 40px;
+  }
+
+  &__section03-bnr {
+    display: block;
+    max-width: 680px;
+    margin: 0 auto 40px;
+  }
+
+  &__section04 {
+    padding: 0 12px 100px;
+
+    @include sp {
+      padding: 0 12px 60px;
+
+    }
+  }
+
+  &__section04-img01 {
+    max-width: 820px;
+    margin: 0 auto 40px;
+  }
+
+  &__section04-img02 {
+    max-width: 620px;
+    margin: 0 auto 60px;
+  }
+
+  &__table-wrap {
+    max-width: 820px;
+    margin: 0 auto 40px;
+  }
+
+  &__table {
+    border-collapse: collapse;
+    border-top: #c69c6d 1px solid;
+
+    tr {
+      border-bottom: #c69c6d 1px solid;
+      border-collapse: collapse;
+
+      &:nth-of-type(even){
+        background-color: #f9f5f0;
+      }
+
+    }
+
+    th {
+      border-collapse: collapse;
+      vertical-align: middle;
+      padding: 18px;
+      width: 150px;
+      color: #8c6239;
+
+      @include sp{
+        padding: 8px;
+        width: 130px;
+  
+      }
+
+    }
+
+    td {
+      border-collapse: collapse;
+      vertical-align: middle;
+      padding: 18px;
+
+      @include sp{
+        padding: 8px;
+  
+      }
+
+    }
+
+  }
+
+  &__table-text {
+    margin: 0 0 12px;
+
+    &:last-child {
+      margin: 0;
+    }
+
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+  &__section05 {
+    padding: 0 12px 100px;
+
+    @include sp {
+      padding: 0 12px 60px;
+
+    }
+  }
+
+  &__section05-item {
+    max-width: 820px;
+    margin: 0 auto 40px;
+    border: #c69c6d 1px solid;
+    background-color: #f9f5f0;
+    padding: 12px;
+
+    &:last-child {
+      margin: 0 auto;
+    }
+
+
+  }
+
+  &__section05-item-inner {
+    background-color: #ffffffa0;
+    padding: 12px;
+
+
+  }
+
+  &__section05-item-text {
+    margin: 0 0 12px;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    &--maker {
+      display: inline-block;
+      background: linear-gradient(rgba(0, 0, 0, 0) 80%, #f1ef48 80%);
+    }
+  }
+
+  &__span {
+    background: linear-gradient(rgba(0, 0, 0, 0) 80%, #f1ef48 80%);
+    font-size: 130%;
+
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
+
+.soundproof-section02-box {
+  max-width: 840px;
+  margin: 20px auto 100px;
+  display: flex;
+  gap: 10px;
+
+  @include sp {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 40px;
+
+  }
+
+
+  &__item {
+    width: calc((100% - 20px) / 3);
+    border: 1px solid #c69c6d;
+
+    @include sp {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  &__ttl {
+    background-color: #fbf8f5;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    margin: 0 0;
+    color: #c69c6d;
+  }
+
+  &__img {
+    max-width: 120px;
+    margin: 0 auto 24px;
+
+    @include sp{
+      margin: 0 auto 8px;
+    }
+
+    &--03 {
+      max-width: 110px;
+      margin: 12px auto 24px;
+
+      @include sp{
+        margin: 12px auto 8px;
+      }
+
+    }
+  }
+
+  &__text {
+    padding: 12px;
+
+  }
+
+  &__span {
+    background-color: #fff000;
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+}
+
+/* =================================
 
  ================================= */
 
- .aaa {
+.aaa {
 
   &__ {}
 
@@ -297,50 +680,7 @@
 
  ================================= */
 
- .aaa {
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-}
-
-/* =================================
-
- ================================= */
-
- .aaa {
+.aaa {
 
   &__ {}
 

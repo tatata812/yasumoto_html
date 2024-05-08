@@ -836,8 +836,290 @@ th, td {
   }
 }
 /* =================================
-
+防音工事
  ================================= */
+.page-soundproof__section01 {
+  padding: 0 12px 120px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__section01 {
+    padding: 0 12px 60px;
+  }
+}
+.page-soundproof__top-img {
+  max-width: 820px;
+  margin: 0 auto 40px;
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__top-img {
+    gap: 8px;
+  }
+}
+.page-soundproof__text-wrap {
+  max-width: 820px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__text-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-soundproof__section01-img01 {
+  max-width: 520px;
+  margin: 0 auto 24px;
+}
+.page-soundproof__section01-btn-wrap {
+  max-width: 820px;
+  margin: 0 auto 60px;
+  text-align: right;
+}
+@media (max-width: 600px) {
+  .page-soundproof__section01-btn-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-soundproof__btn01 {
+  display: inline-block;
+  max-width: 300px;
+}
+.page-soundproof__notice-wrap {
+  max-width: 820px;
+  margin: 0 auto 60px;
+  border-radius: 8px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__notice-wrap {
+    margin: 0 auto 24px;
+  }
+}
+.page-soundproof__notice-top-ttl {
+  background-color: #1c1696;
+  color: #fff;
+  text-align: center;
+  padding: 9px;
+  border-radius: 8px 8px 0 0;
+}
+.page-soundproof__notice-top-text {
+  padding: 24px;
+  border-left: #1c1696 1px solid;
+  border-right: #1c1696 1px solid;
+}
+.page-soundproof__notice-bottom {
+  border-top: #1c1696 1px dotted;
+  border-left: #1c1696 1px solid;
+  border-right: #1c1696 1px solid;
+  border-bottom: #1c1696 1px solid;
+}
+.page-soundproof__notice-bottom-ttl {
+  width: 200px;
+  margin: 24px auto 0;
+  text-align: center;
+  border: #1c1696 1px solid;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.page-soundproof__notice-bottom-text {
+  padding: 24px;
+}
+.page-soundproof__btn02 {
+  display: inline-block;
+  max-width: 400px;
+}
+.page-soundproof__hr {
+  max-width: 300px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__hr {
+    margin: 0 auto 40px;
+  }
+}
+.page-soundproof__section01-img02 {
+  max-width: 820px;
+  margin: 0 auto;
+}
+.page-soundproof__section02 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__section02 {
+    padding: 0 12px 60px;
+  }
+}
+.page-soundproof__section02-img01 {
+  max-width: 820px;
+  margin: 0 auto;
+}
+.page-soundproof__section03 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__section03 {
+    padding: 0 12px 60px;
+  }
+}
+.page-soundproof__section03-img01 {
+  max-width: 820px;
+  margin: 0 auto 40px;
+}
+.page-soundproof__section03-bnr {
+  display: block;
+  max-width: 680px;
+  margin: 0 auto 40px;
+}
+.page-soundproof__section04 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__section04 {
+    padding: 0 12px 60px;
+  }
+}
+.page-soundproof__section04-img01 {
+  max-width: 820px;
+  margin: 0 auto 40px;
+}
+.page-soundproof__section04-img02 {
+  max-width: 620px;
+  margin: 0 auto 60px;
+}
+.page-soundproof__table-wrap {
+  max-width: 820px;
+  margin: 0 auto 40px;
+}
+.page-soundproof__table {
+  border-collapse: collapse;
+  border-top: #c69c6d 1px solid;
+}
+.page-soundproof__table tr {
+  border-bottom: #c69c6d 1px solid;
+  border-collapse: collapse;
+}
+.page-soundproof__table tr:nth-of-type(even) {
+  background-color: #f9f5f0;
+}
+.page-soundproof__table th {
+  border-collapse: collapse;
+  vertical-align: middle;
+  padding: 18px;
+  width: 150px;
+  color: #8c6239;
+}
+@media (max-width: 600px) {
+  .page-soundproof__table th {
+    padding: 8px;
+    width: 130px;
+  }
+}
+.page-soundproof__table td {
+  border-collapse: collapse;
+  vertical-align: middle;
+  padding: 18px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__table td {
+    padding: 8px;
+  }
+}
+.page-soundproof__table-text {
+  margin: 0 0 12px;
+}
+.page-soundproof__table-text:last-child {
+  margin: 0;
+}
+.page-soundproof__section05 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-soundproof__section05 {
+    padding: 0 12px 60px;
+  }
+}
+.page-soundproof__section05-item {
+  max-width: 820px;
+  margin: 0 auto 40px;
+  border: #c69c6d 1px solid;
+  background-color: #f9f5f0;
+  padding: 12px;
+}
+.page-soundproof__section05-item:last-child {
+  margin: 0 auto;
+}
+.page-soundproof__section05-item-inner {
+  background-color: rgba(255, 255, 255, 0.6274509804);
+  padding: 12px;
+}
+.page-soundproof__section05-item-text {
+  margin: 0 0 12px;
+}
+.page-soundproof__section05-item-text:last-child {
+  margin: 0;
+}
+.page-soundproof__section05-item-text--maker {
+  display: inline-block;
+  background: linear-gradient(rgba(0, 0, 0, 0) 80%, #f1ef48 80%);
+}
+.page-soundproof__span {
+  background: linear-gradient(rgba(0, 0, 0, 0) 80%, #f1ef48 80%);
+  font-size: 130%;
+}
+.soundproof-section02-box {
+  max-width: 840px;
+  margin: 20px auto 100px;
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 600px) {
+  .soundproof-section02-box {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 40px;
+  }
+}
+.soundproof-section02-box__item {
+  width: calc((100% - 20px) / 3);
+  border: 1px solid #c69c6d;
+}
+@media (max-width: 600px) {
+  .soundproof-section02-box__item {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+.soundproof-section02-box__ttl {
+  background-color: #fbf8f5;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+  margin: 0 0;
+  color: #c69c6d;
+}
+.soundproof-section02-box__img {
+  max-width: 120px;
+  margin: 0 auto 24px;
+}
+@media (max-width: 600px) {
+  .soundproof-section02-box__img {
+    margin: 0 auto 8px;
+  }
+}
+.soundproof-section02-box__img--03 {
+  max-width: 110px;
+  margin: 12px auto 24px;
+}
+@media (max-width: 600px) {
+  .soundproof-section02-box__img--03 {
+    margin: 12px auto 8px;
+  }
+}
+.soundproof-section02-box__text {
+  padding: 12px;
+}
+.soundproof-section02-box__span {
+  background-color: #fff000;
+}
 /* =================================
 
  ================================= */
