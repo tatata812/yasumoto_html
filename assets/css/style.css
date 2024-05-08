@@ -1564,8 +1564,90 @@ th, td {
   }
 }
 /* =================================
-
+補助金制度
  ================================= */
+.page-sii__section {
+  padding: 0 12px 120px;
+}
+@media (max-width: 820px) {
+  .page-sii__section {
+    padding: 0 12px 60px;
+  }
+}
+.page-sii__top-img {
+  max-width: 680px;
+  margin: 0 auto 12px;
+}
+.page-sii__top-text01 {
+  text-align: center;
+  font-size: 22px;
+  margin: 0 0 4px;
+}
+@media (max-width: 600px) {
+  .page-sii__top-text01 {
+    font-size: 16px;
+  }
+}
+.page-sii__top-text01-span {
+  font-size: 130%;
+}
+.page-sii__top-text02-wrap {
+  text-align: center;
+}
+.page-sii__top-text02 {
+  display: inline-block;
+  font-size: 16px;
+  border: #ff0000 1px solid;
+  padding: 0 8px;
+  margin: 0 0 60px;
+}
+@media (max-width: 600px) {
+  .page-sii__top-text02 {
+    font-size: 15px;
+    margin: 0 0 40px;
+  }
+}
+.page-sii__text-wrap {
+  max-width: 880px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-sii__text-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-sii__text {
+  margin: 0 0 24px;
+}
+.page-sii__text:last-of-type {
+  margin: 0;
+}
+.page-sii__img-wrap {
+  max-width: 880px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-sii__img-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-sii__text-wrap02 {
+  text-align: center;
+  margin: 100px 0 40px;
+}
+@media (max-width: 820px) {
+  .page-sii__text-wrap02 {
+    margin: 60px 0 40px;
+  }
+}
+.page-sii__text-wrap02 p {
+  font-size: 18px;
+}
+@media (max-width: 600px) {
+  .page-sii__text-wrap02 p {
+    font-size: 14px;
+  }
+}
 /* =================================
 
  ================================= */

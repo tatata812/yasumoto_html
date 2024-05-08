@@ -974,28 +974,105 @@
 }
 
 /* =================================
-
+補助金制度
  ================================= */
 
-.aaa {
+.page-sii {
 
-  &__ {}
+  &__section {
+    padding: 0 12px 120px;
 
-  &__ {}
+    @include tab{
+      padding: 0 12px 60px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__top-img {
 
-  &__ {}
+    max-width: 680px;
+    margin: 0 auto 12px;
+  }
 
-  &__ {}
+  &__top-text01 {
+    text-align: center;
+    font-size: 22px;
+    margin: 0 0 4px;
 
-  &__ {}
+    @include sp{
+      font-size: 16px;
+    }
+  }
 
-  &__ {}
+  &__top-text01-span {
+    font-size: 130%;
 
-  &__ {}
+  }
+
+  &__top-text02-wrap {
+    text-align: center;
+  }
+
+  &__top-text02 {
+    display: inline-block;
+    font-size: 16px;
+    border: #ff0000 1px solid;
+    padding: 0 8px;
+    margin: 0 0 60px;
+
+    @include sp{
+      font-size: 15px;
+      margin: 0 0 40px;
+
+    }
+
+  }
+
+  &__text-wrap {
+    max-width: 880px;
+    margin: 0 auto 60px;
+
+    @include sp{
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__text {
+    margin: 0 0 24px;
+
+    &:last-of-type{
+      margin: 0;
+
+    }
+  }
+
+  &__img-wrap {
+    max-width: 880px;
+    margin: 0 auto 60px;
+
+    @include sp{
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__text-wrap02 {
+    text-align: center;
+    margin: 100px 0 40px;
+
+    @include tab{
+      margin: 60px 0 40px;
+
+    }
+
+    p {
+      font-size: 18px;
+
+      @include sp{
+        font-size: 14px;
+
+      }
+    }
+  }
 
   &__ {}
 
