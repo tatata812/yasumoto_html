@@ -85,7 +85,7 @@ th, td {
 }
 @media (max-width: 820px) {
   .main {
-    margin: 68px 0 0 0;
+    margin: 67px 0 0 0;
   }
 }
 
@@ -306,7 +306,7 @@ th, td {
 }
 @media (max-width: 820px) {
   .sub-page-top__ttl {
-    margin: 40px 0 24px 24px;
+    margin: 76px 0 24px 24px;
     font-size: 24px;
     border-left: #c0c0c0 4px solid;
   }
