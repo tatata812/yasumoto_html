@@ -2890,6 +2890,11 @@ th, td {
   margin: 0 auto;
   padding: 60px 12px;
 }
+@media (max-width: 600px) {
+  .page-guide__content {
+    padding: 0 12px;
+  }
+}
 /* =================================
 
  ================================= */
