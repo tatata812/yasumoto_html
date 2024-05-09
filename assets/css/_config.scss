@@ -137,7 +137,8 @@ th,td {
   }
 
   @include sp{
-  
+    font-size: 21px;
+
   }
 
   &__span {
@@ -367,6 +368,11 @@ th,td {
   &__sub-ttl-span {
     display: block;
     font-size: 18px;
+
+    @include sp{
+      font-size: 13px;
+
+    }
 
 
     &--information {
