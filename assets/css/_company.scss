@@ -874,20 +874,56 @@
 }
 
 /* =================================
-
+下松店
  ================================= */
 
-.aaa {
+.page-kudamatsu {
 
-  &__ {}
+  &__section01 {
+    padding: 0 12px;
+  }
 
-  &__ {}
+  &__img01 {
+max-width: 820px;
+margin: 0 auto 40px;
+  }
 
-  &__ {}
 
-  &__ {}
 
-  &__ {}
+  &__text {
+    text-align: center;
+    margin: 0 0 40px;
+  }
+
+  
+  &__table {
+    width: 100%;
+    max-width: 820px;
+    margin: 0 auto 80px;
+
+    @include sp{
+      margin: 0 auto 40px;
+    }
+
+    th {
+      text-align: left;
+      width: 100px;
+
+      @include sp{
+        width: 80px;
+
+      }
+    }
+  }
+
+  &__contact-wrap {
+    margin-bottom: 100px;
+
+    @include sp{
+      margin-bottom: 40px;
+
+    }
+  }
 
   &__ {}
 

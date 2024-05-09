@@ -3047,8 +3047,46 @@ UPI（アウトドア用品）
   font-size: 13px;
 }
 /* =================================
-
+下松店
  ================================= */
+.page-kudamatsu__section01 {
+  padding: 0 12px;
+}
+.page-kudamatsu__img01 {
+  max-width: 820px;
+  margin: 0 auto 40px;
+}
+.page-kudamatsu__text {
+  text-align: center;
+  margin: 0 0 40px;
+}
+.page-kudamatsu__table {
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu__table {
+    margin: 0 auto 40px;
+  }
+}
+.page-kudamatsu__table th {
+  text-align: left;
+  width: 100px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu__table th {
+    width: 80px;
+  }
+}
+.page-kudamatsu__contact-wrap {
+  margin-bottom: 100px;
+}
+@media (max-width: 600px) {
+  .page-kudamatsu__contact-wrap {
+    margin-bottom: 40px;
+  }
+}
 /* =================================
 
  ================================= */
