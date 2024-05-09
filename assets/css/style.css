@@ -880,6 +880,14 @@ th, td {
   max-width: 520px;
   margin: 0 auto 24px;
 }
+@media (max-width: 600px) {
+  .page-soundproof__section01-img01 {
+    margin: 0 auto 12px;
+  }
+}
+.page-soundproof__section01-img01 img {
+  border: #c1c1c1 1px solid;
+}
 .page-soundproof__section01-btn-wrap {
   max-width: 820px;
   margin: 0 auto 60px;

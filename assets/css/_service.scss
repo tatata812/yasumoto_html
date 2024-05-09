@@ -291,6 +291,15 @@
   &__section01-img01 {
     max-width: 520px;
     margin: 0 auto 24px;
+
+    @include sp{
+      margin: 0 auto 12px;
+
+    }
+
+    img {
+      border: #c1c1c1 1px solid;
+    }
   }
 
   &__section01-btn-wrap {
