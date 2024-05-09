@@ -25,7 +25,7 @@
 .information {
   overflow: hidden;
 
-// ラベル
+  // ラベル
 
   &__label-wrap {
     display: flex;
@@ -53,7 +53,7 @@
     align-items: flex-end;
     flex-wrap: wrap;
 
-    @include tab{
+    @include tab {
       gap: 12px;
       padding: 0;
       justify-content: center;
@@ -73,7 +73,7 @@
     font-size: 56px;
     line-height: 1rem;
 
-    @include sp{
+    @include sp {
       font-size: 36px;
 
     }
@@ -116,15 +116,13 @@
 
   // テーブルスタイル
   &__table-style {
-   table {
+    table {
       width: 100%;
       border-bottom: 1px solid #c69c6d;
       border-top: 1px solid #c69c6d;
     }
 
-    tr {
-      
-    }
+    tr {}
 
     th {
       border-collapse: collapse;
@@ -135,7 +133,7 @@
       color: #a67c52;
       width: 220px;
 
-      @include sp{
+      @include sp {
         padding: 8px;
         width: 120px;
 
@@ -147,7 +145,8 @@
       border-bottom: 1px solid #c69c6d;
       text-align: left;
       padding: 8px 4px 8px 48px;
-      @include sp{
+
+      @include sp {
         padding: 8px;
 
       }
@@ -301,11 +300,11 @@
   margin: auto;
   border: 1px solid #000;
 
-  @include tab{
+  @include tab {
     max-width: 680px;
   }
 
-  @include sp{
+  @include sp {
     flex-direction: column;
     max-width: 380px;
 
@@ -315,9 +314,9 @@
     width: 50%;
     position: relative;
 
-    @include sp{
-    width: 100%;
-    height: 200px;
+    @include sp {
+      width: 100%;
+      height: 200px;
     }
   }
 
@@ -328,7 +327,7 @@
     transform: translate(-50%, -50%);
     width: 340px;
 
-    @include pc{
+    @include pc {
       width: 280px;
     }
 
@@ -339,11 +338,11 @@
     background-color: #fbf8f5;
     padding: 40px;
 
-    @include pc{
+    @include pc {
       padding: 24px;
     }
 
-    @include sp{
+    @include sp {
       width: 100%;
       padding: 40px;
 
@@ -354,13 +353,11 @@
   &__text {
     font-size: 20px;
 
-    @include pc{
+    @include pc {
       font-size: 15px;
     }
 
-    @include tab{
-    
-    }
+    @include tab {}
   }
 
   &__tel {
@@ -377,7 +374,7 @@
   }
 
   &__tel-img {
-    width:40px;
+    width: 40px;
     display: inline;
     vertical-align: middle;
     margin: 0 8px 4px 0;
@@ -412,7 +409,8 @@
   &__section {
     background-color: #fbf8f5;
     padding: 40px 12px 80px;
-    @include sp{
+
+    @include sp {
       padding: 40px 12px 40px;
 
     }
@@ -425,11 +423,11 @@
     display: flex;
     flex-wrap: wrap;
 
-    @include tab{
+    @include tab {
       gap: 18px;
     }
 
-    @include sp{
+    @include sp {
       justify-content: center;
       margin: 0 auto;
 
@@ -442,15 +440,15 @@
     background-color: #fff;
     padding: 32px;
 
-    @include tab{
+    @include tab {
       width: calc((100% - 18px) / 2);
       padding: 20px;
-  
+
     }
 
-    @include sp{
-    width: 100%;
-    max-width: 400px;
+    @include sp {
+      width: 100%;
+      max-width: 400px;
     }
   }
 
@@ -560,7 +558,7 @@
     max-width: 920px;
     margin: 0 auto 120px;
 
-    @include sp{
+    @include sp {
       margin: 0 auto 40px;
 
     }
@@ -569,7 +567,7 @@
   &__section {
     padding: 0 12px 120px;
 
-    @include sp{
+    @include sp {
       padding: 0 12px 40px;
 
     }
@@ -618,7 +616,7 @@
     padding: 0 12px;
     margin: 0 0 80px;
 
-    @include sp{
+    @include sp {
       margin: 0 0 80px;
 
     }
@@ -671,13 +669,13 @@
     margin-bottom: 80px;
   }
 
- 
+
 
   &__section02-text {
     text-align: center;
     margin: 80px 0 40px;
 
-    @include sp{
+    @include sp {
       margin: 40px 0 24px;
 
     }
@@ -691,7 +689,8 @@
 
   &__section03 {
     padding: 80px 12px 120px;
-    @include sp{
+
+    @include sp {
       padding: 40px 12px 40px;
 
     }
@@ -703,7 +702,7 @@
 
     @include sp {
       overflow-x: scroll;
-      margin: 0 auto ;
+      margin: 0 auto;
 
       table {
         width: 420px;
@@ -733,7 +732,7 @@
     padding: 0 12px;
     margin: 0 0 80px;
 
-    @include sp{
+    @include sp {
       margin: 0 0 60px;
 
     }
@@ -756,6 +755,7 @@
       margin: 0 auto 24px;
     }
   }
+
   &__section01-text-wrap {
     max-width: 780px;
     margin: 0 auto 80px;
@@ -776,7 +776,7 @@
   &__section03 {
     padding: 80px 12px;
 
-    @include sp{
+    @include sp {
       padding: 40px 12px;
 
     }
@@ -785,6 +785,7 @@
   &__section03-img01 {
     max-width: 880px;
     margin: 0 auto 80px;
+
     @include sp {
       margin: 0 auto 60px;
     }
@@ -796,13 +797,14 @@
     display: flex;
     gap: 40px;
 
-    @include pc{
-    gap: 24px;
+    @include pc {
+      gap: 24px;
     }
+
     @include sp {
       margin: 0 auto 40px;
       flex-direction: column;
-    align-items: center;
+      align-items: center;
     }
   }
 
@@ -838,7 +840,7 @@
     margin: 0 auto 80px;
     border: #a3a3a3 1px solid;
     padding: 8px;
-  } 
+  }
 
   &__section03-table {
     max-width: 820px;
@@ -876,7 +878,7 @@
     padding: 0 12px;
     margin: 0 0 80px;
 
-    @include sp{
+    @include sp {
       margin: 0 0 40px;
 
     }
@@ -899,12 +901,13 @@
       margin: 0 auto 24px;
     }
   }
+
   &__ {}
 
   &__section02 {
     padding: 80px 12px;
 
-    @include sp{
+    @include sp {
       padding: 40px 12px;
 
     }
@@ -913,6 +916,7 @@
   &__section02-img01 {
     max-width: 880px;
     margin: 0 auto 80px;
+
     @include sp {
       margin: 0 auto 60px;
     }
@@ -921,6 +925,7 @@
   &__section02-img03 {
     max-width: 880px;
     margin: 0 auto 40px;
+
     @include sp {
       margin: 0 auto 20px;
     }
@@ -949,7 +954,7 @@
     margin: 0 auto 80px;
     border: #a3a3a3 1px solid;
     padding: 8px;
-  } 
+  }
 
   &__section02-table {
     max-width: 820px;
@@ -982,7 +987,7 @@
   &__section {
     padding: 0 12px 120px;
 
-    @include tab{
+    @include tab {
       padding: 0 12px 60px;
 
     }
@@ -999,7 +1004,7 @@
     font-size: 22px;
     margin: 0 0 4px;
 
-    @include sp{
+    @include sp {
       font-size: 16px;
     }
   }
@@ -1020,7 +1025,7 @@
     padding: 0 8px;
     margin: 0 0 60px;
 
-    @include sp{
+    @include sp {
       font-size: 15px;
       margin: 0 0 40px;
 
@@ -1032,7 +1037,7 @@
     max-width: 880px;
     margin: 0 auto 60px;
 
-    @include sp{
+    @include sp {
       margin: 0 auto 40px;
     }
   }
@@ -1040,7 +1045,7 @@
   &__text {
     margin: 0 0 24px;
 
-    &:last-of-type{
+    &:last-of-type {
       margin: 0;
 
     }
@@ -1050,7 +1055,7 @@
     max-width: 880px;
     margin: 0 auto 60px;
 
-    @include sp{
+    @include sp {
       margin: 0 auto 40px;
     }
   }
@@ -1059,7 +1064,7 @@
     text-align: center;
     margin: 100px 0 40px;
 
-    @include tab{
+    @include tab {
       margin: 60px 0 40px;
 
     }
@@ -1067,7 +1072,7 @@
     p {
       font-size: 18px;
 
-      @include sp{
+      @include sp {
         font-size: 14px;
 
       }
@@ -1094,42 +1099,202 @@
 }
 
 /* =================================
-
+UPI（アウトドア用品）
  ================================= */
 
-.aaa {
+.page-upi {
 
-  &__ {}
+  &__section01 {
+    padding: 0 12px 100px;
 
-  &__ {}
+    @include sp {
+      padding: 0 12px 20px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
 
-  &__ {}
+  &__top-img {
+    max-width: 300px;
+    margin: 0 auto 40px;
 
-  &__ {}
+    @include sp {
+      max-width: 180px;
+      margin: 0 auto 32px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__text {
+    margin: 0 0 24px;
 
-  &__ {}
+    &:last-of-type {
+      margin: 0;
+    }
 
-  &__ {}
+  }
 
-  &__ {}
+  &__text-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
 
-  &__ {}
+    @include sp {
+      margin: 0 auto 40px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__section01-img01 {
+    max-width: 820px;
+    margin: -100px auto 60px;
 
-  &__ {}
+    @include pc {
+      margin: -40px auto 60px;
 
-  &__ {}
+    }
+  }
+
+  &__section02 {
+    padding: 0 12px 100px;
+
+    @include sp {
+      padding: 0 12px 40px;
+
+    }
+  }
+
+  &__sub-ttl {
+    max-width: 820px;
+    margin: 0 auto 12px;
+    font-size: 32px;
+
+    @include sp {
+      font-size: 22px;
+
+    }
+  }
+
+  &__section02-flex {
+    display: flex;
+    max-width: 820px;
+    margin: 0 auto 40px;
+    align-items: center;
+    gap: 60px;
+
+    @include pc {
+      gap: 24px;
+    }
+
+    @include sp {
+      flex-direction: column;
+      gap: 0;
+      margin: 0 auto 40px;
+
+    }
+  }
+
+  &__section02-left {
+    flex: 1;
+  }
+
+  &__section02-right {
+    width: 340px;
+
+    @include pc {
+      width: 300px;
+
+    }
+  }
+
+  &__section02-ttl {
+    margin: 0 0 0 -20px;
+
+    @include tab {
+      margin: 0;
+    }
+  }
+
+  &__table {
+    width: 100%;
+    max-width: 820px;
+    margin: 0 auto 80px;
+
+    @include sp{
+      margin: 0 auto 40px;
+
+    }
+
+    th {
+      text-align: left;
+      width: 100px;
+    }
+  }
+
+  &__section02-box {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 820px;
+    margin: 0 auto 60px;
+
+    @include sp{
+      gap: 24px;
+      margin: 0 auto 40px;
+
+    }
+
+  }
+
+  &__section02-item {
+    width: calc((100% - 40px) / 2);
+    border: #b3b3b3 1px solid;
+    position: relative;
+    padding: 0 0 100px;
+
+    @include pc{
+      padding: 0 0 140px;
+    }
+
+    @include sp{
+    width: 100%;
+    padding: 0 0 110px;
+
+    &--long {
+      padding: 0 0 130px;
+
+    }
+
+    }
+  }
+
+  &__section02-item-top {
+    padding: 12px;
+  }
+
+  &__section02-item-ttl {
+font-size: 20px;
+margin: 0 0 8px;
+  }
+
+  &__section02-item-text {}
+
+  &__section02-item-bottom {
+    background-color: #f8f8f8;
+    padding: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+  }
+
+  &__section02-logo {
+    max-width: 820px;
+    margin: 0 auto 20px;
+
+    img {
+      width: 120px;
+    }
+  }
 
   &__ {}
 
