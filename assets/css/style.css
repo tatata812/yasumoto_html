@@ -1121,8 +1121,192 @@ th, td {
   background-color: #fff000;
 }
 /* =================================
-
+マイクログリッドプロジェクト
  ================================= */
+.page-microgrid__section01 {
+  padding: 0 12px 120px;
+}
+@media (max-width: 600px) {
+  .page-microgrid__section01 {
+    padding: 0 12px 60px;
+  }
+}
+.page-microgrid__top-text {
+  max-width: 820px;
+  margin: 0 auto 24px;
+  font-size: 22px;
+}
+.page-microgrid__top-img {
+  max-width: 820px;
+  margin: 0 auto 40px;
+  display: flex;
+  gap: 20px;
+  border: #c69c6d 1px solid;
+}
+@media (max-width: 600px) {
+  .page-microgrid__top-img {
+    gap: 8px;
+  }
+}
+@media (max-width: 820px) {
+  .page-microgrid__top-img {
+    flex-direction: column;
+    max-width: 420px;
+  }
+}
+.page-microgrid__text-wrap {
+  max-width: 820px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-microgrid__text-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-microgrid__text {
+  margin: 0 0 24px;
+}
+.page-microgrid__text:last-child {
+  margin: 0 0;
+}
+.page-microgrid__top-img-left {
+  flex: 1;
+}
+.page-microgrid__top-img-right {
+  width: 400px;
+  position: relative;
+}
+@media (max-width: 1120px) {
+  .page-microgrid__top-img-right {
+    min-height: 100px;
+    width: 360px;
+  }
+}
+.page-microgrid__top-img-right p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 320px;
+  font-size: 17px;
+  padding: 12px 0;
+}
+@media (max-width: 1120px) {
+  .page-microgrid__top-img-right p {
+    font-size: 14px;
+  }
+}
+.page-microgrid__section01-box {
+  max-width: 820px;
+  margin: 0 auto 60px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+@media (max-width: 600px) {
+  .page-microgrid__section01-box {
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto 40px;
+  }
+}
+.page-microgrid__section01-left {
+  width: 300px;
+}
+@media (max-width: 600px) {
+  .page-microgrid__section01-left {
+    width: 200px;
+  }
+}
+.page-microgrid__section01-btn-wrap {
+  display: block;
+  max-width: 420px;
+  margin: 0 auto 24px;
+}
+@media (max-width: 600px) {
+  .page-microgrid__section01-btn-wrap {
+    margin: 0 auto 24px;
+  }
+}
+.page-microgrid__section02 {
+  padding: 0 12px 120px;
+}
+@media (max-width: 600px) {
+  .page-microgrid__section02 {
+    padding: 0 12px 60px;
+  }
+}
+.page-microgrid__table-wrap {
+  max-width: 820px;
+  margin: 0 auto 60px;
+}
+.page-microgrid__table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: #c69c6d 1px solid;
+}
+.page-microgrid__table--ttl {
+  border-top: none;
+}
+.page-microgrid__table tr {
+  border-bottom: #c69c6d 1px solid;
+  border-collapse: collapse;
+}
+.page-microgrid__table th {
+  border-collapse: collapse;
+  vertical-align: middle;
+  padding: 18px;
+  width: 220px;
+  color: #8c6239;
+  background-color: #f9f5f0;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .page-microgrid__table th {
+    padding: 8px;
+    width: 130px;
+  }
+}
+.page-microgrid__table td {
+  border-collapse: collapse;
+  vertical-align: middle;
+  padding: 18px;
+}
+@media (max-width: 600px) {
+  .page-microgrid__table td {
+    padding: 8px;
+  }
+}
+.page-microgrid__table-ttl {
+  border-top: none;
+}
+.page-microgrid__table-ttl th {
+  background-color: #fff;
+  padding-bottom: 2px;
+}
+.page-microgrid__table-ttl td {
+  padding-bottom: 2px;
+}
+.page-microgrid__table02-td {
+  width: 150px;
+}
+@media (max-width: 600px) {
+  .page-microgrid__table02-td {
+    width: 100px;
+  }
+}
+.page-microgrid__section03 {
+  padding: 0 12px 120px;
+}
+@media (max-width: 600px) {
+  .page-microgrid__section03 {
+    padding: 0 12px 60px;
+  }
+}
+.page-microgrid__section03-img01 {
+  max-width: 820px;
+  margin: 0 auto 40px;
+}
 /* =================================
 
  ================================= */
