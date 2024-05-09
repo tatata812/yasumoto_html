@@ -3403,7 +3403,7 @@ header
   margin: 0 auto;
   border: #ad9667 1px solid;
   background-color: #fff;
-  padding: 16px 12px;
+  padding: 16px 8px;
   position: relative;
 }
 .header__event--sp {
@@ -3414,12 +3414,13 @@ header
   font-size: 22px;
   line-height: 26px;
   font-weight: bold;
-  margin: 0 0 8px;
+  margin: 0 0 8px 4px;
 }
 .header__event-date {
   line-height: 1rem;
   margin: 0 0 6px;
   display: block;
+  text-align: center;
 }
 .header__event-text {
   line-height: 1rem;
