@@ -4200,6 +4200,9 @@ header
 }
 .header__event--sp {
   margin: 0;
+  position: absolute;
+  top: 60px;
+  right: 20px;
 }
 .header__event-ttl {
   color: #ad9667;
@@ -4251,7 +4254,7 @@ header
   transition: all 0.6s;
   overflow-y: scroll;
   scrollbar-width: none;
-  padding: 40px 12px 40px 40px;
+  padding: 40px 12px 40px 20px;
 }
 .header-sp.open-menu {
   right: 0;
