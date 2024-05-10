@@ -246,7 +246,7 @@
 
 
 
-    @include pc{
+    @include pc {
       transform: translateX(0);
 
     }
@@ -281,13 +281,13 @@
     padding: 0 12px;
     transform: translateX(-141px);
 
-    @include pc{
+    @include pc {
       margin: 0 auto 60px;
       transform: translateX(0);
 
     }
 
-    @include tab{
+    @include tab {
       margin: 0 auto 32x;
     }
 
@@ -299,13 +299,13 @@
     padding: 0 12px;
     transform: translateX(-186px);
 
-    @include pc{
+    @include pc {
       margin: 0 auto 60px;
       transform: translateX(0);
 
     }
 
-    @include tab{
+    @include tab {
       margin: 0 auto 32x;
     }
 
@@ -317,7 +317,7 @@
     margin: 0 0 120px;
 
 
-    @include tab{
+    @include tab {
       padding: 40px 0;
 
     }
@@ -333,13 +333,13 @@
     padding: 0 12px;
     transform: translateX(-43px);
 
-    @include pc{
+    @include pc {
       margin: 0 auto 40px;
       transform: translateX(0);
 
     }
 
-    @include tab{
+    @include tab {
       margin: 0 auto 32x;
     }
 
@@ -394,7 +394,7 @@
 
 
 
-    @include pc{
+    @include pc {
       transform: translateX(0);
 
     }
@@ -431,13 +431,13 @@
     padding: 0 12px;
     transform: translateX(-92px);
 
-    @include pc{
+    @include pc {
       margin: 0 auto 40px;
       transform: translateX(0);
 
     }
 
-    @include tab{
+    @include tab {
       margin: 0 auto 24x;
     }
 
@@ -449,13 +449,13 @@
     padding: 0 12px;
     transform: translateX(-186px);
 
-    @include pc{
+    @include pc {
       margin: 0 auto 60px;
       transform: translateX(0);
 
     }
 
-    @include tab{
+    @include tab {
       margin: 0 auto 32x;
     }
 
@@ -467,7 +467,7 @@
     margin: 0 0 0px;
 
 
-    @include tab{
+    @include tab {
       padding: 40px 0;
 
     }
@@ -483,13 +483,13 @@
     padding: 0 12px;
     transform: translateX(-43px);
 
-    @include pc{
+    @include pc {
       margin: 0 auto 40px;
       transform: translateX(0);
 
     }
 
-    @include tab{
+    @include tab {
       margin: 0 auto 32x;
     }
 
@@ -509,22 +509,154 @@
 }
 
 /* =================================
-
+ZEH
  ================================= */
 
-.aaa {
+.page-zeh {
 
-  &__ {}
+  &__section01 {
+    padding: 0 12px 100px;
 
-  &__ {}
+    @include sp {
+      padding: 0 12px 20px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__top-img {
+    max-width: 820px;
+    margin: 0 auto 40px;
 
-  &__ {}
+  }
 
-  &__ {}
+  &__text-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__img-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+
+    @include sp {
+      margin: 0 auto 40px;
+
+    }
+  }
+
+  &__section02 {
+    padding: 0 12px 100px;
+
+    @include sp {
+      padding: 0 12px 20px;
+
+    }
+  }
+
+  &__table-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+  }
+
+
+  &__table01 {
+    width: 100%;
+    border-collapse: collapse;
+
+
+
+    .zeh-j {
+      color: rgb(193, 16, 16);
+    }
+
+    th {
+      border-collapse: collapse;
+      border: #c69c6d 1px solid;
+      vertical-align: middle;
+      padding: 6px 18px;
+      color: #8c6239;
+      background-color: #f9f5f0;
+
+
+      @include sp {
+        padding: 2px;
+        font-size: 12px;
+
+      }
+
+    }
+
+    td {
+      border-collapse: collapse;
+      border: #c69c6d 1px solid;
+      text-align: center;
+      vertical-align: middle;
+      padding: 6px 18px;
+
+      @include sp {
+        padding: 2px;
+        font-size: 12px;
+
+      }
+
+    }
+
+  }
+
+}
+
+/* =================================
+60年完成保証
+ ================================= */
+
+.page-kanseihoshou {
+
+  &__section01 {
+    padding: 0 12px 100px;
+
+    @include sp {
+      padding: 0 12px 20px;
+
+    }
+  }
+
+  &__top-img {
+    max-width: 820px;
+    margin: 0 auto 40px;
+
+  }
+
+  &__top-text {
+    max-width: 480px;
+    margin: 0 auto 80px;
+
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__text-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__img-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+
+    @include sp {
+      margin: 0 auto 40px;
+
+    }
+  }
 
   &__ {}
 
@@ -555,60 +687,76 @@
 
  ================================= */
 
-.aaa {
+.page-kashitanpo {
 
-  &__ {}
+  &__section01 {
+    padding: 0 12px 100px;
 
-  &__ {}
+    @include sp {
+      padding: 0 12px 20px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__flex {
+    max-width: 820px;
+    margin: 0 auto 40px;
+    display: flex;
+    gap: 24px;
 
-  &__ {}
+    @include sp{
+    flex-direction: column;
+    }
 
-  &__ {}
+  }
 
-  &__ {}
+  &__left {
+    flex: 1;
+  }
 
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
+  &__right {
 
 
-}
+    @include pc{
+    width: 240px;
+    }
 
-/* =================================
+    @include tab{
+    width: auto;
+    }
+  }
 
- ================================= */
+  &__top-text {
+    max-width: 480px;
+    margin: 0 auto 80px;
 
-.aaa {
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
 
-  &__ {}
 
-  &__ {}
 
-  &__ {}
 
-  &__ {}
 
-  &__ {}
+  &__text-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
+
+  &__text {
+    margin: 0 0 24px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+
 
   &__ {}
 
