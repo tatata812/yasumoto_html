@@ -3886,16 +3886,20 @@ header
   margin: 0 6px 4px 0;
 }
 .header__event-text {
+  display: inline-block;
   font-size: 18px;
   margin: 2px 0 0;
 }
 .header__event-label {
   background-color: #ad9667;
-  color: #fff;
-  padding: 4px 10px;
   position: absolute;
   top: 0;
   right: 0;
+}
+.header__event-label a {
+  padding: 4px 10px;
+  color: #fff;
+  display: block;
 }
 .header__slider-item {
   width: 100%;
