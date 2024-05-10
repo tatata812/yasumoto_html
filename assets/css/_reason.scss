@@ -684,7 +684,7 @@ ZEH
 }
 
 /* =================================
-
+住宅瑕疵担保責任保険
  ================================= */
 
 .page-kashitanpo {
@@ -704,8 +704,8 @@ ZEH
     display: flex;
     gap: 24px;
 
-    @include sp{
-    flex-direction: column;
+    @include sp {
+      flex-direction: column;
     }
 
   }
@@ -717,12 +717,12 @@ ZEH
   &__right {
 
 
-    @include pc{
-    width: 240px;
+    @include pc {
+      width: 240px;
     }
 
-    @include tab{
-    width: auto;
+    @include tab {
+      width: auto;
     }
   }
 
@@ -789,27 +789,163 @@ ZEH
 
  ================================= */
 
-.aaa {
+.page-hirogalie {
 
-  &__ {}
+  &__section01 {
+    padding: 0 12px 100px;
 
-  &__ {}
+    @include sp {
+      padding: 0 12px 20px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__top-img {
+    max-width: 920px;
+    margin: 0 auto 80px;
 
-  &__ {}
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
 
-  &__ {}
 
-  &__ {}
+  &__text-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
 
-  &__ {}
+    @include sp {
+      margin: 0 auto 40px;
+    }
 
-  &__ {}
+    &--blue {
+      max-width: 660px;
+      margin: 0 auto 80px;
+      
+      @include sp {
+        margin: 0 auto 40px;
+      }
 
-  &__ {}
+    }
+
+
+  }
+
+  &__text {
+    margin: 0 0 24px;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    span {
+      background: linear-gradient(rgba(0, 0, 0, 0) 50%, #69e2ab 50%);
+    }
+
+    @include sp {
+      margin: 0 0 18px;
+
+    }
+
+    &--blue {
+      color: #0068b7;
+      font-size: 17px;
+      margin: 0 0 24px;
+
+      
+
+    }
+  }
+
+  &__flex {
+    max-width: 820px;
+    margin: 0 auto 80px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+    @include sp {
+      flex-direction: column;
+    }
+
+    &--section02 {
+      margin: 40px auto 80px;
+
+      @include sp {
+        flex-direction: column-reverse;
+      }
+    }
+
+  }
+
+  &__left {
+    flex: 1;
+  }
+
+  &__right {
+    width: 300px;
+
+
+    @include pc {
+      width: 240px;
+    }
+
+
+  }
+
+
+
+
+  &__section01-box {
+    max-width: 820px;
+    margin: 0 auto 32px;
+    border: 1px solid #323232;
+    text-align: center;
+    padding: 12px;
+  }
+
+  &__section01-img02 {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+
+  &__section02 {
+    padding: 0 12px 100px;
+
+    @include sp {
+      padding: 0 12px 20px;
+
+    }
+  }
+
+
+  &__section02-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0 0 12px;
+
+    li {
+      background-color: #fef4e8;
+      padding: 5px 12px;
+      border-radius: 3px;
+    }
+
+    &--bottom {
+      li {
+        background-color: #fef4e8;
+        padding: 2px 12px;
+        border-radius: 3px;
+      }
+    }
+
+  }
+
+  &__section02-img02 {
+    max-width: 880px;
+    margin: 0 auto 40px;
+  }
 
   &__ {}
 

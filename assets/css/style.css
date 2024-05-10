@@ -178,6 +178,38 @@ th, td {
     left: -18px;
   }
 }
+.section-sub-ttl__section-ttl--hirogalie {
+  border-left: none;
+  font-size: 21px;
+  position: relative;
+  margin: 0 0 0 26px;
+  color: #0068b7;
+}
+@media (max-width: 1120px) {
+  .section-sub-ttl__section-ttl--hirogalie {
+    margin: 0;
+    margin: 0;
+  }
+}
+.section-sub-ttl__section-ttl--hirogalie::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 6px;
+  background-color: #e2cdb6;
+  bottom: -10px;
+  left: -4px;
+  transform: scale(0.6);
+}
+@media (max-width: 820px) {
+  .section-sub-ttl__section-ttl--hirogalie {
+    padding: 0;
+    font-size: 18px;
+  }
+  .section-sub-ttl__section-ttl--hirogalie::before {
+    left: -18px;
+  }
+}
 .section-sub-ttl__section-ttl--access {
   border-left: none;
   font-size: 20px;
@@ -3639,7 +3671,7 @@ ZEH
   }
 }
 /* =================================
-
+住宅瑕疵担保責任保険
  ================================= */
 .page-kashitanpo__section01 {
   padding: 0 12px 100px;
@@ -3700,6 +3732,130 @@ ZEH
 /* =================================
 
  ================================= */
+.page-hirogalie__section01 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-hirogalie__section01 {
+    padding: 0 12px 20px;
+  }
+}
+.page-hirogalie__top-img {
+  max-width: 920px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-hirogalie__top-img {
+    margin: 0 auto 40px;
+  }
+}
+.page-hirogalie__text-wrap {
+  max-width: 820px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-hirogalie__text-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-hirogalie__text-wrap--blue {
+  max-width: 660px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-hirogalie__text-wrap--blue {
+    margin: 0 auto 40px;
+  }
+}
+.page-hirogalie__text {
+  margin: 0 0 24px;
+}
+.page-hirogalie__text:last-child {
+  margin: 0;
+}
+.page-hirogalie__text span {
+  background: linear-gradient(rgba(0, 0, 0, 0) 50%, #69e2ab 50%);
+}
+@media (max-width: 600px) {
+  .page-hirogalie__text {
+    margin: 0 0 18px;
+  }
+}
+.page-hirogalie__text--blue {
+  color: #0068b7;
+  font-size: 17px;
+  margin: 0 0 24px;
+}
+.page-hirogalie__flex {
+  max-width: 820px;
+  margin: 0 auto 80px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .page-hirogalie__flex {
+    flex-direction: column;
+  }
+}
+.page-hirogalie__flex--section02 {
+  margin: 40px auto 80px;
+}
+@media (max-width: 600px) {
+  .page-hirogalie__flex--section02 {
+    flex-direction: column-reverse;
+  }
+}
+.page-hirogalie__left {
+  flex: 1;
+}
+.page-hirogalie__right {
+  width: 300px;
+}
+@media (max-width: 1120px) {
+  .page-hirogalie__right {
+    width: 240px;
+  }
+}
+.page-hirogalie__section01-box {
+  max-width: 820px;
+  margin: 0 auto 32px;
+  border: 1px solid #323232;
+  text-align: center;
+  padding: 12px;
+}
+.page-hirogalie__section01-img02 {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.page-hirogalie__section02 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-hirogalie__section02 {
+    padding: 0 12px 20px;
+  }
+}
+.page-hirogalie__section02-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 12px;
+}
+.page-hirogalie__section02-list li {
+  background-color: #fef4e8;
+  padding: 5px 12px;
+  border-radius: 3px;
+}
+.page-hirogalie__section02-list--bottom li {
+  background-color: #fef4e8;
+  padding: 2px 12px;
+  border-radius: 3px;
+}
+.page-hirogalie__section02-img02 {
+  max-width: 880px;
+  margin: 0 auto 40px;
+}
 /* =================================
 
  ================================= */
