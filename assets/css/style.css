@@ -3484,10 +3484,164 @@ UPI（アウトドア用品）
 /* =================================
  住宅アドバイザーの募集要項・施工管理の募集要項
  ================================= */
+.page-boshu {
+  overflow: hidden;
+}
+.page-boshu__top-lead {
+  max-width: 920px;
+  margin: 0 auto 24px;
+  color: #c69c6d;
+  font-size: 32px;
+  padding: 0 0 0 18px;
+}
+@media (max-width: 600px) {
+  .page-boshu__top-lead {
+    font-size: 22px;
+  }
+}
+.page-boshu__section01 {
+  padding: 0 0 100px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section01 {
+    padding: 0 0 40px;
+  }
+}
+.page-boshu__content {
+  max-width: 920px;
+  margin: 0 auto 32px;
+}
+.page-boshu__content-inner {
+  background-color: #fbf8f5;
+  margin-right: calc(50% - 50vw);
+  padding-right: calc(50vw - 50% + 20px);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media (max-width: 600px) {
+  .page-boshu__content-inner {
+    padding-left: calc(50vw - 50% + 20px);
+  }
+}
+.page-boshu__content-ttl {
+  font-size: 32px;
+  margin: 0 0 -40px 24px;
+  z-index: 10;
+  position: relative;
+}
+@media (max-width: 600px) {
+  .page-boshu__content-ttl {
+    margin: 0 0 24px 24px;
+  }
+}
+.page-boshu__content-span {
+  font-size: 60%;
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+}
+.page-boshu__content-span:before {
+  border-top: 1px solid;
+  content: "";
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
+.page-boshu__item {
+  display: flex;
+  margin: 0 0 40px;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .page-boshu__item {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+.page-boshu__item-left {
+  z-index: 10;
+  position: relative;
+  max-width: 450px;
+}
+@media (max-width: 1120px) {
+  .page-boshu__item-left {
+    max-width: 300px;
+  }
+}
+.page-boshu__item-right {
+  background-color: #fff;
+  padding: 40px 24px 40px;
+  flex: 1;
+  position: relative;
+}
+@media (max-width: 600px) {
+  .page-boshu__item-right {
+    padding: 12px;
+  }
+}
+.page-boshu__item-right::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  background-color: #fff;
+  top: 0;
+  left: -100px;
+}
+@media (max-width: 600px) {
+  .page-boshu__item-right::before {
+    display: none;
+  }
+}
+.page-boshu__item-right-katagaki {
+  margin: 0 0 24px;
+}
+.page-boshu__item-right-name {
+  margin: 0 0 24px;
+  font-size: 22px;
+}
+.page-boshu__item-right-name-span {
+  display: flex;
+  font-size: 70%;
+}
+.page-boshu__item-right-text {
+  margin: 0 0 24px;
+}
+.page-boshu__item-right-text:last-of-type {
+  margin: 0;
+}
+.page-boshu__section02 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section02 {
+    padding: 0 12px 60px;
+  }
+}
+.page-boshu__section02-ttl {
+  max-width: 920px;
+  font-size: 32px;
+  margin: 0 auto 24px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section02-ttl {
+    margin: 0 0 24px 24px;
+  }
+}
+.page-boshu__section02-ttl-span {
+  font-size: 60%;
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+}
+.page-boshu__section02-ttl-span:before {
+  border-top: 1px solid;
+  content: "";
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
 .page-boshu__table-wrap {
-  max-width: 820px;
+  max-width: 920px;
   margin: 0 auto;
-  padding: 0 12px;
 }
 .page-boshu__table {
   width: 100%;
@@ -3495,8 +3649,8 @@ UPI（アウトドア用品）
 }
 .page-boshu__table th {
   text-align: left;
-  padding: 12px 10px 12px 40px;
-  width: 165px;
+  padding: 12px 10px 12px 24px;
+  width: 220px;
   border-top: 1px solid #c69c6d;
   border-collapse: collapse;
   color: #8c6239;
@@ -3518,6 +3672,122 @@ UPI（アウトドア用品）
   .page-boshu__table td {
     padding: 10px;
   }
+}
+.page-boshu__table td span {
+  background-color: #3f3f3f;
+  color: #fff;
+  padding: 2px 12px;
+  border-radius: 10px;
+  margin: 0 8px 0 0;
+}
+.page-boshu__section03 {
+  padding: 0 12px 20px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section03 {
+    padding: 0 12px;
+  }
+}
+.page-boshu__section03-btn {
+  display: flex;
+  max-width: 680px;
+  margin: 0 auto 100px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section03-btn {
+    margin: 0 auto 40px;
+  }
+}
+.page-boshu__section03-box {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto 80px;
+  align-items: flex-end;
+  padding: 0 12px;
+  gap: 16px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section03-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto 40px;
+  }
+}
+.page-boshu__section03-right {
+  padding: 0 0 50px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section03-right {
+    padding: 0;
+  }
+}
+.page-boshu__section03-line {
+  max-width: 800px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section03-line {
+    margin: 0 auto 0;
+  }
+}
+.page-boshu__section03-item {
+  height: 380px;
+  margin: 0 0 80px;
+}
+@media (max-width: 1120px) {
+  .page-boshu__section03-item {
+    height: auto;
+  }
+}
+@media (max-width: 820px) {
+  .page-boshu__section03-item {
+    margin: 0;
+    margin: 0 0 60px;
+  }
+}
+@media (max-width: 600px) {
+  .page-boshu__section03-item {
+    height: auto;
+  }
+}
+.page-boshu__section03-item-inner {
+  display: flex;
+  max-width: 920px;
+  margin: 0 auto;
+  gap: 32px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section03-item-inner {
+    flex-direction: column;
+    gap: 28px;
+  }
+}
+.page-boshu__section03-item-left {
+  max-width: 427px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section03-item-left {
+    margin: 0 auto;
+  }
+}
+.page-boshu__section03-item-text {
+  margin: 0 0 40px 20px;
+  white-space: nowrap;
+}
+.page-boshu__section03-item-ttl {
+  margin: 0 0 60px;
+}
+@media (max-width: 600px) {
+  .page-boshu__section03-item-ttl {
+    margin: 0 0 22px 24px;
+  }
+}
+.page-boshu__section03-item-link-wrap {
+  margin: 0 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 /* =================================
 
