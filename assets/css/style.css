@@ -1416,6 +1416,314 @@ th, td {
   }
 }
 /* =================================
+賃貸住宅
+ ================================= */
+.page-tochi__section01 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-tochi__section01 {
+    padding: 0 12px 20px;
+  }
+}
+.page-tochi__top-img {
+  max-width: 600px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-tochi__top-img {
+    margin: 0 auto 40px;
+  }
+}
+.page-tochi__text-wrap {
+  max-width: 820px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-tochi__text-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-tochi__section01-flex {
+  max-width: 780px;
+  margin: 0 auto 80px;
+  display: flex;
+  gap: 50px;
+}
+@media (max-width: 600px) {
+  .page-tochi__section01-flex {
+    margin: 0 auto 40px;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+.page-tochi__section01-btn {
+  text-align: center;
+  margin: 32px 0 0;
+}
+.page-tochi__section02 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-tochi__section02 {
+    padding: 0 12px 20px;
+  }
+}
+/* =================================
+Eco Vivre
+ ================================= */
+.page-eco-vivre__section01 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-eco-vivre__section01 {
+    padding: 0 12px 40px;
+  }
+}
+.page-eco-vivre__top-img {
+  max-width: 920px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-eco-vivre__top-img {
+    margin: 0 auto 40px;
+  }
+}
+.page-eco-vivre__top-img img {
+  max-width: 400px;
+}
+.page-eco-vivre__img01 {
+  max-width: 920px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-eco-vivre__img01 {
+    margin: 0 auto 40px;
+  }
+}
+.page-eco-vivre__text-wrap {
+  max-width: 820px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-eco-vivre__text-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-eco-vivre__text {
+  margin: 0 0 24px;
+}
+.page-eco-vivre__text:last-child {
+  margin: 0 0;
+}
+.page-eco-vivre__section01-flex {
+  max-width: 820px;
+  margin: 0 auto 80px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+@media (max-width: 1120px) {
+  .page-eco-vivre__section01-flex {
+    gap: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .page-eco-vivre__section01-flex {
+    margin: 0 auto 60px;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+.page-eco-vivre__section01-left {
+  flex: 1;
+  max-width: 440px;
+}
+@media (max-width: 820px) {
+  .page-eco-vivre__section01-left {
+    flex: auto;
+    order: 2;
+  }
+}
+.page-eco-vivre__section01-btn {
+  text-align: center;
+  margin: 32px 0 0;
+}
+.page-eco-vivre__flex-ttl {
+  margin: 0 0 0 -14px;
+}
+.page-eco-vivre__img-text {
+  text-align: center;
+  text-indent: 0.25em;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  margin: 12px 0 0;
+}
+.page-eco-vivre__img-text::before {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background-color: #e5e5e5;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: border-box;
+  margin-right: 1rem;
+}
+.page-eco-vivre__img-text::after {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background-color: #e5e5e5;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: border-box;
+  margin-left: 1rem;
+}
+.page-eco-vivre__section01-link {
+  display: block;
+  max-width: 820px;
+  margin: -20px auto 0;
+}
+/* =================================
+WILL STYLE
+ ================================= */
+.page-willstyle__section01 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-willstyle__section01 {
+    padding: 0 12px 40px;
+  }
+}
+.page-willstyle__top-img {
+  max-width: 920px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-willstyle__top-img {
+    margin: 0 auto 40px;
+  }
+}
+.page-willstyle__top-img img {
+  max-width: 400px;
+}
+.page-willstyle__img01 {
+  max-width: 920px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .page-willstyle__img01 {
+    margin: 0 auto 40px;
+  }
+}
+.page-willstyle__text-wrap {
+  max-width: 820px;
+  margin: 0 auto 60px;
+}
+@media (max-width: 600px) {
+  .page-willstyle__text-wrap {
+    margin: 0 auto 40px;
+  }
+}
+.page-willstyle__text {
+  margin: 0 0 24px;
+}
+.page-willstyle__text:last-child {
+  margin: 0 0;
+}
+.page-willstyle__text--section02 {
+  font-size: 24px;
+  line-height: 1.8;
+}
+@media (max-width: 600px) {
+  .page-willstyle__text--section02 {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+}
+.page-willstyle__flex {
+  max-width: 820px;
+  margin: 0 auto 60px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.page-willstyle__flex-item {
+  width: calc((100% - 36px) / 4);
+}
+@media (max-width: 600px) {
+  .page-willstyle__flex-item {
+    width: calc((100% - 12px) / 2);
+  }
+}
+.page-willstyle__flex-ttl {
+  color: #8c6239;
+  margin: 8px 0;
+}
+.page-willstyle__text-box {
+  border: #c69c6d 1px solid;
+  border-radius: 4px;
+  padding: 12px;
+  max-width: 680px;
+  margin: 0 auto 24px;
+  transform: translateX(-68px);
+}
+@media (max-width: 1120px) {
+  .page-willstyle__text-box {
+    transform: translateX(0);
+  }
+}
+.page-willstyle__text-box--section02 {
+  margin: 0 auto 60px;
+}
+.page-willstyle__text-box-ttl {
+  color: #8c6239;
+  margin: 0 0 12px;
+}
+.page-willstyle__section01-img01 {
+  max-width: 540px;
+  margin: 0 auto 32px;
+}
+.page-willstyle__text-box02 {
+  max-width: 540px;
+  margin: 0 auto 60px;
+}
+.page-willstyle__text-box02-ttl {
+  font-size: 19px;
+}
+.page-willstyle__section02 {
+  padding: 0 12px 100px;
+}
+@media (max-width: 600px) {
+  .page-willstyle__section02 {
+    padding: 0 12px 40px;
+  }
+}
+.page-willstyle__section02-img01 {
+  max-width: 820px;
+  margin: 0 auto 32px;
+}
+.page-willstyle__section02-img01 img {
+  border: #c69c6d 1px solid;
+  border-radius: 4px;
+  padding: 12px;
+  display: inline-block;
+  margin: 4px 0 0;
+}
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
+
+ ================================= */
+/* =================================
 
  ================================= */
 /* =================================
