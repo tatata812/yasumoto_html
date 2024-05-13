@@ -953,10 +953,10 @@ margin: 0 auto 40px;
 }
 
 /* =================================
-
+ 住宅アドバイザーの募集要項・施工管理の募集要項
  ================================= */
 
-.aaa {
+.page-boshu {
 
   &__ {}
 
@@ -974,11 +974,48 @@ margin: 0 auto 40px;
 
   &__ {}
 
-  &__ {}
+  &__table-wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 0 12px;
+  }
 
-  &__ {}
+  &__table {
+    width: 100%;
+    border-bottom: 1px solid #c69c6d;
 
-  &__ {}
+
+    th {
+      text-align: left;
+      padding: 12px 10px 12px 40px;
+      width: 165px;
+      border-top: 1px solid #c69c6d;
+      border-collapse: collapse;
+      color: #8c6239;
+      background: #f9f5f0;
+
+      @include sp {
+        width: 100px;
+        padding: 10px 2px 10px 10px;
+      }
+    }
+
+    td {
+      padding: 3px;
+      border-top: 1px solid #c69c6d;
+      border-collapse: collapse;
+      padding: 12px 0 12px 40px;
+
+      @include sp {
+        padding: 10px;
+      }
+
+    }
+
+
+
+
+  }
 
   &__ {}
 
