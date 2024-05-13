@@ -1348,30 +1348,64 @@ margin: 0 0 12px;
 }
 
 /* =================================
-
+公共工事・店舗
  ================================= */
 
-.aaa {
+.page-public {
 
-  &__ {}
+  &__section01 {
+    padding: 0 12px 100px;
 
-  &__ {}
+    @include sp {
+      padding: 0 12px 40px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__top-img {
+    max-width: 820px;
+    margin: 0 auto 60px;
 
-  &__ {}
+    @include sp {
+      margin: 0 auto 40px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__top-text-wrap {
+    max-width: 820px;
+    margin: 0 auto 32px;
 
-  &__ {}
+  }
 
-  &__ {}
+  &__top-text {
+    font-size: 20px;
+    display: inline-block;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, #f1ef48 50%);
 
-  &__ {}
+    @include sp{
+    font-size: 16px;
+    }
+  }
+
+  &__text-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
+
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
+
+
+  &__text {
+    margin: 0 0 24px;
+
+    &:last-child {
+      margin: 0 0;
+    }
+
+  }
 
   &__ {}
 
