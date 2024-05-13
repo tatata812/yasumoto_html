@@ -449,30 +449,100 @@
 
 
 /* =================================
-
+フォーム
  ================================= */
 
-.aaa {
+.page-contact {
 
-  &__ {}
+  &__section {
+    padding: 0 12px 100px;
 
-  &__ {}
+    @include sp{
+      padding: 0 12px 40px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__text-wrap {
+    max-width: 820px;
+    margin: 0 auto 60px;
 
-  &__ {}
+    @include sp {
+      margin: 0 auto 40px;
+    }
+  }
 
-  &__ {}
+  &__text {
+    margin: 0 0 24px;
 
-  &__ {}
+    &:last-child {
+      margin: 0;
+    }
+  }
 
-  &__ {}
+  &__lead {
+    font-size: 22px;
+    max-width: 820px;
+    margin: 0 auto 24px;
+  }
 
-  &__ {}
+  &__table-wrap {
+    max-width: 820px;
+    margin: 0 auto 40px;
+  }
 
-  &__ {}
+  &__table {
+    width: 100%;
+    border-bottom: 1px solid #c69c6d;
+
+
+    th {
+      text-align: left;
+      padding: 8px 10px 8px 24px;
+      width: 220px;
+      border-top: 1px solid #c69c6d;
+      border-collapse: collapse;
+      color: #8c6239;
+      background: #f9f5f0;
+
+      @include sp {
+        width: 100%;
+        display: block;
+        padding: 8px 2px 8px 10px;
+      }
+    }
+
+    td {
+      padding: 3px;
+      border-top: 1px solid #c69c6d;
+      border-collapse: collapse;
+      padding: 8px 0 8px 24px;
+
+      @include sp {
+        display: block;
+        padding: 8px;
+      }
+
+    }
+  }
+
+
+  &__btn-wrap {
+    text-align: center;
+  }
+
+  &__btn {
+    border: 1px #b3b3b3 solid;
+    display: inline-block;
+    width: 260px;
+    padding: 12px;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: #b3b3b3;
+      
+    }
+  }
 
   &__ {}
 
