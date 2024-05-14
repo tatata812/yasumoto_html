@@ -203,9 +203,22 @@
     }
   }
 
-  &__ {}
+  &__bnr-box {
+    max-width: 820px;
+    margin: 0 auto 80px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
 
-  &__ {}
+  &__bnr-item {
+    width: calc((100% - 36px) / 4);
+
+    @include sp{
+      width: calc((100% - 12px) / 2);
+
+    }
+  }
 
   &__ {}
 

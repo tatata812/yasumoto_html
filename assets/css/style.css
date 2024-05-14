@@ -4163,6 +4163,21 @@ UPI（アウトドア用品）
     margin: 0 auto 40px;
   }
 }
+.page-reason__bnr-box {
+  max-width: 820px;
+  margin: 0 auto 80px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.page-reason__bnr-item {
+  width: calc((100% - 36px) / 4);
+}
+@media (max-width: 600px) {
+  .page-reason__bnr-item {
+    width: calc((100% - 12px) / 2);
+  }
+}
 /* =================================
 高気密・高断熱住宅
  ================================= */
