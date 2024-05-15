@@ -5158,8 +5158,28 @@ ZEH
   background-color: #b3b3b3;
 }
 /* =================================
-
+記事詳細
  ================================= */
+.single__section {
+  padding: 0 0 100px;
+}
+.single__content {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+@media (max-width: 600px) {
+  .single__content {
+    padding: 0 12px;
+  }
+}
+.single__date {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 8px;
+  display: block;
+  text-align: right;
+}
 .text {
   background-color: #c0c0c0;
 }

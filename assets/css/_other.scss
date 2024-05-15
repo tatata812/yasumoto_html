@@ -562,22 +562,33 @@
 }
 
 /* =================================
-
+記事詳細
  ================================= */
 
-.aaa {
+.single {
 
-  &__ {}
+  &__section {
+    padding: 0 0 100px;
+  }
 
-  &__ {}
+  &__content {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 12px;
 
-  &__ {}
+    @include sp {
+      padding: 0 12px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
-
-  &__ {}
+  &__date {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 8px;
+    display: block;
+    text-align: right;
+  }
 
   &__ {}
 
