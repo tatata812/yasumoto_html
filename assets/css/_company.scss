@@ -31,7 +31,6 @@
       margin: 0 auto 24px;
 
     }
-
   }
 
   &__section-ttl {
@@ -61,11 +60,9 @@
         transform: scale(0.6);
       }
 
-
       @include pc {
         font-size: 18px;
       }
-
     }
 
     &--staff {
@@ -81,20 +78,8 @@
         left: -4px;
         transform: scale(0.6);
       }
-
     }
-
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
 
 }
 
@@ -109,7 +94,6 @@
 
     @include sp {
       padding: 0 0 60px;
-
     }
   }
 
@@ -129,15 +113,12 @@
 
       &:nth-of-type(1) {
         padding: 0 12px 40px;
-
       }
-
     }
 
     @include sp {
       height: auto;
       background: linear-gradient(180deg, #fff 0%, #fff 18%, #fbf8f5 18%, #fbf8f5 100%);
-
     }
   }
 
@@ -150,9 +131,7 @@
     @include sp {
       flex-direction: column;
       gap: 28px;
-
     }
-
   }
 
   &__item-left {
@@ -161,7 +140,6 @@
     @include sp {
       margin: 0 auto;
     }
-
   }
 
   &__item-text {
@@ -184,25 +162,8 @@
 
     @include sp {
       margin: 0 0 0 56px;
-
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -221,7 +182,6 @@
 
   &__top {
     padding: 0 20px;
-
   }
 
   &__top-img {
@@ -237,9 +197,7 @@
     background-image: url(../img/company/overview-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
   }
-
 
   &__section02-text-wrap {
     max-width: 600px;
@@ -248,11 +206,9 @@
     padding: 80px 12px;
     transform: translateX(-80px);
 
-    @include pc{
+    @include pc {
       transform: translateX(0);
-
     }
-
 
     @include tab {
       max-width: 540px;
@@ -264,7 +220,6 @@
       max-width: 340px;
       padding: 40px 12px;
       line-height: 1.3rem;
-
     }
   }
 
@@ -291,7 +246,6 @@
     @include sp {
       flex-direction: column;
       gap: 12px;
-
     }
   }
 
@@ -319,7 +273,6 @@
     @include pc {
       font-size: 28px;
       margin: 0 32px 40px 16px;
-
     }
   }
 
@@ -335,8 +288,6 @@
       padding: 0 24px;
     }
   }
-
-  &__ {}
 
 
   &__section04-inner {
@@ -359,7 +310,6 @@
 
     @include sp {
       max-width: 300px;
-
     }
   }
 
@@ -406,11 +356,8 @@
       flex-direction: column;
       align-items: center;
       gap: 40px;
-
     }
   }
-
-  &__section05-left {}
 
   &__section05-right {
     padding: 0 0 50px;
@@ -418,8 +365,6 @@
     @include sp {
       padding: 0;
     }
-
-
   }
 
   &__table-wrap {
@@ -457,12 +402,7 @@
       @include sp {
         padding: 10px;
       }
-
     }
-
-
-
-
   }
 
   &__map-wrap {
@@ -502,7 +442,6 @@
 
     @include sp {
       margin: 20px 0;
-
     }
   }
 
@@ -516,7 +455,6 @@
 
     @include pc {
       gap: 12px;
-
     }
 
     @include tab {
@@ -528,9 +466,6 @@
     }
   }
 
-  &__section09-right {}
-
-  &__section09-left {}
 
   &__section09-left-ttl {
     font-size: 20px;
@@ -540,28 +475,21 @@
     @include sp {
       margin: 0 0 8px;
       text-align: center;
-
     }
   }
 
   &__section09-text {
     @include sp {
       text-align: center;
-
     }
   }
 
   &__section09-br {
 
-
     @include pc {
       display: block;
     }
   }
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -611,7 +539,6 @@
 
     @include tab {
       padding: 32px 0;
-
     }
   }
 
@@ -656,8 +583,6 @@
     }
   }
 
-  &__item-right {}
-
   &__item-text {
     margin: 0 0 60px 20px;
   }
@@ -678,7 +603,6 @@
 
     @include sp {
       margin: 0 0 0 56px;
-
     }
   }
 
@@ -687,7 +611,6 @@
 
     @include pc {
       width: 220px;
-
     }
   }
 
@@ -705,22 +628,20 @@
     max-width: 880px;
     margin: 60px auto 32px;
     padding: 0 12px;
-
   }
 
   &__section03-left {
     width: 45px;
     margin: 0 140px 0 0;
 
-@include pc{
-  margin: 0 10% 0 0;
-}
+    @include pc {
+      margin: 0 10% 0 0;
+    }
 
-@include tab{
-  width: 40px;
-  margin: 0 20px 0 4px;
-
-}
+    @include tab {
+      width: 40px;
+      margin: 0 20px 0 4px;
+    }
   }
 
   &__section03-right {}
@@ -732,13 +653,12 @@
     background-size: 52%;
     margin: 0 0 100px;
 
-    @include pc{
+    @include pc {
       margin: 0 0 60px;
     }
 
-    @include tab{
+    @include tab {
       background-size: 80%;
-
     }
   }
 
@@ -757,9 +677,8 @@
     max-width: 520px;
     margin: 24px 60px 0 16px;
 
-    @include tab{
+    @include tab {
       margin: 24px 12px 0 16px;
-
     }
   }
 
@@ -768,18 +687,15 @@
     max-width: 600px;
     margin: 200px 0 0 -120px;
 
-    @include pc{
+    @include pc {
       max-width: 480px;
       margin: 100px 0 0 -20px;
     }
 
-    @include tab{
+    @include tab {
       margin: 60px 0 0 0;
-
     }
   }
-
-
 }
 
 /* =================================
@@ -800,7 +716,7 @@
     max-width: 960px;
     margin: 0 auto;
     display: flex;
-    gap:40px;
+    gap: 40px;
     flex-wrap: wrap;
     padding: 0 12px;
   }
@@ -809,13 +725,13 @@
     width: calc((100% - 80px) / 3);
     margin: 0 0 60px;
 
-    @include pc{
+    @include pc {
       width: calc((100% - 40px) / 2);
     }
 
-    @include sp{
-    width: 100%;
-    margin: 0 0 32px;
+    @include sp {
+      width: 100%;
+      margin: 0 0 32px;
     }
   }
 
@@ -826,7 +742,6 @@
   &__text-wrap {
     padding: 0 6px;
   }
-
 
   &__name {
     font-size: 19px;
@@ -840,7 +755,7 @@
   }
 
   &__item-text {
-     margin: 0 0 24px;
+    margin: 0 0 24px;
   }
 
   &__item-list {
@@ -848,29 +763,8 @@
     li {
       color: #c69c6d;
       font-size: 13px;
-  
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -884,24 +778,21 @@
   }
 
   &__img01 {
-max-width: 820px;
-margin: 0 auto 40px;
+    max-width: 820px;
+    margin: 0 auto 40px;
   }
-
-
 
   &__text {
     text-align: center;
     margin: 0 0 40px;
   }
 
-  
   &__table {
     width: 100%;
     max-width: 820px;
     margin: 0 auto 80px;
 
-    @include sp{
+    @include sp {
       margin: 0 auto 40px;
     }
 
@@ -909,9 +800,8 @@ margin: 0 auto 40px;
       text-align: left;
       width: 100px;
 
-      @include sp{
+      @include sp {
         width: 80px;
-
       }
     }
   }
@@ -919,37 +809,11 @@ margin: 0 auto 40px;
   &__contact-wrap {
     margin-bottom: 100px;
 
-    @include sp{
+    @include sp {
       margin-bottom: 40px;
 
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -963,21 +827,19 @@ margin: 0 auto 40px;
     max-width: 920px;
     margin: 0 auto 24px;
     color: #c69c6d;
-    font-size: 32px;  
+    font-size: 32px;
     padding: 0 0 0 18px;
 
-    @include sp{
-      font-size: 22px;  
-
+    @include sp {
+      font-size: 22px;
     }
-
   }
 
   &__section01 {
     padding: 0 0 100px;
-    @include sp{
-      padding: 0 0 40px;
 
+    @include sp {
+      padding: 0 0 40px;
     }
   }
 
@@ -989,12 +851,12 @@ margin: 0 auto 40px;
   &__content-inner {
     background-color: #fbf8f5;
     margin-right: calc(50% - 50vw);
-    padding-right:calc(50vw - 50% + 20px);
-    padding-top:40px;
-    padding-bottom:40px;
+    padding-right: calc(50vw - 50% + 20px);
+    padding-top: 40px;
+    padding-bottom: 40px;
 
-    @include sp{
-        padding-left:calc(50vw - 50% + 20px);
+    @include sp {
+      padding-left: calc(50vw - 50% + 20px);
 
     }
   }
@@ -1005,11 +867,9 @@ margin: 0 auto 40px;
     z-index: 10;
     position: relative;
 
-    @include sp{
+    @include sp {
       margin: 0 0 24px 24px;
-
     }
-
   }
 
   &__content-span {
@@ -1017,13 +877,13 @@ margin: 0 auto 40px;
     display: flex;
     align-items: center;
     max-width: 200px;
-    
+
     &:before {
       border-top: 1px solid;
       content: "";
       flex-grow: 1;
       margin-right: 0.5rem;
-      }
+    }
   }
 
   &__item {
@@ -1031,7 +891,7 @@ margin: 0 auto 40px;
     margin: 0 0 40px;
     align-items: center;
 
-    @include sp{
+    @include sp {
       flex-direction: column;
       gap: 24px;
     }
@@ -1042,15 +902,11 @@ margin: 0 auto 40px;
     position: relative;
     max-width: 450px;
 
-    @include pc{
+    @include pc {
       max-width: 300px;
-
     }
   }
 
-  &__item-left-img {
-
-  }
 
   &__item-right {
     background-color: #fff;
@@ -1058,9 +914,8 @@ margin: 0 auto 40px;
     flex: 1;
     position: relative;
 
-    @include sp{
+    @include sp {
       padding: 12px;
-
     }
 
     &::before {
@@ -1072,8 +927,8 @@ margin: 0 auto 40px;
       top: 0;
       left: -100px;
 
-      @include sp{
-      display: none;
+      @include sp {
+        display: none;
       }
     }
   }
@@ -1082,10 +937,9 @@ margin: 0 auto 40px;
     margin: 0 0 24px;
   }
 
-
   &__item-right-name {
     margin: 0 0 24px;
-font-size: 22px;
+    font-size: 22px;
   }
 
   &__item-right-name-span {
@@ -1093,23 +947,19 @@ font-size: 22px;
     font-size: 70%;
   }
 
-
   &__item-right-text {
     margin: 0 0 24px;
 
     &:last-of-type {
       margin: 0;
-
     }
   }
 
   &__section02 {
     padding: 0 12px 100px;
 
-
-    @include sp{
+    @include sp {
       padding: 0 12px 60px;
-
     }
   }
 
@@ -1118,12 +968,9 @@ font-size: 22px;
     font-size: 32px;
     margin: 0 auto 24px;
 
-
-    @include sp{
+    @include sp {
       margin: 0 0 24px 24px;
-
     }
-
   }
 
   &__section02-ttl-span {
@@ -1131,13 +978,13 @@ font-size: 22px;
     display: flex;
     align-items: center;
     max-width: 200px;
-    
+
     &:before {
       border-top: 1px solid;
       content: "";
       flex-grow: 1;
       margin-right: 0.5rem;
-      }
+    }
   }
 
 
@@ -1183,7 +1030,6 @@ font-size: 22px;
         border-radius: 10px;
         margin: 0 8px 0 0;
       }
-
     }
   }
 
@@ -1191,9 +1037,8 @@ font-size: 22px;
     padding: 0 12px 20px;
 
 
-    @include sp{
-      padding: 0 12px ;
-
+    @include sp {
+      padding: 0 12px;
     }
   }
 
@@ -1202,9 +1047,8 @@ font-size: 22px;
     max-width: 680px;
     margin: 0 auto 100px;
 
-    @include sp{
+    @include sp {
       margin: 0 auto 40px;
-
     }
   }
 
@@ -1221,12 +1065,9 @@ font-size: 22px;
       align-items: center;
       gap: 40px;
       margin: 0 auto 40px;
-
-
     }
   }
 
-  &__section03-left {}
 
   &__section03-right {
     padding: 0 0 50px;
@@ -1234,17 +1075,14 @@ font-size: 22px;
     @include sp {
       padding: 0;
     }
-
-
   }
 
   &__section03-line {
     max-width: 800px;
     margin: 0 auto 80px;
 
-    @include sp{
+    @include sp {
       margin: 0 auto 0;
-
     }
   }
 
@@ -1259,12 +1097,10 @@ font-size: 22px;
     @include tab {
       margin: 0;
       margin: 0 0 60px;
-
     }
 
     @include sp {
       height: auto;
-
     }
   }
 
@@ -1277,7 +1113,6 @@ font-size: 22px;
     @include sp {
       flex-direction: column;
       gap: 28px;
-
     }
 
   }
@@ -1285,18 +1120,11 @@ font-size: 22px;
   &__section03-item-left {
     max-width: 427px;
 
-    @include pc{
-    
-    }
+    @include pc {}
 
     @include sp {
       margin: 0 auto;
     }
-
-  }
-
-  &__section03-item-right {
-
   }
 
   &__section03-item-text {
@@ -1319,143 +1147,4 @@ font-size: 22px;
     gap: 18px;
 
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-}
-
-/* =================================
-
- ================================= */
-
-.aaa {
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-}
-
-/* =================================
-
- ================================= */
-
-.aaa {
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-}
-
-/* =================================
-
- ================================= */
-
-.aaa {
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }

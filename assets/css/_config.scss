@@ -61,7 +61,8 @@ li {
   font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
 }
 
-th,td {
+th,
+td {
   font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
 }
 
@@ -88,28 +89,25 @@ div {
 .responsive-br {
   display: none;
 
-  @include pc{
-  display: block;
+  @include pc {
+    display: block;
   }
 
-  @include tab{
-  display: none;
+  @include tab {
+    display: none;
   }
 
-  @include sp{
-  display: block;
+  @include sp {
+    display: block;
   }
 }
 
-
 .main {
-
   margin: 0;
 
   @include tab {
     margin: 67px 0 0 0;
   }
-
 }
 
 .section-style {
@@ -119,30 +117,26 @@ div {
 
 
 .section-inner {
-  padding-left: 240px; 
+  padding-left: 240px;
 
-
-  @include tab{
-    padding-left: 0; 
-
+  @include tab {
+    padding-left: 0;
   }
-
 }
 
 // セクションタイトル
 .section-ttl {
-  padding: 2px 12px; 
+  padding: 2px 12px;
   border-left: 1px solid #333333;
   font-size: 28px;
   display: inline-block;
 
-  @include pc{
+  @include pc {
     font-size: 24px;
   }
 
-  @include sp{
+  @include sp {
     font-size: 21px;
-
   }
 
   &__span {
@@ -153,7 +147,7 @@ div {
 }
 
 
-.section-sub-ttl{
+.section-sub-ttl {
 
   &__sub-ttl-wrap {
 
@@ -163,9 +157,7 @@ div {
     @include tab {
       padding: 0 12px;
       margin: 0 auto 24px;
-
     }
-
   }
 
   &__section-ttl {
@@ -185,7 +177,7 @@ div {
       position: relative;
       margin: 0 0 0 26px;
 
-      @include pc{
+      @include pc {
         margin: 0;
         margin: 0;
       }
@@ -201,14 +193,13 @@ div {
         transform: scale(0.6);
       }
 
-      @include tab{
-      padding: 0;
-      font-size: 18px;
+      @include tab {
+        padding: 0;
+        font-size: 18px;
 
-      &::before {
-        left: -18px;
-
-      }
+        &::before {
+          left: -18px;
+        }
       }
     }
 
@@ -219,8 +210,7 @@ div {
       margin: 0 0 0 26px;
       color: #0068b7;
 
-
-      @include pc{
+      @include pc {
         margin: 0;
         margin: 0;
       }
@@ -236,14 +226,13 @@ div {
         transform: scale(0.6);
       }
 
-      @include tab{
-      padding: 0;
-      font-size: 18px;
+      @include tab {
+        padding: 0;
+        font-size: 18px;
 
-      &::before {
-        left: -18px;
-
-      }
+        &::before {
+          left: -18px;
+        }
       }
     }
 
@@ -264,11 +253,9 @@ div {
         transform: scale(0.6);
       }
 
-
       @include pc {
         font-size: 18px;
       }
-
     }
 
     &--staff {
@@ -284,21 +271,8 @@ div {
         left: -4px;
         transform: scale(0.6);
       }
-
     }
-
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
 }
 
 
@@ -361,21 +335,18 @@ div {
 
   &--top {
     &::after {
-     
       transform: rotate(-45deg);
-  
+
       /*アニメーションの指定*/
       transition: all .3s;
     }
-  
+
     &:hover::after {
       top: 12px;
       right: 13px;
-
     }
   }
 }
-
 
 // 下層ページ
 
@@ -401,31 +372,25 @@ div {
     @include tab {
       padding: 0 14px;
     }
-
   }
 
   &__sub-ttl-span {
     display: block;
     font-size: 18px;
 
-    @include sp{
+    @include sp {
       font-size: 13px;
-
     }
-
 
     &--information {
       font-size: 15px;
 
-      @include sp{
+      @include sp {
         font-size: 13px;
- margin-top: 8px;
+        margin-top: 8px;
       }
     }
   }
-
-
-  
 }
 
 .sub-page-top {
@@ -435,28 +400,25 @@ div {
     margin: 24px auto;
     font-size: 28px;
     border-left: #c0c0c0 5px solid;
-  padding: 2px 20px;
-  letter-spacing: 2px;
+    padding: 2px 20px;
+    letter-spacing: 2px;
 
 
-  @include tab{
-  margin: 76px 0 24px 24px;
-  font-size: 24px;
-  border-left: #c0c0c0 4px solid;
-
-  }
+    @include tab {
+      margin: 76px 0 24px 24px;
+      font-size: 24px;
+      border-left: #c0c0c0 4px solid;
+    }
   }
 
   &__ttl-span {
     display: block;
     font-size: 18px;
-
   }
 
 
   &__breadcrumb-list-wrap {
     background-color: #fbf8f5;
-
   }
 
   &__breadcrumb-list {
@@ -467,9 +429,7 @@ div {
     color: #897650;
     padding: 0 0 0 12px;
 
-    @include tab{
-    
-    }
+    @include tab {}
   }
 }
 
@@ -478,9 +438,6 @@ div {
   text-align: center;
   padding: 40px 12px;
 }
-
-
-
 
 
 
@@ -515,16 +472,14 @@ div {
   background-repeat: no-repeat !important;
   font-size: 36px;
   opacity: 1 !important;
-
-
 }
 
-.slick-dots li  {
+.slick-dots li {
   width: 10px;
 }
 
 .slick-dots li.slick-active button:before {
-  color:#ad9667!important;
+  color: #ad9667 !important;
   opacity: 1 !important;
   font-size: 10px;
 }
@@ -598,8 +553,5 @@ div {
     li {
       list-style: disc;
     }
-  }
-
-  li {
   }
 }

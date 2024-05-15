@@ -47,10 +47,8 @@
 
     @include pc {
       flex-direction: column;
-
       align-items: flex-start;
       gap: 4px;
-
     }
   }
 
@@ -74,8 +72,6 @@
       &:before {
         transform: scale(0.8);
       }
-
-
     }
   }
 
@@ -103,7 +99,6 @@
     @include sp {
       flex-direction: column;
     }
-
   }
 
   &__img {
@@ -111,7 +106,6 @@
 
     @include pc {
       max-width: 300px;
-
     }
 
     img {
@@ -130,34 +124,15 @@
       &:last-of-type {
         margin: 0;
       }
-
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
 よくあるご質問
  ================================= */
 
- .category-faq {
+.category-faq {
 
   &__item-wrap {
     padding: 0 12px;
@@ -177,10 +152,8 @@
 
     @include pc {
       flex-direction: column;
-
       align-items: flex-start;
       gap: 4px;
-
     }
   }
 
@@ -204,8 +177,6 @@
       &:before {
         transform: scale(0.8);
       }
-
-
     }
   }
 
@@ -220,7 +191,6 @@
     @include sp {
       font-size: 14px;
     }
-
   }
 
   &__content {
@@ -233,7 +203,6 @@
     @include sp {
       flex-direction: column;
     }
-
   }
 
   &__text-wrap {
@@ -258,30 +227,8 @@
       &:last-of-type {
         margin: 0;
       }
-
     }
   }
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -300,40 +247,6 @@
 
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -342,10 +255,6 @@
 
 .category-news {
 
-  &__section {}
-
-  &__item-wrap {}
-
   &__item {
     max-width: 920px;
     margin: 0 auto 60px;
@@ -353,7 +262,7 @@
     gap: 32px;
     padding: 0 12px;
 
-    @include sp{
+    @include sp {
       flex-direction: column;
       align-items: center;
       gap: 12px;
@@ -366,17 +275,16 @@
 
     @include pc {
       width: 270px;
-
     }
 
-    @include sp{
-    width: 100%;
-    max-width: 400px;
+    @include sp {
+      width: 100%;
+      max-width: 400px;
     }
 
     img {
       aspect-ratio: 3 / 2;
-    object-fit: cover;
+      object-fit: cover;
     }
   }
 
@@ -398,7 +306,6 @@
 
     &--end {
       background-color: #b3b3b3;
-
     }
   }
 
@@ -408,7 +315,7 @@
     font-size: 18px;
     margin: 0 0 2px;
 
-    @include sp{
+    @include sp {
       font-size: 16px;
     }
   }
@@ -418,32 +325,11 @@
     font-size: 22px;
     margin: 0 0 16px;
 
-    @include sp{
+    @include sp {
       font-size: 20px;
       margin: 0 0 10px;
-
     }
   }
-
-  &__text {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 
@@ -457,9 +343,8 @@
   &__section {
     padding: 0 12px 100px;
 
-    @include sp{
+    @include sp {
       padding: 0 12px 40px;
-
     }
   }
 
@@ -540,25 +425,9 @@
 
     &:hover {
       background-color: #b3b3b3;
-      
+
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -589,28 +458,4 @@
     display: block;
     text-align: right;
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
